@@ -12,36 +12,38 @@
 # Translations from iso-codes:
 #   Alastair McKinstry <mckinstry@debian.org>, 2004
 #   Elian Myftiu <elian.myftiu@gmail.com>, 2004,2006.
-#   Eva Vranici <evavranici@gmail.com>, 2017.
+#
+# Eva Vranici <evavranici@gmail.com>, 2017.
+# Silva Arapi <silva.arapi@gmail.com>, 2017.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
 "POT-Creation-Date: 2012-11-03 22:02+0000\n"
-"PO-Revision-Date: 2017-09-04 19:01+0300\n"
-"Last-Translator: Redon Skikuli <rskikuli@gmail.com>\n"
-"Language-Team: Albanian \n"
+"PO-Revision-Date: 2017-09-04 19:14+0200\n"
+"Last-Translator: Silva Arapi <silva.arapi@gmail.com>\n"
+"Language-Team: Albanian <debian-l10n-albanian@lists.debian.org>\n"
 "Language: sq\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n>1;\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
+"4;\n"
 
 #. Type: boolean
 #. Description
 #. IPv6
 #. :sl1:
 #: ../netcfg-common.templates:2001
-#, fuzzy
 msgid "Auto-configure networking?"
-msgstr "Ta konfiguroj automatikisht rrjetin me DHCP?"
+msgstr "Ta konfiguroj automatikisht rrjetin?"
 
 #. Type: boolean
 #. Description
 #. IPv6
 #. :sl1:
 #: ../netcfg-common.templates:2001
-#, fuzzy
 msgid ""
 "Networking can be configured either by entering all the information "
 "manually, or by using DHCP (or a variety of IPv6-specific methods) to detect "
@@ -49,10 +51,11 @@ msgid ""
 "the installer is unable to get a working configuration from the network, you "
 "will be given the opportunity to configure the network manually."
 msgstr ""
-"Rrjeti mund të konfigurohet ose nga DHCP ose duke futur vetë gjithë të "
-"dhënat. Nëse zgjedh DHCP dhe instaluesi nuk arrin të lidhet me një server "
-"DHCP në rrjetin tënd, do të të jepet mundësia të konfigurosh vetë rrjetin, "
-"pas përpjekjes për ta konfiguruar me anë të DHCP-së."
+"Rrjeti mund të konfigurohet ose duke futur vetë gjithë të dhënat ose duke "
+"perdorur DHCP (ose një shumëllojshmëri metodash të IPv6-specific) për të "
+"gjetur konfigurimet e rrjetit automatikisht.Nëse zgjedh për të perdorur "
+"autokonfigurim dhe instaluesi nuk arrin të gjejë një konfigurim nga rrjeti "
+"që punon, ju do të keni mundesinë për të konfiguruar rrjetin manualisht."
 
 #. Type: string
 #. Description
@@ -95,18 +98,17 @@ msgid ""
 "first to be queried. If you don't want to use any name server, just leave "
 "this field blank."
 msgstr ""
-"Serverat e emrave(DNS) përdoren për të gjetur emrat e strehuesve në rrjet. "
-"Të lutem shkruaj adresat IP (jo emrat e strehuesve) të deri 3 serverave DNS "
-"të ndara nga hapësira. Mos përdor presje. Serverat do pyeten sipas renditjes "
-"në listë. Mund ta lësh bosh këtë fushë nëse nuk dëshiron të përdoresh "
-"servera DNS."
+"Emrat e servera përdoren për të gjetur emrat e strehuesve në rrjet. Të lutem "
+"shkruaj adresat IP (jo emrat e strehuesve) të deri 3 serverave të ndara nga "
+"hapësira. Mos përdor presje. Serverat do pyeten sipas renditjes në listë. "
+"Mund ta lësh bosh këtë fushë nëse nuk dëshiron të përdoresh një emër serveri."
 
 #. Type: select
 #. Description
 #. :sl1:
 #: ../netcfg-common.templates:5001
 msgid "Primary network interface:"
-msgstr "Përballja kryesore e rrjetit:"
+msgstr "Ndërfaqja kryesore e rrjetit:"
 
 #. Type: select
 #. Description
@@ -155,15 +157,14 @@ msgstr "Përpjekja për të gjetur një rrjet me valë dështoi."
 #. Description
 #. :sl1:
 #: ../netcfg-common.templates:7001
-#, fuzzy
 msgid ""
 "${iface} is a wireless network interface. Please enter the name (the ESSID) "
 "of the wireless network you would like ${iface} to use. To connect to any "
 "available network, leave this field blank."
 msgstr ""
 "${iface} është një ndërfaqe rrjeti me valë. Të lutem fut emrin (ESSID) e "
-"rrjetit me valë që do të përdorë ${iface}. Nëse dëshiron të përdorësh një "
-"rrjet tjetër në dispozicion, lëre bosh këtë fushë."
+"rrjetit me valë që do të përdorë ${iface}. Për tu lidhur në ndonjë rrjet "
+"tjetër në dispozicion, lëre bosh këtë fushë."
 
 #. Type: select
 #. Choices
@@ -721,24 +722,22 @@ msgstr "${essid_list} Fut ESSID manualisht"
 #. Description
 #. :sl1:
 #: ../netcfg-common.templates:52002
-#, fuzzy
 msgid "Wireless network:"
-msgstr "Lloji i rrjetit me valë:"
+msgstr "Rrjeti me valë:"
 
 #. Type: select
 #. Description
 #. :sl1:
 #: ../netcfg-common.templates:52002
-#, fuzzy
 msgid "Select the wireless network to use during the installation process."
-msgstr "Zgjidh hapin tjetër të proçesit të instalimit:"
+msgstr "Zgjidh rrjetin me valë për të përdorur gjatë proçesit të instalimit:"
 
 #. Type: string
 #. Description
 #. :sl1:
 #: ../netcfg-dhcp.templates:1001
 msgid "DHCP hostname:"
-msgstr "Emri DHCP:"
+msgstr "Emri i hostit DHCP:"
 
 #. Type: string
 #. Description
@@ -748,8 +747,8 @@ msgid ""
 "You may need to supply a DHCP host name. If you are using a cable modem, you "
 "might need to specify an account number here."
 msgstr ""
-"Ndoshta duhet të shkruash një emër DHCP. Nëse je duke përdorur një cable "
-"modem ,duhet të përcaktosh një numër llogarie këtu."
+"Ndoshta duhet të shkruash një emër hosti DHCP. Nëse je duke përdorur një "
+"cable modem ,duhet të përcaktosh një numër llogarie këtu."
 
 #. Type: string
 #. Description
@@ -811,8 +810,7 @@ msgstr "Riprovo autokonfigurimin e rrjetit"
 #. in single-byte languages)
 #: ../netcfg-dhcp.templates:6001
 msgid "Retry network autoconfiguration with a DHCP hostname"
-msgstr ""
-"Riprovo autokonfigurimin e rrjetit më një emër strehe(hostname) për DHCP"
+msgstr "Riprovo autokonfigurimin e rrjetit më një emër hosti për DHCP"
 
 #. Type: select
 #. Choices
@@ -822,7 +820,7 @@ msgstr ""
 #. in single-byte languages)
 #: ../netcfg-dhcp.templates:6001
 msgid "Configure network manually"
-msgstr "Konfiguroje vetë rrjetin"
+msgstr "Konfiguroje rrjetin manualisht"
 
 #. Type: select
 #. Choices
@@ -854,8 +852,8 @@ msgid ""
 msgstr ""
 "Prej këtu mund të zgjedhësh të riprovosh autokonfigurimin e rrjetit me DHCP "
 "(i cili mund të mos punojë nëse serveri DHCP do shumë kohë të përgjigjet) "
-"ose të konfigurosh vetë rrjetin. Disa servera DHCP kanë nevojë për një emër "
-"strehe(hostname) DHCP që ti dërgohet nga klienti, kështu që mund të "
+"ose të konfigurosh rrjetin manualisht. Disa servera DHCP kanë nevojë për një "
+"emër strehe(hostname) DHCP që ti dërgohet nga klienti, kështu që mund të "
 "zgjedhësh të riprovosh konfigurimin automatik të rrjetit DHCP me një emër "
 "strehe që ke."
 
@@ -989,11 +987,9 @@ msgstr ""
 #. IPv6
 #. :sl1:
 #: ../netcfg-static.templates:1001
-#, fuzzy
 msgid "If you don't know what to use here, consult your network administrator."
 msgstr ""
-"Nëse nuk di çfarë të shkruash, këshillohu me dokumentat, ose lëre bosh për "
-"të mos e ngarkuar këtë modul."
+"Nëse nuk di çfarë të përdorësh këtu, këshillohu me administratorin e rrjetit."
 
 #. Type: error
 #. Description
