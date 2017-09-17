@@ -1,3 +1,11 @@
+netcfg (1.145) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Greek (el.po) by Sotirios Vrachas
+  * Albanian (sq.po) by Silva Arapi
+
+ -- Christian Perrier <bubulle@debian.org>  Sun, 17 Sep 2017 08:31:21 +0200
+
 netcfg (1.144) unstable; urgency=medium
 
   [ Updated translations ]
