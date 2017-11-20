@@ -33,7 +33,7 @@ msgstr ""
 "Project-Id-Version: el\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
 "POT-Creation-Date: 2012-11-03 22:02+0000\n"
-"PO-Revision-Date: 2017-09-02 23:06+0300\n"
+"PO-Revision-Date: 2017-11-17 01:07+0200\n"
 "Last-Translator: Sotirios Vrachas <sotirios@vrachas.net>\n"
 "Language-Team: el <debian-l10n-greek@lists.debian.org>\n"
 "Language: el\n"
@@ -268,7 +268,7 @@ msgstr ""
 #. :sl2:
 #: ../netcfg-common.templates:10001
 msgid "Invalid WEP key"
-msgstr "Μη έγκυρο κλειδί WEP."
+msgstr "Μη έγκυρο κλειδί WEP"
 
 #. Type: error
 #. Description
@@ -615,7 +615,7 @@ msgstr "Token Ring"
 #. :sl2:
 #: ../netcfg-common.templates:35001
 msgid "USB net"
-msgstr "δίκτυο USB"
+msgstr "USB δίκτυο"
 
 #. Type: text
 #. Description
@@ -657,7 +657,7 @@ msgstr "Πρωτόκολλο σύνδεσης ISDN Point-to-Point (PPP)"
 #. :sl2:
 #: ../netcfg-common.templates:42001
 msgid "Channel-to-channel"
-msgstr "δίαυλος-με-δίαυλο (Channel-to-channel)"
+msgstr "Δίαυλος-με-δίαυλο (Channel-to-channel)"
 
 #. Type: text
 #. Description
@@ -730,7 +730,7 @@ msgid ""
 "seconds) for network link detection must be a positive integer."
 msgstr ""
 "Η τιμή που έχετε δώσει δεν είναι έγκυρη. Ο μέγιστος χρόνος αναμονής (σε "
-"δευτερόλεπτα) για την ανίχνευση της δικτυακής σύνδεσης που "
+"δευτερόλεπτα) για την ανίχνευση της δικτυακής σύνδεσης που."
 
 #. Type: select
 #. Choices
