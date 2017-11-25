@@ -1,3 +1,13 @@
+netcfg (1.146) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Greek (el.po) by Sotirios Vrachas
+  * Estonian (et.po) by Kristjan Räts
+  * Russian (ru.po) by Yuri Kozlov
+  * Swedish (sv.po) by Anders Jonsson
+
+ -- Christian Perrier <bubulle@debian.org>  Sat, 25 Nov 2017 19:32:24 +0100
+
 netcfg (1.145) unstable; urgency=medium
 
   [ Updated translations ]
