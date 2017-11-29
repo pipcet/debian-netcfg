@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
 "POT-Creation-Date: 2012-11-03 22:02+0000\n"
-"PO-Revision-Date: 2017-11-19 22:25+0000\n"
+"PO-Revision-Date: 2017-11-29 09:45+0000\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <debian-l10n-swedish@lists.debian.org>\n"
 "Language: sv\n"
@@ -54,7 +54,7 @@ msgid ""
 msgstr ""
 "Inställningar för nätverket kan göras antingen genom att manuellt ange alla "
 "detaljer eller genom att använda DHCP (eller olika IPv6-specifika metoder) "
-"för att hämta inställningar för nätverket automatiskt.Om du väljer DHCP men "
+"för att hämta inställningar för nätverket automatiskt. Om du väljer DHCP men "
 "installationsprogrammet misslyckas med att hämta fungerande inställningar "
 "från en DHCP-server på ditt nätverk så kommer du att få möjlighet att ställa "
 "in nätverket manuellt."
@@ -344,7 +344,7 @@ msgstr "Det här kan ta lite tid."
 #. :sl2:
 #: ../netcfg-common.templates:16001
 msgid "WPA/WPA2 connection succeeded"
-msgstr "WPA/WPA2-asnlutning lyckades"
+msgstr "WPA/WPA2-anslutning lyckades"
 
 #. Type: note
 #. Description
@@ -438,7 +438,7 @@ msgid ""
 "You may retry it from the installation main menu."
 msgstr ""
 "Ett fel inträffade och nätverkskonfigureringen har avbrutits. Du kan försöka "
-"utföra den igen från installationens huvudmenyn."
+"utföra den igen från installationens huvudmeny."
 
 #. Type: error
 #. Description
@@ -897,7 +897,7 @@ msgid ""
 msgstr ""
 "Automatisk konfigurering av nätverket lyckades. Men ingen standardrutt "
 "aktiverades dock, systemet vet alltså inte hur det ska kommunicera med andra "
-"noder på Internet. Det här gör det omöjligt att fortsätta installationen om "
+"noder på internet. Det här gör det omöjligt att fortsätta installationen om "
 "du inte har den första installations-cd:n, en cd-skiva kallad \"Netinst\", "
 "eller paket som finns tillgängliga på det lokala nätverket."
 
@@ -972,7 +972,7 @@ msgid ""
 " * blocks of hexadecimal characters separated by colons (IPv6)."
 msgstr ""
 " * fyra tal separerade med punkter (IPv4)\n"
-" * hexadecimalatecken åtskilda med kolon (IPv6)."
+" * hexadecimala tecken åtskilda med kolon (IPv6)."
 
 #. Type: string
 #. Description
@@ -1078,7 +1078,7 @@ msgid ""
 msgstr ""
 "Gateway är en IP-adress (fyra nummer åtskilda av punkter) som anger en "
 "gatewayrouter, även kallad standardrutt. All trafik som skall ut från ditt "
-"LAN (exempelvis till Internet) skickas via den här routern. I sällsynta fall "
+"LAN (exempelvis till internet) skickas via den här routern. I sällsynta fall "
 "har du ingen router och då lämnar du det här tomt. Om du inte vet svaret på "
 "den här frågan bör du konsultera din nätverksadministratör."
 
