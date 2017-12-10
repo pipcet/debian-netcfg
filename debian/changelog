@@ -1,3 +1,10 @@
+netcfg (1.148) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Bulgarian (bg.po) by Damyan Ivanov
+
+ -- Christian Perrier <bubulle@debian.org>  Sun, 10 Dec 2017 20:21:54 +0100
+
 netcfg (1.147) unstable; urgency=medium
 
   [ Updated translations ]
