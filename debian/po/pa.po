@@ -20,15 +20,15 @@
 # Amanpreet Singh Brar <aalam@users.sf.net>, 2008.
 # Amanpreet Singh Alam <aalam@users.sf.net>, 2008, 2009.
 # Amanpreet Singh Alam[ਆਲਮ] <amanpreetalam@yahoo.com>, 2005.
-# A S Alam <aalam@users.sf.net>, 2009, 2012.
+# A S Alam <aalam@users.sf.net>, 2009, 2012, 2014, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: pa\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
 "POT-Creation-Date: 2012-11-03 22:02+0000\n"
-"PO-Revision-Date: 2012-09-18 10:02+0530\n"
-"Last-Translator: A S Alam <aalam@users.sf.net>\n"
-"Language-Team: Punjabi/Panjabi <punjabi-users@lists.sf.net>\n"
+"PO-Revision-Date: 2018-01-04 06:20+0000\n"
+"Last-Translator: Aman ALam <alam.yellow@gmail.com>\n"
+"Language-Team: Punjabi <punjabi-users@lists.sf.net>\n"
 "Language: pa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -516,9 +516,9 @@ msgid ""
 "point of some sort, your network is Managed. If another computer is your "
 "'access point', then your network may be Ad-hoc."
 msgstr ""
-"ਬੇਤਾਰ ਨੈੱਟਵਰਕ ਜਾਂ ਤਾਂ ਪਰਬੰਧ ਕੀਤਾ ਹੈ ਜਾਂ ad-hoc ਹੈ। ਜੇ ਤੁਸੀਂ ਕਿਸੇ ਤਰਾਂ ਦੀ ਅਸਲੀ ਪਹੁੰਚ ਵਰਤਦੇ ਹੋ, "
-"ਤੁਹਾਡਾ ਨੈੱਟਵਰਕ ਪਰਬੰਧ ਕੀਤਾ ਹੈ। ਜੇ ਹੋਰ ਕੰਪਿਊਟਰ ਤੁਹਾਡਾ 'ਅਸੈੱਸ ਪੁਆਇੰਟ' ਹੈ, ਫਿਰ ਤੁਹਾਡਾ ਨੈੱਟਵਰਕ Ad-"
-"hoc ਹੋ ਸਕਦਾ ਹੈ।"
+"ਬੇਤਾਰ ਨੈੱਟਵਰਕ ਜਾਂ ਤਾਂ ਇੰਤਜ਼ਾਮ ਕੀਤਾ ਹੋ ਸਕਦਾ ਜਾਂ ad-hoc। ਜੇ ਤੁਸੀਂ ਕਿਸੇ ਤਰਾਂ ਦੀ ਅਸਲੀ ਪਹੁੰਚ ਵਰਤਦੇ "
+"ਹੋ, ਤੁਹਾਡਾ ਨੈੱਟਵਰਕ ਪਰਬੰਧ ਕੀਤਾ ਹੈ। ਜੇ ਹੋਰ ਕੰਪਿਊਟਰ ਤੁਹਾਡਾ 'ਅਸੈੱਸ ਪੁਆਇੰਟ' ਹੈ, ਫਿਰ ਤੁਹਾਡਾ ਨੈੱਟਵਰਕ "
+"Ad-hoc ਹੋ ਸਕਦਾ ਹੈ।"
 
 #. Type: text
 #. Description
@@ -608,7 +608,7 @@ msgstr "ਪੁਆਂਇਟ-ਤੋਂ-ਪੁਆਂਇਟ ਪਰੋਟੋਕਾਲ
 #. :sl2:
 #: ../netcfg-common.templates:40001
 msgid "IPv6-in-IPv4"
-msgstr "IPv6-in-IPv4"
+msgstr "IPv4-ਵਿੱਚ-IPv6"
 
 #. Type: text
 #. Description
