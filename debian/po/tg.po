@@ -9,14 +9,14 @@
 #
 # Debian Installer translators, please read the D-I i18n documentation
 # in doc/i18n/i18n.txt
-# Victor Ibragimov <victor.ibragimov@gmail.com>, 2013
+# Victor Ibragimov <victor.ibragimov@gmail.com>, 2013, 2014, 2015, 2016, 2017, 2018
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
 "POT-Creation-Date: 2012-11-03 22:02+0000\n"
-"PO-Revision-Date: 2018-01-19 13:34+0500\n"
+"PO-Revision-Date: 2018-01-21 20:21+0500\n"
 "Last-Translator: Victor Ibragimov <victor.ibragimov@gmail.com>\n"
 "Language-Team: Tajik <victor.ibragimov@gmail.com>\n"
 "Language: tg\n"
@@ -68,7 +68,7 @@ msgid ""
 "If you are setting up a home network, you can make something up, but make "
 "sure you use the same domain name on all your computers."
 msgstr ""
-"Номи домен - ин қисми суроғаи Интернет мебошад, ки ба тарафи рости номи "
+"Номи домен - ин қисми нишонии Интернет мебошад, ки ба тарафи рости номи "
 "мизбони илова карда мешавад. Бисёр вақт он бо .tj, .ru, .com, ё .org "
 "(масалан: mydomain.tj) анҷом меёбад.  Агар шумо шабакаи хонагиро танзим "
 "кунед, шумо метавонед чизеро ба ҷо оред, аммо мутмаин шавед, ки номи ягонаи "
@@ -79,7 +79,7 @@ msgstr ""
 #. :sl1:
 #: ../netcfg-common.templates:4001
 msgid "Name server addresses:"
-msgstr "Номҳои суроғаҳои серверҳо:"
+msgstr "Номҳои нишониҳои серверҳо:"
 
 #. Type: string
 #. Description
@@ -93,7 +93,7 @@ msgid ""
 "this field blank."
 msgstr ""
 "Серверҳои номҳо барои пайдо кардани номҳои мизбон дар шабака истифода "
-"мешаванд. Лутфан, суроғаҳои IP-и (на ин ки номҳои мизбони) то 3 сервери "
+"мешаванд. Лутфан, нишониҳои IP-и (на ин ки номҳои мизбони) то 3 сервери "
 "номро бо фазоҳо ҷудо карда, ворид кунед. Вергулҳоро истифода набаред. "
 "Сервери якуми номҳо дар рӯйхат аввалин дархост карда мешавад. Агар шумо "
 "нахоҳед, ки ягон сервери номро истифода баред, ин майдонро холӣ монед."
@@ -114,9 +114,9 @@ msgid ""
 "primary network interface during the installation. If possible, the first "
 "connected network interface found has been selected."
 msgstr ""
-"Системаи шумо дорои якчанд интерфейси шабакавӣ мебошад. Интерфейсро интихоб "
+"Низоми шумо дорои якчанд интерфейси шабакавӣ мебошад. Интерфейсро интихоб "
 "кунед, ки ҳангоми насбкунӣ ҳамчун пешфарз истифода мешавад. Агар имконпазир "
-"бошад, интерфейси аввалини шабакавии пайдошуда интихоб карда шуд."
+"бошад, интерфейси аввалини шабакавии пайдошударо интихоб кунед."
 
 #. Type: string
 #. Description
@@ -371,7 +371,7 @@ msgstr "Номи мизбон:"
 #. :sl1:
 #: ../netcfg-common.templates:18001
 msgid "Please enter the hostname for this system."
-msgstr "Лутфан, номи мизбонро барои ин система ворид кунед."
+msgstr "Лутфан, номи мизбонро барои ин низом ворид кунед."
 
 #. Type: string
 #. Description
@@ -383,11 +383,11 @@ msgid ""
 "administrator. If you are setting up your own home network, you can make "
 "something up here."
 msgstr ""
-"Номи мизбон - ин як калимае мебошад (масалан: localhost) , ки системаи "
-"шуморо дар шабака муайян мекунад. Агар шумо надонед, ки номи мизбони шумо чӣ "
-"бояд бошад, бо маъмури шабакаи худ дар тамос шавед. Агар шумо шабакаи "
-"хонагии мушаххаси худро танзим карда бошед, шумо метавонед дар ин ҷо ягон "
-"чизро эҷод кунед."
+"Номи мизбон - ин як калимае мебошад (масалан: localhost) , ки низоми шуморо "
+"дар шабака муайян мекунад. Агар шумо надонед, ки номи мизбони шумо чӣ бояд "
+"бошад, бо маъмури шабакаи худ дар тамос шавед. Агар шумо шабакаи хонагии "
+"мушаххаси худро танзим карда бошед, шумо метавонед дар ин ҷо ягон чизро эҷод "
+"кунед."
 
 #. Type: error
 #. Description
@@ -432,8 +432,8 @@ msgid ""
 "An error occurred and the network configuration process has been aborted. "
 "You may retry it from the installation main menu."
 msgstr ""
-"Хатогӣ ба вуҷуд омад ва раванди конфигуратсияи шабака қатъ карда шудааст. "
-"Шумо метавонед ин амалро аз мению асосии насбкунӣ аз нав кӯшиш кунед."
+"Хато ба вуҷуд омад ва раванди танзими шабака қатъ карда шудааст. Шумо "
+"метавонед ин амалро аз мению асосии насбкунӣ аз нав кӯшиш кунед."
 
 #. Type: error
 #. Description
@@ -450,7 +450,7 @@ msgid ""
 "No network interfaces were found. The installation system was unable to find "
 "a network device."
 msgstr ""
-"Ягон интерфейси шабака ёфт нашудааст. Системаи насбкунӣ дастагоҳи шабакавиро "
+"Ягон интерфейси шабака ёфт нашудааст. Низоми насбкунӣ дастагоҳи шабакавиро "
 "пайдо карда натавонист."
 
 #. Type: error
@@ -599,14 +599,14 @@ msgstr "Шабакаи USB"
 #. :sl2:
 #: ../netcfg-common.templates:37001
 msgid "Serial-line IP"
-msgstr "Суроғаи силсилавии IP"
+msgstr "Нишонии силсилавии IP"
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../netcfg-common.templates:38001
 msgid "Parallel-port IP"
-msgstr "Суроғаи порти мувозии IP"
+msgstr "Нишонии порти мувозии IP"
 
 #. Type: text
 #. Description
@@ -688,8 +688,8 @@ msgid ""
 "Please enter the maximum time you would like to wait for network link "
 "detection."
 msgstr ""
-"Лутфан, вақти зиёдтаринеро, ки шумо мехоҳед система барои муайянкунии "
-"пайванди шабака интизор шавад, интихоб намоед."
+"Лутфан, вақти зиёдтаринеро, ки шумо мехоҳед низом барои муайянкунии пайванди "
+"шабака интизор шавад, интихоб намоед."
 
 #. Type: error
 #. Description
@@ -769,7 +769,7 @@ msgstr "Танзимкунии шабака бо DHCP"
 #. :sl1:
 #: ../netcfg-dhcp.templates:4001
 msgid "Network autoconfiguration has succeeded"
-msgstr "Конфигуратсияи худкори шабакавӣ бомуваффақият ба анҷом расид"
+msgstr "Танзими худкори шабакавӣ бомуваффақият ба анҷом расид"
 
 #. Type: error
 #. Description
@@ -802,7 +802,7 @@ msgstr "Раванди танзими DHCP қатъ карда шуд."
 #. in single-byte languages)
 #: ../netcfg-dhcp.templates:6001
 msgid "Retry network autoconfiguration"
-msgstr "Такрор кардани конфигуратсияи худкори шабакавӣ"
+msgstr "Такрор кардани танзими худкори шабакавӣ"
 
 #. Type: select
 #. Choices
@@ -812,7 +812,7 @@ msgstr "Такрор кардани конфигуратсияи худкори 
 #. in single-byte languages)
 #: ../netcfg-dhcp.templates:6001
 msgid "Retry network autoconfiguration with a DHCP hostname"
-msgstr "Такрор кардани конфигуратсияи худкори шабака бо номи мизбони DHCP"
+msgstr "Такрор кардани танзими худкори шабакавӣ бо номи мизбони DHCP"
 
 #. Type: select
 #. Choices
@@ -832,7 +832,7 @@ msgstr "Танзим кардани шабака ба таври дастӣ"
 #. in single-byte languages)
 #: ../netcfg-dhcp.templates:6001
 msgid "Do not configure the network at this time"
-msgstr "Дар айни ҳол шабакаро конфигуратсия накунед"
+msgstr "Дар ин қадам шабакаро танзим намекунам"
 
 #. Type: select
 #. Description
@@ -852,19 +852,19 @@ msgid ""
 "by the client, so you can also choose to retry DHCP network "
 "autoconfiguration with a hostname that you provide."
 msgstr ""
-"Аз ин ҷо шумо метавонед интихоб кунед, ки конфигуратсияи худкори шабакаи "
-"DHCP-ро такрор кунед (ин метавонад он гоҳ ба кор ояд, ки сервери DHCP дер "
-"ҷавоб медиҳад), ё ки шабакаро ба таври дастӣ конфигуратсия кунед. Баъзе "
-"серверҳои DHCP номи мизбони DHCP-ро аз мизоҷ дархост мекунанд, ва шумо "
-"метавонед инчунин конфигуратсияи худкори шабакаи DHCP-ро бо номи мизбоне, ки "
-"шумо пешниҳод мекунед, такрор кунед."
+"Аз ин ҷо шумо метавонед интихоб кунед, ки танзими худкори шабакаи DHCP-ро "
+"такрор кунед (ин метавонад он гоҳ ба кор ояд, ки сервери DHCP дер ҷавоб "
+"медиҳад), ё ки шабакаро ба таври дастӣ танзим кунед. Баъзе серверҳои DHCP "
+"номи мизбони DHCP-ро аз мизоҷ дархост мекунанд, ва шумо метавонед инчунин "
+"танзими худкори шабакаи DHCP-ро бо номи мизбоне, ки шумо пешниҳод мекунед, "
+"такрор кунед."
 
 #. Type: note
 #. Description
 #. :sl1:
 #: ../netcfg-dhcp.templates:7001
 msgid "Network autoconfiguration failed"
-msgstr "Конфигуратсияи худкори шабакавӣ бо нокомӣ дучор шудааст"
+msgstr "Танзими худкори шабакавӣ бо нокомӣ дучор шудааст"
 
 #. Type: note
 #. Description
@@ -897,7 +897,7 @@ msgid ""
 "available on the local network."
 msgstr ""
 "Танзими шабака ба таври худкор бомуваффақият иҷро шудааст. Лекин, шлюзи "
-"пешфарз танзим нашудааст: система наметавонад бо мизбонҳо дар Интернет "
+"пешфарз танзим нашудааст: низом наметавонад бо мизбонҳо дар Интернет "
 "пайвастро танзим кунад. Идома додани насбкунӣ тавассути шабака имконпазир "
 "нест, вале шумо метаводнед диски CD-ROM-и насб ('Netinst' CD-ROM) ё қуттиҳои "
 "мавҷудбударо тавассути шабакаи маҳаллӣ истифода баред."
@@ -938,7 +938,7 @@ msgstr "IPv6 ба таври худкор танзим шуда истодаас
 #. :sl2:
 #: ../netcfg-dhcp.templates:13001
 msgid "Waiting for link-local address..."
-msgstr "Дар ҳоли интизори суроғаи пайванди маҳаллӣ..."
+msgstr "Дар ҳоли интизори нишонии пайванди маҳаллӣ..."
 
 #. Type: text
 #. Description
@@ -953,7 +953,7 @@ msgstr "Танзимкунии шабака бо DHCPv6"
 #. :sl1:
 #: ../netcfg-static.templates:1001
 msgid "IP address:"
-msgstr "Суроғаи IP:"
+msgstr "Нишонии IP:"
 
 #. Type: string
 #. Description
@@ -961,7 +961,7 @@ msgstr "Суроғаи IP:"
 #. :sl1:
 #: ../netcfg-static.templates:1001
 msgid "The IP address is unique to your computer and may be:"
-msgstr "Суроғаи IP барои компютери шумо ягона аст ва метавонад:"
+msgstr "Нишонии IP барои компютери шумо ягона аст ва метавонад:"
 
 #. Type: string
 #. Description
@@ -1000,7 +1000,7 @@ msgstr ""
 #. :sl2:
 #: ../netcfg-static.templates:2001
 msgid "Malformed IP address"
-msgstr "Суроғаи IP-и бадшакл"
+msgstr "Нишонии IP-и бадшакл"
 
 #. Type: error
 #. Description
@@ -1013,9 +1013,9 @@ msgid ""
 "blocks of hexadecimal digits separated by colons (an IPv6 address). Please "
 "try again."
 msgstr ""
-"Суроғаи IP-и воридшуда нодуруст аст. Шумо бояд онро дар шакли x.x.x.x ворид "
-"кунед, ҳар куҷое 'x' рақами на зиёда аз 255 (суроғаи IPv4) мебошад, ё "
-"тартиби блокҳои шонздаҳрақамаи бо нуқта вергул ҷудошуда мебошад (суроғаи "
+"Нишонии IP-и воридшуда нодуруст аст. Шумо бояд онро дар шакли x.x.x.x ворид "
+"кунед, ҳар куҷое 'x' рақами на зиёда аз 255 (нишонии IPv4) мебошад, ё "
+"тартиби блокҳои шонздаҳрақамаи бо нуқта вергул ҷудошуда мебошад (нишонии "
 "IPv6). Лутфан, амалро такрор кунед."
 
 #. Type: string
@@ -1023,7 +1023,7 @@ msgstr ""
 #. :sl2:
 #: ../netcfg-static.templates:3001
 msgid "Point-to-point address:"
-msgstr "Суроғаи нуқта-ба-нуқта"
+msgstr "Нишонии нуқта-ба-нуқта"
 
 #. Type: string
 #. Description
@@ -1035,9 +1035,9 @@ msgid ""
 "know the value.  The point-to-point address should be entered as four "
 "numbers separated by periods."
 msgstr ""
-"Суроғаи нуқта-ба-нуқта барои муайян кардани дигар нуқтаи поёнӣ дар шабакаи "
+"Нишонии нуқта-ба-нуқта барои муайян кардани дигар нуқтаи поёнӣ дар шабакаи "
 "нуқта ба нуқта истифода мешавад.  Агар шумо қиматеро надонед, ба маъмури "
-"шабакаи худ муроҷиат намоед.  Суроғаи нуқта-ба-нуқта бояд ҳамчун рақамҳои "
+"шабакаи худ муроҷиат намоед.  Нишонии нуқта-ба-нуқта бояд ҳамчун рақамҳои "
 "ҷудошуда бо нуқта ворид карда шавад."
 
 #. Type: string
@@ -1056,9 +1056,10 @@ msgid ""
 "Consult your network administrator if you do not know the value.  The "
 "netmask should be entered as four numbers separated by periods."
 msgstr ""
-"Маскаи шабакавӣ барои муайян кардани компютерҳои маҳаллӣ дар шабакаи шумо "
-"мебошанд.  Агар шумо онро надонед, бо маъмури системаи худ дар тамос шавед.  "
-"Маскаи шабакавӣ бояд ҳамчун чор рақами бо нуқтаҳо ҷудошуда ворид шавад."
+"Ниқоби шабакавӣ барои муайян кардани компютерҳои маҳаллӣ дар шабакаи шумо "
+"истифода мешавад.  Агар шумо онро надонед, бо маъмури низоми худ дар тамос "
+"шавед.  Ниқоби шабакавӣ бояд ҳамчун чор рақам бо нуқтаҳо ҷудошуда ворид "
+"карда шавад."
 
 #. Type: string
 #. Description
@@ -1079,7 +1080,7 @@ msgid ""
 "you can leave this blank.  If you don't know the proper answer to this "
 "question, consult your network administrator."
 msgstr ""
-"Шлюз - ин суроғаи IP (чор адади бо нуқтаҳо ҷудошуда) мебошад, ки "
+"Шлюз - ин нишонии IP (чор адади бо нуқтаҳо ҷудошуда) мебошад, ки "
 "маршрутизатори шлюзро, ки ҳамчун маршрутизатори пешфарз низ дониста мешавад, "
 "муайян мекунад.  Тамоми трафике, ки берун аз LAN-и шумо меравад (масалан, ба "
 "Интернет), аз миёни ин маршрутизатор фиристода мешавад.  Дар баъзе шароитҳо, "
@@ -1099,7 +1100,7 @@ msgstr "Шлюзи дастнорас"
 #. :sl2:
 #: ../netcfg-static.templates:6001
 msgid "The gateway address you entered is unreachable."
-msgstr "Суроғаи шлюзи воридшуда дастнорас аст."
+msgstr "Нишонии шлюзи воридшуда дастнорас аст."
 
 #. Type: error
 #. Description
@@ -1108,7 +1109,7 @@ msgstr "Суроғаи шлюзи воридшуда дастнорас аст."
 msgid ""
 "You may have made an error entering your IP address, netmask and/or gateway."
 msgstr ""
-"Эҳтимол аст, ки шумо ҳангоми вориди суроғаи IP барои маскаи шабака ва/ё шлюз "
+"Эҳтимол аст, ки шумо ҳангоми вориди нишонии IP барои маскаи шабака ва/ё шлюз "
 "хато кардед."
 
 #. Type: error
@@ -1128,8 +1129,8 @@ msgid ""
 "IPv6 addresses cannot be configured on point-to-point links.  Please use an "
 "IPv4 address, or go back and select a different network interface."
 msgstr ""
-"Суроғаҳои IPv6 дар пайвандҳои нуқта-ба-нуқта танзим карда намешаванд.  "
-"Лутфан, суроғаи IPv4-ро истифода баред ё баргардед ва интерфейси шабакаи "
+"Нишониҳои IPv6 дар пайвандҳои нуқта-ба-нуқта танзим карда намешаванд.  "
+"Лутфан, нишонии IPv4-ро истифода баред ё баргардед ва интерфейси шабакаи "
 "дигареро интихоб кунед."
 
 #. Type: boolean
@@ -1159,7 +1160,7 @@ msgid ""
 " nameservers   = ${nameservers}"
 msgstr ""
 " интерфейс     = ${interface}\n"
-" суроғаи ip     = ${ipaddress}\n"
+" нишонии ip     = ${ipaddress}\n"
 " маскаи шабака       = ${netmask}\n"
 " шлюз       = ${gateway}\n"
 " нуқта ба нуқта   = ${pointopoint}\n"
@@ -1171,4 +1172,4 @@ msgstr ""
 #. :sl1:
 #: ../netcfg-static.templates:9001
 msgid "Configure a network using static addressing"
-msgstr "Танзим кардани шабака бо истифодаи суроғаҳои статикӣ"
+msgstr "Танзим кардани шабака бо истифодаи нишониҳои статикӣ"
