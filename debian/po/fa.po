@@ -6,7 +6,7 @@
 # Persian messages for debian-installer.
 # Copyright (C) 2003 Software in the Public Interest, Inc.
 # This file is distributed under the same license as debian-installer.
-# , 2005.
+# Nima Sahraneshin <unix.nima@gmail.com>, 2018.
 #
 # Translations from iso-codes:
 #   Alastair McKinstry - further translations from ICU-3.0
@@ -24,13 +24,14 @@ msgstr ""
 "Project-Id-Version: fa\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
 "POT-Creation-Date: 2012-11-03 22:02+0000\n"
-"PO-Revision-Date: 2012-09-18 10:30+0330\n"
-"Last-Translator: Hamid <hamid.r1988@gmail.com>\n"
+"PO-Revision-Date: 2018-01-13 19:58+0000\n"
+"Last-Translator: nima sahraneshin <unix.nima@gmail.com>\n"
 "Language-Team: Debian-l10n-persian <debian-l10n-persian@lists.debian.org>\n"
-"Language: \n"
+"Language: fa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
 
 #. Type: boolean
 #. Description
@@ -521,9 +522,9 @@ msgid ""
 "point of some sort, your network is Managed. If another computer is your "
 "'access point', then your network may be Ad-hoc."
 msgstr ""
-"شبکه‌های بیسیم یا به صورت managed هستند یا به صورت ad-hoc : اگر شما از یک "
-"نقطهٔ دسترسی واقعی استفاده می‌کنید، شبکهٔ شما از نوع managed است اما اگر رایانهٔ "
-"دیگری نقطهٔ دسترسی شماست، شبکهٔ شما احتمالا ad-hoc است. "
+"شبکه‌های بیسیم یا به صورت مدیریت شده هستند یا به صورت موردی. اگر شما از یک "
+"نقطهٔ دسترسی واقعی استفاده می‌کنید، شبکهٔ شما از نوع مدیریت شده است اما اگر "
+"رایانهٔ دیگری خود نقطهٔ دسترسی شماست، شبکهٔ شما احتمالا موردی است."
 
 #. Type: text
 #. Description
@@ -760,7 +761,7 @@ msgstr "تنظیم شبکه با DHCP"
 #. :sl1:
 #: ../netcfg-dhcp.templates:4001
 msgid "Network autoconfiguration has succeeded"
-msgstr "تنظیم خودکار شبکه موفق بود."
+msgstr "تنظیم خودکار شبکه موفق بود"
 
 #. Type: error
 #. Description
@@ -791,7 +792,7 @@ msgstr "پروسه‌ٔ پیکربندی DHCP خارج شده است."
 #. in single-byte languages)
 #: ../netcfg-dhcp.templates:6001
 msgid "Retry network autoconfiguration"
-msgstr "تلاش مجدد برای تنظیم خودکار شبکه "
+msgstr "تکرار مجدد تنظیم خودکار شبکه"
 
 #. Type: select
 #. Choices
