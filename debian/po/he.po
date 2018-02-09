@@ -7,42 +7,35 @@
 # Hebrew messages for debian-installer.
 # Copyright (C) 2003 Software in the Public Interest, Inc.
 # This file is distributed under the same license as debian-installer.
-#
-#
-#
-#
 # Translations from iso-codes:
-#     Translations taken from ICU SVN on 2007-09-09
-#   Translations from KDE:
-#
-#   Translations taken from KDE:
-#
-#
+# Translations taken from ICU SVN on 2007-09-09
+# Translations taken from KDE:
 # Amit Dovev <debian.translator@gmail.com>, 2007.
 # Meital Bourvine <meitalbourvine@gmail.com>, 2007.
-# Omer Zak <w1@zak.co.il>, 2008, 2010, 2012.
-# Lior Kaplan <kaplan@debian.org>, 2004-2007, 2008, 2010, 2011.
-#   Tobias Quathamer <toddy@debian.org>, 2007.
-#   Free Software Foundation, Inc., 2002,2004.
-#   Alastair McKinstry <mckinstry@computer.org>, 2002.
-#   Meni Livne <livne@kde.org>, 2000.
-#   Free Software Foundation, Inc., 2002,2003.
-#   - Meni Livne <livne@kde.org>, 2000.
-#   Lior Kaplan <kaplan@debian.org>, 2005,2006, 2007, 2008, 2010.
-#   Meital Bourvine <meitalbourvine@gmail.com>, 2007.
+# Omer Zak <w1@zak.co.il>, 2008, 2010, 2012, 2013.
+# Tobias Quathamer <toddy@debian.org>, 2007.
+# Free Software Foundation, Inc., 2002,2004.
+# Alastair McKinstry <mckinstry@computer.org>, 2002.
+# Meni Livne <livne@kde.org>, 2000.
+# Free Software Foundation, Inc., 2002,2003.
+# Meni Livne <livne@kde.org>, 2000.
+# Meital Bourvine <meitalbourvine@gmail.com>, 2007.
+# Lior Kaplan <kaplan@debian.org>, 2004-2007, 2008, 2010, 2011, 2015, 2017.
+# Yaron Shahrabani <sh.yaron@gmail.com>, 2018.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: debian-installer_packages_po_sublevel1_he\n"
+"Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
 "POT-Creation-Date: 2012-11-03 22:02+0000\n"
-"PO-Revision-Date: 2012-09-18 16:54+0300\n"
-"Last-Translator: Omer Zak <w1@zak.co.il>\n"
-"Language-Team: Hebrew <debian-hebrew-common@lists.alioth.debian.org>\n"
+"PO-Revision-Date: 2018-02-06 08:37+0000\n"
+"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
+"Language-Team: Hebrew (https://www.transifex.com/yaron/teams/79473/he/)\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #. Type: boolean
 #. Description
@@ -50,7 +43,7 @@ msgstr ""
 #. :sl1:
 #: ../netcfg-common.templates:2001
 msgid "Auto-configure networking?"
-msgstr "הגדרה אוטומטית של הרשת?"
+msgstr "להגדיר את הרשת אוטומטית?"
 
 #. Type: boolean
 #. Description
@@ -64,10 +57,10 @@ msgid ""
 "the installer is unable to get a working configuration from the network, you "
 "will be given the opportunity to configure the network manually."
 msgstr ""
-"ניתן להגדיר רשת על ידי הכנסת כל המידע באופן ידני או על ידי שימוש ב-DHCP (או "
-"באחת מהשיטות הרבות הזמינות ב-IPv6) לגילוי אוטומטי של הגדרות הרשת. אם תבחר "
-"להשתמש בשיטה לגילוי אוטומטי ותוכנית ההתקנה אינה מצליחה לקבל מהרשת הגדרות רשת "
-"שעובדות, תקבל הזדמנות להגדיר את הרשת בצורה ידנית."
+"ניתן להגדיר רשת על ידי הקלדת כל המידע באופן ידני או על ידי שימוש ב־DHCP (או "
+"באחת מהשיטות הרבות הזמינות ב־IPv6) לגילוי אוטומטי של הגדרות הרשת. במקרה "
+"שבחרת להשתמש בשיטה לגילוי אוטומטי ותכנית ההתקנה אינה מצליחה לקבל מהרשת "
+"הגדרות רשת תקינות, תינתן לך הזדמנות להגדיר את הרשת בצורה ידנית."
 
 #. Type: string
 #. Description
@@ -96,7 +89,7 @@ msgstr ""
 #. :sl1:
 #: ../netcfg-common.templates:4001
 msgid "Name server addresses:"
-msgstr "כתובות שרת שמות:"
+msgstr "כתובות שרתי שמות:"
 
 #. Type: string
 #. Description
@@ -119,7 +112,7 @@ msgstr ""
 #. :sl1:
 #: ../netcfg-common.templates:5001
 msgid "Primary network interface:"
-msgstr "ממשק רשת ראשי:"
+msgstr "מנשק רשת ראשי:"
 
 #. Type: select
 #. Description
@@ -130,8 +123,8 @@ msgid ""
 "primary network interface during the installation. If possible, the first "
 "connected network interface found has been selected."
 msgstr ""
-"למערכת שלך יש מספר ממשקי רשת. בחר אחד מהם כממשק הראשי בזמן ההתקנה. אם הדבר "
-"אפשרי, ממשק הרשת המחובר הראשון שזוהה נבחר."
+"במערכת שלך מותקנים מגוון מנשקי רשת. נא לבחור באחד מהם כמנשק הראשי לזמן "
+"ההתקנה. אם ניתן, מנשק הרשת המחובר הראשון שזוהה נבחר."
 
 #. Type: string
 #. Description
@@ -141,7 +134,7 @@ msgstr ""
 #. :sl1:
 #: ../netcfg-common.templates:6001 ../netcfg-common.templates:7001
 msgid "Wireless ESSID for ${iface}:"
-msgstr "ESSID אלחוטי ל-${iface}:"
+msgstr "ESSID אלחוטי ל־${iface}:"
 
 #. Type: string
 #. Description
@@ -161,7 +154,7 @@ msgstr ""
 #. :sl1:
 #: ../netcfg-common.templates:7001
 msgid "Attempting to find an available wireless network failed."
-msgstr "הניסיון למציאת רשת אלחוטית זמינה נכשל."
+msgstr "הניסיון לאיתור רשת אלחוטית זמינה נכשל."
 
 #. Type: string
 #. Description
@@ -172,9 +165,8 @@ msgid ""
 "of the wireless network you would like ${iface} to use. To connect to any "
 "available network, leave this field blank."
 msgstr ""
-"${iface} הינו ממשק רשת אלחוטי. יש להכניס את השם (ה-ESSID) של הרשת האלחוטית "
-"שלך שברצונך ש-${iface} ישתמש. כדי להתחבר לכל רשת זמינה, יש להשאיר את השדה "
-"ריק."
+"${iface} הוא מנשק רשת אלחוטי. יש להכניס את השם (ה־ESSID) של הרשת האלחוטית בה "
+"${iface} ישתמש. כדי להתחבר לכל רשת זמינה, יש להשאיר את השדה ריק."
 
 #. Type: select
 #. Choices
@@ -342,7 +334,7 @@ msgstr "מנסה להחליף מפתחות עם נקודת גישה..."
 #. :sl1:
 #: ../netcfg-common.templates:15001 ../netcfg-dhcp.templates:3001
 msgid "This may take some time."
-msgstr "פעולה זאת עלולה לדרוש זמן רב."
+msgstr "פעולה זאת עשויה לארוך זמן רב."
 
 #. Type: text
 #. Description
@@ -380,7 +372,7 @@ msgstr "שם מחשב:"
 #. :sl1:
 #: ../netcfg-common.templates:18001
 msgid "Please enter the hostname for this system."
-msgstr "נא להכניס את שם המחשב של המערכת הזו."
+msgstr "נא להקליד את שם המחשב של המערכת הזו."
 
 #. Type: string
 #. Description
@@ -530,9 +522,9 @@ msgid ""
 "point of some sort, your network is Managed. If another computer is your "
 "'access point', then your network may be Ad-hoc."
 msgstr ""
-"רשתות אלחוטיות יכולות להיות מנוהלות או ייעודיות. אם אתה משתמש בנקודת גישה "
-"אמיתית, הרשת שלך היא מנוהלת. אם מחשב אחר מהווה את נקודת הגישה שלך, אז הרשת "
-"שלך היא ייעודית."
+"רשתות אלחוטיות יכולות להיות או מנוהלות או ייעודיות. אם נעשה שימוש בנקודת "
+"גישה מכל סוג שהוא, הרשת שלך מנוהלת. אם מחשב אחר משרת אותך בתור נקודת גישה, "
+"אז הרשת שלך היא כנראה ייעודית."
 
 #. Type: text
 #. Description
@@ -552,7 +544,7 @@ msgstr "מחפש נקודות גישה אלחוטיות..."
 #. Description
 #: ../netcfg-common.templates:29001
 msgid "Detecting link on ${interface}; please wait..."
-msgstr "בדיקת חיבור על ${interface}, נא להמתין..."
+msgstr "בדיקת חיבור דרך ${interface}, נא להמתין…"
 
 #. Type: text
 #. Description
@@ -566,7 +558,7 @@ msgstr "<none>"
 #. :sl2:
 #: ../netcfg-common.templates:31001
 msgid "Wireless ethernet (802.11x)"
-msgstr "Wireless ethernet (802.11x)"
+msgstr "אתרנט אלחוטי (802.11x)"
 
 #. Type: text
 #. Description
@@ -665,7 +657,7 @@ msgstr "ממשק לא מוכר"
 #. :sl1:
 #: ../netcfg-common.templates:47001
 msgid "Storing network settings..."
-msgstr "שומר הגדרות רשת..."
+msgstr "הגדרות הרשת נשמרות…"
 
 #. Type: text
 #. Description
@@ -673,7 +665,7 @@ msgstr "שומר הגדרות רשת..."
 #. :sl1:
 #: ../netcfg-common.templates:48001
 msgid "Configure the network"
-msgstr "הגדרות רשת"
+msgstr "הגדרת הרשת"
 
 #. Type: string
 #. Description
@@ -715,7 +707,7 @@ msgstr ""
 #. :sl1:
 #: ../netcfg-common.templates:52001
 msgid "${essid_list} Enter ESSID manually"
-msgstr "${essid_list} הכנסת ESSID ידנית"
+msgstr "${essid_list} הקלדת ESSID ידנית"
 
 #. Type: select
 #. Description
@@ -729,14 +721,14 @@ msgstr "רשת אלחוטית:"
 #. :sl1:
 #: ../netcfg-common.templates:52002
 msgid "Select the wireless network to use during the installation process."
-msgstr "בחירת הרשת האלחוטית לשימוש במהלך תהליך ההתקנה."
+msgstr "נא לבחור את הרשת האלחוטית בה יעשה שימוש לטובת תהליך ההתקנה."
 
 #. Type: string
 #. Description
 #. :sl1:
 #: ../netcfg-dhcp.templates:1001
 msgid "DHCP hostname:"
-msgstr "שם מחשב של שרת DHCP:"
+msgstr "שם מחשב של DHCP:"
 
 #. Type: string
 #. Description
@@ -746,8 +738,8 @@ msgid ""
 "You may need to supply a DHCP host name. If you are using a cable modem, you "
 "might need to specify an account number here."
 msgstr ""
-"ייתכן שעליך להכניס שם מחשב של שרת DHCP. אם הינך משתמש במודם כבלים, ייתכן "
-"שתצטרך להכניס כאן מספר חשבון."
+"יתכן שעליך להקליד שם מחשב של DHCP. במקרה של שימוש במודם כבלים, אולי גם יש "
+"צורך לציין מספר חשבון להלן."
 
 #. Type: string
 #. Description
@@ -768,7 +760,7 @@ msgstr "הגדרת הרשת באמצעות DHCP"
 #. :sl1:
 #: ../netcfg-dhcp.templates:4001
 msgid "Network autoconfiguration has succeeded"
-msgstr "הגדרת רשת באופן אוטומטי הצליחה"
+msgstr "הגדרת הרשת באופן אוטומטי הצליחה"
 
 #. Type: error
 #. Description
@@ -799,7 +791,7 @@ msgstr "תהליך הגדרת של DHCP בוטל."
 #. in single-byte languages)
 #: ../netcfg-dhcp.templates:6001
 msgid "Retry network autoconfiguration"
-msgstr "נסה שוב להגדיר רשת באופן אוטומטי"
+msgstr "ניסיון חוזר להגדרת הרשת אוטומטית"
 
 #. Type: select
 #. Choices
@@ -809,7 +801,7 @@ msgstr "נסה שוב להגדיר רשת באופן אוטומטי"
 #. in single-byte languages)
 #: ../netcfg-dhcp.templates:6001
 msgid "Retry network autoconfiguration with a DHCP hostname"
-msgstr "נסה שוב להגדיר את הרשת באופן אוטומטי עם שם מחשב לשרת DHCP"
+msgstr "לנסות להגדיר את הרשת אוטומטית מחדש עם שם מחשב של DHCP"
 
 #. Type: select
 #. Choices
@@ -819,7 +811,7 @@ msgstr "נסה שוב להגדיר את הרשת באופן אוטומטי עם 
 #. in single-byte languages)
 #: ../netcfg-dhcp.templates:6001
 msgid "Configure network manually"
-msgstr "הגדר את הרשת באופן ידני"
+msgstr "הגדרת הרשת באופן ידני"
 
 #. Type: select
 #. Choices
@@ -829,7 +821,7 @@ msgstr "הגדר את הרשת באופן ידני"
 #. in single-byte languages)
 #: ../netcfg-dhcp.templates:6001
 msgid "Do not configure the network at this time"
-msgstr "אל תגדיר רשת בשלב זה"
+msgstr "לא להגדיר רשת בשלב זה"
 
 #. Type: select
 #. Description
@@ -859,7 +851,7 @@ msgstr ""
 #. :sl1:
 #: ../netcfg-dhcp.templates:7001
 msgid "Network autoconfiguration failed"
-msgstr "הגדרת רשת באופן אוטומטי נכשלה"
+msgstr "הגדרת הרשת באופן אוטומטי נכשלה"
 
 #. Type: note
 #. Description
@@ -869,8 +861,8 @@ msgid ""
 "Your network is probably not using the DHCP protocol. Alternatively, the "
 "DHCP server may be slow or some network hardware is not working properly."
 msgstr ""
-"הרשת שלך כנראה לא משתמשת בפרוטוקול DHCP. לחלופין, שרת ה-DHCP שלך עלול להיות "
-"איטי, או שחומרת רשת כלשהי אינה עובדת בצורה תקינה."
+"הרשת שלך כנראה לא משתמשת בפרוטוקול DHCP. לחלופין, שרת ה־DHCP שלך עשוי להיות "
+"אטי או שחומרת רשת כלשהי אינה תקינה."
 
 #. Type: boolean
 #. Description
@@ -911,7 +903,7 @@ msgstr ""
 #. :sl1:
 #: ../netcfg-dhcp.templates:9001
 msgid "Reconfigure the wireless network"
-msgstr "מגדיר מחדש את הרשת האלחוטית"
+msgstr "הרשת האלחוטית מוגדרת מחדש"
 
 #. Type: text
 #. Description
@@ -954,7 +946,7 @@ msgstr "כתובת IP:"
 #. :sl1:
 #: ../netcfg-static.templates:1001
 msgid "The IP address is unique to your computer and may be:"
-msgstr "כתובת ה-IP ייחודית למחשבך ויכולה להיות:"
+msgstr "כתובת ה־IP ייחודית למחשבך ועשויה להיות:"
 
 #. Type: string
 #. Description
@@ -965,8 +957,8 @@ msgid ""
 " * four numbers separated by periods (IPv4);\n"
 " * blocks of hexadecimal characters separated by colons (IPv6)."
 msgstr ""
-"ארבעה מספרים המופרדים על ידי נקודות (IPv4); בלוקים של תווים הקסדצימליים "
-"המופרדים על ידי נקודותיים (IPv6)."
+" * ארבעה מקטעי מספרים מופרדים בנקודות (IPv4);\n"
+" * מקטעים של תווים הקסדצימליים מופרדים בנקודתיים (IPv6)."
 
 #. Type: string
 #. Description
@@ -974,7 +966,7 @@ msgstr ""
 #. :sl1:
 #: ../netcfg-static.templates:1001
 msgid "You can also optionally append a CIDR netmask (such as \"/24\")."
-msgstr "הינך יכול גם לצרף מסיכת רשת CIDR (כמו ‪\"/24\"‬)."
+msgstr "ניתן גם לצרף מסכת רשת CIDR (למשל ‪”/24„‬)."
 
 #. Type: string
 #. Description
@@ -982,7 +974,7 @@ msgstr "הינך יכול גם לצרף מסיכת רשת CIDR (כמו ‪\"/24\
 #. :sl1:
 #: ../netcfg-static.templates:1001
 msgid "If you don't know what to use here, consult your network administrator."
-msgstr "אם לא ידוע לך מה להכניס כאן, התייעץ עם מנהל הרשת שלך."
+msgstr "אם לא ידוע לך מה להכניס כאן, נא להתייעץ עם מנהל הרשת שלך."
 
 #. Type: error
 #. Description
@@ -1053,7 +1045,7 @@ msgstr ""
 #. :sl1:
 #: ../netcfg-static.templates:5001
 msgid "Gateway:"
-msgstr "Gateway:"
+msgstr "שער גישה:"
 
 #. Type: string
 #. Description
@@ -1119,14 +1111,14 @@ msgstr ""
 #. :sl1:
 #: ../netcfg-static.templates:8001
 msgid "Is this information correct?"
-msgstr "האם המידע נכון?"
+msgstr "האם מידע זה נכון?"
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../netcfg-static.templates:8001
 msgid "Currently configured network parameters:"
-msgstr "הגדרות הרשת שהינן כרגע בתוקף:"
+msgstr "הגדרות הרשת שכרגע בתוקף:"
 
 #. Type: boolean
 #. Description
@@ -1140,10 +1132,10 @@ msgid ""
 " pointopoint   = ${pointopoint}\n"
 " nameservers   = ${nameservers}"
 msgstr ""
-" ממשק          = ${interface}\n"
+" מנשק          = ${interface}\n"
 " כתובת IP      = ${ipaddress}\n"
 " מסכת רשת      = ${netmask}\n"
-" gateway       = ${gateway}\n"
+" שער גישה       = ${gateway}\n"
 " נקודה לנקודה   = ${pointopoint}\n"
 " שרתי שמות     = ${nameservers}"
 
