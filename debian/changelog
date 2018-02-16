@@ -1,3 +1,13 @@
+netcfg (1.152) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Arabic (ar.po) by ButterflyOfFire
+  * Hebrew (he.po) by Yaron Shahrabani
+  * Norwegian Nynorsk (nn.po) by Alexander Jansen
+  * Tajik (tg.po) by Victor Ibragimov
+
+ -- Christian Perrier <bubulle@debian.org>  Fri, 16 Feb 2018 18:40:30 +0100
+
 netcfg (1.151) unstable; urgency=medium
 
   [ Updated translations ]
