@@ -27,7 +27,7 @@ msgstr ""
 "Project-Id-Version: ar\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
 "POT-Creation-Date: 2012-11-03 22:02+0000\n"
-"PO-Revision-Date: 2018-01-25 01:44+0000\n"
+"PO-Revision-Date: 2018-03-05 16:34+0000\n"
 "Last-Translator: ButterflyOfFire <ButterflyOfFire@protonmail.com>\n"
 "Language-Team: \n"
 "Language: ar\n"
@@ -173,7 +173,7 @@ msgstr ""
 #. Choices
 #: ../netcfg-common.templates:8001
 msgid "WEP/Open Network"
-msgstr "WEP/Open Network"
+msgstr "WEP/شبكة مفتوحة"
 
 #. Type: select
 #. Choices
@@ -675,7 +675,7 @@ msgstr "تهيئة الشبكة"
 #. :sl3:
 #: ../netcfg-common.templates:50001
 msgid "Waiting time (in seconds) for link detection:"
-msgstr "فترة الانتظار (بالثواني) لاستكشاف الاتصال الشبكي"
+msgstr "فترة الإنتظار (بالثواني) لاستكشاف الاتصال الشبكي :"
 
 #. Type: string
 #. Description
@@ -684,7 +684,7 @@ msgstr "فترة الانتظار (بالثواني) لاستكشاف الاتص
 msgid ""
 "Please enter the maximum time you would like to wait for network link "
 "detection."
-msgstr "رجاء حدد طول الفترة الزمنية لانتظار استكشاف الاتصال الشبكي"
+msgstr "يرجى تحديد طول الفترة الزمنية لانتظار استكشاف الاتصال الشبكي."
 
 #. Type: error
 #. Description
@@ -701,8 +701,8 @@ msgid ""
 "The value you have provided is not valid. The maximum waiting time (in "
 "seconds) for network link detection must be a positive integer."
 msgstr ""
-"القيمة التي حددتها غير صحيحة. أطول فترة زمنية (بالثانية)لانتظار استكشاف "
-"الاتصال الشبكي يجب أن تكون رقما صحيحاً موجباً"
+"القيمة التي حددتها غير صحيحة. أطول فترة زمنية (بالثانية) لانتظار استكشاف "
+"الإتصال الشبكي يجب أن تكون رقما صحيحاً موجباً."
 
 #. Type: select
 #. Choices
