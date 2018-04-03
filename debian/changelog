@@ -1,3 +1,12 @@
+netcfg (1.153) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Arabic (ar.po) by ButterflyOfFire
+  * Hebrew (he.po) by Yaron Shahrabani
+  * Indonesian (id.po) by Andika Triwidada
+
+ -- Christian Perrier <bubulle@debian.org>  Mon, 02 Apr 2018 16:46:32 +0200
+
 netcfg (1.152) unstable; urgency=medium
 
   [ Updated translations ]
