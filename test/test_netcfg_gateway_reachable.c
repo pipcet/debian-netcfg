@@ -81,6 +81,29 @@ START_TEST(test_netcfg_gateway_reachable_v6_48)
 }
 END_TEST
 
+START_TEST(test_netcfg_gateway_reachable_v6_fe80)
+{
+    struct netcfg_interface iface;
+    netcfg_interface_init(&iface);
+
+    strcpy(iface.ipaddress, "2001:3:5:7::42");
+    strcpy(iface.gateway, "fe80::1");
+    iface.masklen = 64;
+    iface.address_family = AF_INET6;
+
+    fail_unless (netcfg_gateway_reachable(&iface), "Gateway erroneously unreachable");
+
+    strcpy (iface.gateway, "febf::1");
+    fail_unless (netcfg_gateway_reachable(&iface), "Gateway erroneously unreachable");
+
+    strcpy (iface.gateway, "fe7f::1");
+    fail_if (netcfg_gateway_reachable(&iface), "Gateway erroneously reachable");
+
+    strcpy (iface.gateway, "fec0::1");
+    fail_if (netcfg_gateway_reachable(&iface), "Gateway erroneously reachable");
+}
+END_TEST
+
 Suite *test_netcfg_gateway_reachable_suite (void)
 {
 	Suite *s = suite_create ("netcfg_gateway_reachable");
@@ -90,6 +113,7 @@ Suite *test_netcfg_gateway_reachable_suite (void)
 	tcase_add_test (tc, test_netcfg_gateway_reachable_v4_22);
 	tcase_add_test (tc, test_netcfg_gateway_reachable_v6_64);
 	tcase_add_test (tc, test_netcfg_gateway_reachable_v6_48);
+	tcase_add_test (tc, test_netcfg_gateway_reachable_v6_fe80);
 	
 	suite_add_tcase (s, tc);
 	
