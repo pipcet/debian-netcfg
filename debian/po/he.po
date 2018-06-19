@@ -28,7 +28,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
 "POT-Creation-Date: 2012-11-03 22:02+0000\n"
-"PO-Revision-Date: 2018-03-19 21:38+0000\n"
+"PO-Revision-Date: 2018-06-14 08:38+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew (https://www.transifex.com/yaron/teams/79473/he/)\n"
 "Language: he\n"
@@ -79,10 +79,10 @@ msgid ""
 "If you are setting up a home network, you can make something up, but make "
 "sure you use the same domain name on all your computers."
 msgstr ""
-"שם המתחם הוא חלק מכתובת האינטרנט שלך מימין לשם השרת שלך. לשם זה יש לעיתים "
-"קרובות סיומת כגון .com, .co.il, .org, .org.il,  .net, .net.il, .edu, .ac.il "
-"ועוד. אם אתה מגדיר רשת ביתית, תוכל להמציא שם כלשהו, אבל שים לב שאתה משתמש "
-"באותו שם מתחם בכל המחשבים ברשת שלך."
+"שם המתחם הוא חלק מכתובת האינטרנט שלך מימין לשם השרת שלך. לשם זה יש לעתים "
+"קרובות סיומת כגון ‎.com,‏ ‎.co.il,‏ ‎.org,‏ ‎.org.il,‏  ‎.net,‏ ‎.net.il,‏ ‎.edu,‏ ‎.ac.il "
+"ועוד. אם אלו הגדרות לרשת ביתית, ניתן להמציא שם כלשהו, אבל עליך לשים לב "
+"שהשתמשת באותו שם המתחם בכל המחשבים ברשת שלך."
 
 #. Type: string
 #. Description
@@ -384,9 +384,9 @@ msgid ""
 "administrator. If you are setting up your own home network, you can make "
 "something up here."
 msgstr ""
-"שם המחשב הוא מילה אחת שמשמשת לזיהוי המערכת שלך ברשת. אם אינך יודע מה צריך "
-"להיות שם המחשב שלך, התייעץ עם מנהל הרשת שלך. אם אתה מגדיר לעצמך רשת ביתית, "
-"אתה יכול להמציא שם כלשהו."
+"שם המחשב הוא מילה אחת שמשמשת לזיהוי המערכת שלך ברשת. אם לא ידוע לך מה צריך "
+"להיות שם המחשב, כדאי להתייעץ עם מנהל הרשת שלך. אם זו הגדרה לרשת ביתית משלך, "
+"אפשר להמציא שם כלשהו."
 
 #. Type: error
 #. Description
@@ -681,14 +681,14 @@ msgstr "זמן המתנה (בשניות) לזיהוי חיבור:"
 msgid ""
 "Please enter the maximum time you would like to wait for network link "
 "detection."
-msgstr "נא להכניס את זמן המקסימום שיש לחכות עבור זיהוי חיבור רשת."
+msgstr "נא להקליד את פרק הזמן המרבי להמתנה לזיהוי חיבור."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../netcfg-common.templates:51001
 msgid "Invalid network link detection waiting time"
-msgstr "זמן לא חוקי להמתנה לזיהוי חיבור רשת"
+msgstr "זמן ההמתנה לזיהוי חיבור רשת שגוי"
 
 #. Type: error
 #. Description
@@ -698,8 +698,8 @@ msgid ""
 "The value you have provided is not valid. The maximum waiting time (in "
 "seconds) for network link detection must be a positive integer."
 msgstr ""
-"הערך שסיפקת אינו תקין. זמן המתנה המקסימלי (בשניות) לזיהוי חיבור רשת חייב "
-"להיות מספר שלם חיובי."
+"הערך שציינת שגוי. זמן ההמתנה המרבי (בשניות) לזיהוי חיבור לרשת חייב להיות "
+"מספר שלם וחיובי."
 
 #. Type: select
 #. Choices
@@ -841,10 +841,10 @@ msgid ""
 "by the client, so you can also choose to retry DHCP network "
 "autoconfiguration with a hostname that you provide."
 msgstr ""
-"מנקודה זו תוכל לנסות שוב להגדיר אוטומטית את הרשת שלך בעזרת DHCP (שעשויה "
-"להצליח אם לוקח לשרת DHCP שלך הרבה זמן לענות) או להגדיר את הרשת ידנית. חלק "
-"משרתי DHCP דורשים שיישלח אליהם שם מחשב ספציפי, לכן תוכל גם לבחור לנסות מחדש "
-"הגדרה אוטומטית של הרשת שלך בעזרת DHCP עם שם מחשב שתספק."
+"מכאן ניתן לנסות שוב להגדיר את הרשת שלך אוטומטית עם DHCP (תהליך שעשוי להצליח "
+"אם לוקח לשרת DHCP שלך הרבה זמן לענות) או להגדיר את הרשת ידנית. חלק משרתי "
+"DHCP דורשים שיישלח אליהם שם מחשב ספציפי, לכן ניתן גם לבחור לנסות מחדש הגדרה "
+"אוטומטית של הרשת שלך בעזרת DHCP עם שם מחשב שיסופק ידנית."
 
 #. Type: note
 #. Description
@@ -974,7 +974,7 @@ msgstr "ניתן גם לצרף מסכת רשת CIDR (למשל ‪”/24„‬)."
 #. :sl1:
 #: ../netcfg-static.templates:1001
 msgid "If you don't know what to use here, consult your network administrator."
-msgstr "אם לא ידוע לך מה להכניס כאן, נא להתייעץ עם מנהל הרשת שלך."
+msgstr "אם לא ידוע לך מה להקליד כאן, נא להתייעץ עם מנהל הרשת שלך."
 
 #. Type: error
 #. Description
@@ -1036,9 +1036,9 @@ msgid ""
 "Consult your network administrator if you do not know the value.  The "
 "netmask should be entered as four numbers separated by periods."
 msgstr ""
-"מסכת הרשת (netmask) משמשת כדי לקבוע אלו מחשבים הינם בתוך הרשת שלך. התייעץ עם "
-"מנהל הרשת שלך, אם אינך יודע את הערך הנכון. מסכת הרשת שלך צריכה להיות 4 "
-"מספרים מופרדים בנקודות."
+"במסכת הרשת (netmask) נעשה שימוש כדי להבדיל בין המחשבים ברשת המקומית לבין אלו "
+"שאינם. נא להתייעץ עם מנהל הרשת שלך אם לא ברור לך איזה ערך אמור להיות כאן. את "
+"מסכת הרשת יש להקליד בתצורת 4 מספרים המופרדים בנקודות."
 
 #. Type: string
 #. Description
@@ -1059,10 +1059,11 @@ msgid ""
 "you can leave this blank.  If you don't know the proper answer to this "
 "question, consult your network administrator."
 msgstr ""
-"ה-gateway היא כתובת IP (ארבעה מספרים מופרדים בנקודות) שמציינת את נתב ברירת "
+"שער הגישה היא כתובת IP (ארבעה מספרים מופרדים בנקודות) שמציינת את נתב בררת "
 "המחדל. כל התעבורה שיוצאת מחוץ לרשת המקומית שלך (למשל, לאינטרנט) נשלחת דרך "
-"נתב זה. במקרים נדירים יכול להיות שאין לך נתב. במקרה זה, ביכולתך לשאיר את "
-"השדה ריק. אם אין לך מידע וודאי לגבי שדה זה, התייעץ עם מנהל הרשת שלך."
+"נתב זה. במקרים נדירים, יכול להיות שהחיבור הוא אינו לנתב, במקרה כזה, ניתן "
+"להשאיר שדה זה ריק. אם לא ידוע לך מה לענות על השאלה הזאת, נא להתייעץ עם מנהל "
+"הרשת שלך."
 
 #. Type: error
 #. Description
@@ -1092,7 +1093,7 @@ msgstr "ייתכן שעשית שגיאה בהכנסת כתובת ה-IP, מסכת
 #. :sl3:
 #: ../netcfg-static.templates:7001
 msgid "IPv6 unsupported on point-to-point links"
-msgstr "‫IPv6 אינו נתמך בקישורי point-to-point‬"
+msgstr "‫IPv6 אינו נתמך בחיבורי נקודה לנקודה (point-to-point)"
 
 #. Type: error
 #. Description
@@ -1103,15 +1104,15 @@ msgid ""
 "IPv6 addresses cannot be configured on point-to-point links.  Please use an "
 "IPv4 address, or go back and select a different network interface."
 msgstr ""
-"אי אפשר להגדיר כתובות IPv6 עבור קישורי point-to-point. נא להשתמש בכתובת "
-"IPv4, או לחזור ולבחור בממשק רשת אחר."
+"לא ניתן להגדיר כתובות IPv6 עבור חיבורי נקודה לנקודה (point-to-point). נא "
+"להשתמש בכתובת IPv4 או לחזור ולבחור במנשק רשת אחר."
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../netcfg-static.templates:8001
 msgid "Is this information correct?"
-msgstr "האם מידע זה נכון?"
+msgstr "מידע זה נכון?"
 
 #. Type: boolean
 #. Description
@@ -1133,7 +1134,7 @@ msgid ""
 " nameservers   = ${nameservers}"
 msgstr ""
 " מנשק          = ${interface}\n"
-" כתובת IP      = ${ipaddress}\n"
+" כתובת IP‏      = ${ipaddress}\n"
 " מסכת רשת      = ${netmask}\n"
 " שער גישה       = ${gateway}\n"
 " נקודה לנקודה   = ${pointopoint}\n"
