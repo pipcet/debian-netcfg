@@ -1,8 +1,14 @@
-netcfg (1.154) UNRELEASED; urgency=medium
+netcfg (1.154) unstable; urgency=medium
 
+  * Team upload
+
+  [ Cyril Brulebois ]
   * Update Vcs-{Browser,Git} to point to salsa (alioth's replacement).
 
- -- Cyril Brulebois <kibi@debian.org>  Fri, 27 Apr 2018 03:43:03 +0200
+  [ Updated translations ]
+  * Hebrew (he.po) by Yaron Shahrabani
+
+ -- Holger Wansing <hwansing@mailbox.org>  Sun, 12 Aug 2018 10:44:20 +0200
 
 netcfg (1.153) unstable; urgency=medium
 
