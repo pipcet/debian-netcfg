@@ -28,7 +28,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
 "POT-Creation-Date: 2012-11-03 22:02+0000\n"
-"PO-Revision-Date: 2018-07-22 13:38+0000\n"
+"PO-Revision-Date: 2018-08-07 09:39+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew (https://www.transifex.com/yaron/teams/79473/he/)\n"
 "Language: he\n"
@@ -224,8 +224,8 @@ msgid ""
 "If your WEP key is in the format 'nnnn-nnnn-nn', 'nn:nn:nn:nn:nn:nn:nn:nn', "
 "or 'nnnnnnnn', where n is a number, just enter it as it is into this field."
 msgstr ""
-"אם מפתח ה-WEP שלך הוא במבנה של 'nnnn-nnnn-nn', 'nn:nn:nn:nn:nn:nn:nn:nn', או "
-"'nnnnnnnn', כאשר n היא ספרה, הכנס את המפתח כמות שהוא לתוך השדה הזה."
+"אם מפתח ה־WEP שלך הוא בתצורת ‚nnnn-nnnn-nn’‏, ‚nn:nn:nn:nn:nn:nn:nn:nn’ או "
+"‚nnnnnnnn', כאשר n היא ספרה, עליך להקליד את המפתח כמו שהוא לתוך השדה הזה."
 
 #. Type: string
 #. Description
@@ -235,8 +235,8 @@ msgid ""
 "If your WEP key is in the format of a passphrase, prefix it with "
 "'s:' (without quotes)."
 msgstr ""
-"אם מפתח ה-WEP שלך הוא במבנה של ביטוי המשמש כסיסמה (passphrase), הוסף אליו את "
-"התחילית 's:' (ללא המרכאות)."
+"אם מפתח ה־WEP שלך הוא בתצורת מילת צופן (passphrase), יש להוסיף לו את התחילית "
+"‚s:‎’ (ללא המירכאות)."
 
 #. Type: string
 #. Description
@@ -245,14 +245,14 @@ msgstr ""
 msgid ""
 "Of course, if there is no WEP key for your wireless network, leave this "
 "field blank."
-msgstr "כמובן שאם אין מפתח WEP לרשת האלחוטית שלך, השאר את השדה ריק."
+msgstr "כמובן שאם אין מפתח WEP לרשת האלחוטית שלך, יש להשאיר את השדה ריק."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../netcfg-common.templates:10001
 msgid "Invalid WEP key"
-msgstr "מפתח WEP לא תקין"
+msgstr "מפתח WEP שגוי"
 
 #. Type: error
 #. Description
@@ -262,15 +262,15 @@ msgid ""
 "The WEP key '${wepkey}' is invalid. Please refer to the instructions on the "
 "next screen carefully on how to enter your WEP key correctly, and try again."
 msgstr ""
-"מפתח ה-WEP '${wepkey}' אינו תקין. קרא היטב את ההוראות במסך הבא כיצד להכניס "
-"את מפתח ה-WEP שלך באופן תקין, לאחר מכן, נסה שוב."
+"מפתח ה-WEP‏ ‚${wepkey}’ שגוי. יש לקרוא היטב את ההוראות שבמסך הבא כיצד להקליד "
+"את מפתח ה־WEP שלך באופן תקין ולאחר מכן לנסות שוב."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../netcfg-common.templates:11001
 msgid "Invalid passphrase"
-msgstr "משפט סיסמה אינו חוקי"
+msgstr "מילת צופן שגויה"
 
 #. Type: error
 #. Description
@@ -280,15 +280,15 @@ msgid ""
 "The WPA/WPA2 PSK passphrase was either too long (more than 64 characters) or "
 "too short (less than 8 characters)."
 msgstr ""
-"הביטוי המשמש כסיסמה (passphrase) ששימש כ-WPA/WPA2 PSK הינו או ארוך מדי (יותר "
-"מ-64 תווים) או קצר מדי (פחות מ-8 תווים)."
+"מילת הצופן (passphrase) כ־WPA/WPA2 PSK ארוכה מדי (יותר מ־64 תווים) או קצרה "
+"מדי (פחות מ־8 תווים)."
 
 #. Type: string
 #. Description
 #. :sl2:
 #: ../netcfg-common.templates:12001
 msgid "WPA/WPA2 passphrase for wireless device ${iface}:"
-msgstr "משפט סיסמה WPA/WPA2 להתקן אלחוטי ${iface}:"
+msgstr "מילת צופן WPA/WPA2 להתקן אלחוטי ${iface}:"
 
 #. Type: string
 #. Description
@@ -298,15 +298,15 @@ msgid ""
 "Enter the passphrase for WPA/WPA2 PSK authentication. This should be the "
 "passphrase defined for the wireless network you are trying to use."
 msgstr ""
-"הכנס את הביטוי המשמש כסיסמה (passphrase) לאימות WPA/WPA2 PSK. ביטוי זה אמור "
-"להיות הביטוי שהוגדר עבור הרשת האלחוטית שהינך מנסה להשתמש בה."
+"נא להקליד את מילת הצופן (passphrase) לאימות WPA/WPA2 PSK. זו אמורה להיות "
+"מילת הצופן שהוגדרה לרשת האלחוטית המדוברת."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../netcfg-common.templates:13001
 msgid "Invalid ESSID"
-msgstr "ESSID לא תקין"
+msgstr "ESSID שגוי"
 
 #. Type: error
 #. Description
@@ -316,15 +316,15 @@ msgid ""
 "The ESSID \"${essid}\" is invalid. ESSIDs may only be up to ${max_essid_len} "
 "characters, but may contain all kinds of characters."
 msgstr ""
-"ה-ESSID \"${essid}\" אינו תקין. ESSID-ים מוגבלים לעד ${max_essid_len} תווים, "
-"אך יכולים להכיל תווים מסוגים רבים."
+"ה־ESSID‏ „${essid}” שגוי. מזהי ESSID מוגבלים עד ${max_essid_len} תווים, אך "
+"יכולים להכיל תווים מכל הסוגים."
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../netcfg-common.templates:14001
 msgid "Attempting to exchange keys with the access point..."
-msgstr "מנסה להחליף מפתחות עם נקודת גישה..."
+msgstr "מתבצע ניסיון להחלפת מפתחות עם נקודת הגישה…"
 
 #. Type: text
 #. Description
@@ -348,7 +348,7 @@ msgstr "חיבור WPA/WPA2 הצליח"
 #. :sl2:
 #: ../netcfg-common.templates:17001
 msgid "Failure of key exchange and association"
-msgstr "כשלון בהחלפת מפתחות ושיוכם"
+msgstr "החלפת מפתחות ושיוכם נכשלה"
 
 #. Type: note
 #. Description
@@ -358,7 +358,8 @@ msgid ""
 "The exchange of keys and association with the access point failed. Please "
 "check the WPA/WPA2 parameters you provided."
 msgstr ""
-"החלפת מפתחות ושיוכם לנקודת הגישה נכשלו. נא לבדוק את משתני WPA/WPA2 שסופקו."
+"תהליך החלפת מפתחות ושיוכם לנקודת הגישה נכשל. נא לבדוק את משתני ה־WPA/WPA2 "
+"שסופקו."
 
 #. Type: string
 #. Description
@@ -393,14 +394,14 @@ msgstr ""
 #. :sl2:
 #: ../netcfg-common.templates:20001
 msgid "Invalid hostname"
-msgstr "שם מחשב לא תקין"
+msgstr "שם מחשב שגוי"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../netcfg-common.templates:20001
 msgid "The name \"${hostname}\" is invalid."
-msgstr "השם \"${hostname}\" אינו תקין."
+msgstr "השם „${hostname}” שגוי."
 
 #. Type: error
 #. Description
