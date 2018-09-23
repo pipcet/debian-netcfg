@@ -1,3 +1,13 @@
+netcfg (1.155) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Finnish (fi.po) by Arto Keiski
+  * Galician (gl.po) by mantinan
+  * Hebrew (he.po) by Yaron Shahrabani
+  * Norwegian Bokmal (nb.po) by Allan Nordhøy
+
+ -- Holger Wansing <hwansing@mailbox.org>  Sun, 23 Sep 2018 13:48:54 +0200
+
 netcfg (1.154) unstable; urgency=medium
 
   * Team upload
