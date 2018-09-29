@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: gl\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
 "POT-Creation-Date: 2012-11-03 22:02+0000\n"
-"PO-Revision-Date: 2018-09-18 21:24+0000\n"
+"PO-Revision-Date: 2018-09-27 20:25+0000\n"
 "Last-Translator: mantinan <github@manty.net>\n"
 "Language-Team: Galician <proxecto@trasno.net>\n"
 "Language: gl\n"
@@ -328,7 +328,7 @@ msgstr ""
 #. :sl2:
 #: ../netcfg-common.templates:14001
 msgid "Attempting to exchange keys with the access point..."
-msgstr "Tratando de intercambiar claves co punto de acceso..."
+msgstr "Estase a tratar de intercambiar chaves co punto de acceso..."
 
 #. Type: text
 #. Description
@@ -362,7 +362,7 @@ msgid ""
 "The exchange of keys and association with the access point failed. Please "
 "check the WPA/WPA2 parameters you provided."
 msgstr ""
-"Produciuse un erro no intercambio de claves e asociación co punto de acceso. "
+"Produciuse un erro no intercambio de chaves e asociación co punto de acceso. "
 "Comprobe os parámetros WPA/WPA2 que proporcionou."
 
 #. Type: string
@@ -929,7 +929,7 @@ msgstr "Volver a configurar a rede sen fíos"
 #. :sl2:
 #: ../netcfg-dhcp.templates:12001 ../netcfg-dhcp.templates:14001
 msgid "Attempting IPv6 autoconfiguration..."
-msgstr "Tentando configurar IPv6 automáticamente..."
+msgstr "Estase a tentar configurar IPv6 automáticamente..."
 
 #. Type: text
 #. Description
@@ -937,7 +937,7 @@ msgstr "Tentando configurar IPv6 automáticamente..."
 #. :sl2:
 #: ../netcfg-dhcp.templates:13001
 msgid "Waiting for link-local address..."
-msgstr "Agardando polo enderezo da ligazón local («link-local»)..."
+msgstr "Estase a agardar polo enderezo da ligazón local («link-local»)..."
 
 #. Type: text
 #. Description
