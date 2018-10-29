@@ -1,3 +1,16 @@
+netcfg (1.156) unstable; urgency=medium
+
+  * Team upload
+
+  [ Updated translations ]
+  * Asturian (ast.po) by Xuacu Saturio
+  * Galician (gl.po) by mantinan
+  * Croatian (hr.po) by Valentin Vidic
+  * Latvian (lv.po) by Tranzistors
+  * Marathi (mr.po) by Nayan Nakhare
+
+ -- Holger Wansing <hwansing@mailbox.org>  Mon, 29 Oct 2018 23:00:52 +0100
+
 netcfg (1.155) unstable; urgency=medium
 
   * Team upload.
