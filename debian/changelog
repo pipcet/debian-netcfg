@@ -1,3 +1,9 @@
+netcfg (1.157) UNRELEASED; urgency=medium
+
+  * Use /usr/share/dpkg/default.mk rather than setting DEB_HOST_ARCH directly.
+
+ -- Colin Watson <cjwatson@debian.org>  Sat, 03 Nov 2018 15:57:11 +0000
+
 netcfg (1.156) unstable; urgency=medium
 
   * Team upload
