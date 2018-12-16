@@ -1,6 +1,10 @@
 netcfg (1.157) UNRELEASED; urgency=medium
 
+  [ Colin Watson ]
   * Use /usr/share/dpkg/default.mk rather than setting DEB_HOST_ARCH directly.
+
+  [ Holger Wansing ]
+  * Remove trailing whitespaces from changelog file, to fix lintian tag.
 
  -- Colin Watson <cjwatson@debian.org>  Sat, 03 Nov 2018 15:57:11 +0000
 
@@ -867,7 +871,7 @@ netcfg (1.82) unstable; urgency=low
 netcfg (1.81) unstable; urgency=low
 
   * Team upload
-  
+
   [ Updated translations ]
   * Catalan (ca.po)
 
@@ -876,7 +880,7 @@ netcfg (1.81) unstable; urgency=low
 netcfg (1.80) unstable; urgency=low
 
   * Team upload
-  
+
   [ Updated translations ]
   * Malayalam (ml.po) by Praveen Arimbrathodiyil
 
