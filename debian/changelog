@@ -1,4 +1,5 @@
-netcfg (1.157) UNRELEASED; urgency=medium
+netcfg (1.157) unstable; urgency=medium
+  * Team upload
 
   [ Colin Watson ]
   * Use /usr/share/dpkg/default.mk rather than setting DEB_HOST_ARCH directly.
@@ -6,7 +7,10 @@ netcfg (1.157) UNRELEASED; urgency=medium
   [ Holger Wansing ]
   * Remove trailing whitespaces from changelog file, to fix lintian tag.
 
- -- Colin Watson <cjwatson@debian.org>  Sat, 03 Nov 2018 15:57:11 +0000
+  [ Updated translations ]
+  * Finnish (fi.po) by Juhani Numminen
+
+ -- Holger Wansing <hwansing@mailbox.org>  Sun, 23 Dec 2018 19:39:26 +0100
 
 netcfg (1.156) unstable; urgency=medium
 
