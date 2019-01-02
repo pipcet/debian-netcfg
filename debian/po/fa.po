@@ -24,7 +24,7 @@ msgstr ""
 "Project-Id-Version: fa\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
 "POT-Creation-Date: 2012-11-03 22:02+0000\n"
-"PO-Revision-Date: 2018-01-13 19:58+0000\n"
+"PO-Revision-Date: 2019-01-01 17:49+0000\n"
 "Last-Translator: nima sahraneshin <unix.nima@gmail.com>\n"
 "Language-Team: Debian-l10n-persian <debian-l10n-persian@lists.debian.org>\n"
 "Language: fa\n"
@@ -170,7 +170,7 @@ msgstr ""
 #. Choices
 #: ../netcfg-common.templates:8001
 msgid "WEP/Open Network"
-msgstr "WEP/Open Network"
+msgstr "WEP/Open شبکه"
 
 #. Type: select
 #. Choices
@@ -843,10 +843,10 @@ msgid ""
 "autoconfiguration with a hostname that you provide."
 msgstr ""
 "شما این امکان را دارید که مجددا برای تنظیم شبکه بوسیلهٔ DHCP اقدام کنید(که "
-"ممکن است موفق شوید اگر سرور DHCP شما زمان زیادی برای پاسخ گویی لازم داشته "
-"باشد ) یا شبکه را به صورت دستی تنظیم کنید. برخی از سرورهای DHCP احتیاج دارند "
-"که نام میزبان توسط مشتری ارسال گردد، شما این امکان را نیز دارید که تنظیم "
-"DHCP را با نام میزبانی که انتخاب میکنید مجددا آزمایش کنید. "
+"ممکن است موفق شوید در صورتی که سرور DHCP شما زمان زیادی برای پاسخ گویی لازم "
+"داشته باشد ) یا شبکه را به صورت دستی تنظیم کنید. برخی از سرورهای DHCP احتیاج "
+"دارند که نام میزبان توسط مشتری ارسال گردد، شما این امکان را نیز دارید که "
+"تنظیم DHCP را با نام میزبانی که انتخاب میکنید مجددا آزمایش کنید."
 
 #. Type: note
 #. Description
@@ -1031,7 +1031,7 @@ msgstr ""
 #. :sl1:
 #: ../netcfg-static.templates:4001
 msgid "Netmask:"
-msgstr "Netmask:"
+msgstr "نت‌ماسک:"
 
 #. Type: string
 #. Description
@@ -1051,7 +1051,7 @@ msgstr ""
 #. :sl1:
 #: ../netcfg-static.templates:5001
 msgid "Gateway:"
-msgstr "Gateway:"
+msgstr "دروازه عبور:"
 
 #. Type: string
 #. Description
