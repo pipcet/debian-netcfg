@@ -28,7 +28,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
 "POT-Creation-Date: 2012-11-03 22:02+0000\n"
-"PO-Revision-Date: 2018-08-07 09:39+0000\n"
+"PO-Revision-Date: 2019-01-18 15:20+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew (https://www.transifex.com/yaron/teams/79473/he/)\n"
 "Language: he\n"
@@ -440,7 +440,7 @@ msgstr ""
 #. :sl2:
 #: ../netcfg-common.templates:22001
 msgid "No network interfaces detected"
-msgstr "לא זוהו ממשקי רשת"
+msgstr "לא זוהו מנשקי רשת"
 
 #. Type: error
 #. Description
@@ -449,7 +449,7 @@ msgstr "לא זוהו ממשקי רשת"
 msgid ""
 "No network interfaces were found. The installation system was unable to find "
 "a network device."
-msgstr "לא נמצאו ממשקי רשת. מערכת ההתקנה לא מסוגלת למצוא התקן רשת."
+msgstr "לא נמצאו מנשקי רשת. מערכת ההתקנה לא הצליחה למצוא התקן רשת."
 
 #. Type: error
 #. Description
@@ -469,7 +469,7 @@ msgstr ""
 #. :sl2:
 #: ../netcfg-common.templates:23001
 msgid "Kill switch enabled on ${iface}"
-msgstr "מתג ניטרול אופשר על ${iface}"
+msgstr "מתג השבתה הופעל על ${iface}"
 
 #. Type: note
 #. Description
@@ -482,8 +482,8 @@ msgid ""
 "\". If you intend to use this interface, please switch it on before "
 "continuing."
 msgstr ""
-"נראה כי ממשק הרשת ${iface} נותק באמצעות \"מתג ניטרול\". אם יש  לך כוונה "
-"להשתמש בממשק זה, כדאי להדליק אותו לפני שתמשיך בתהליך ההתקנה."
+"נראה כי מנשק הרשת ${iface} נותק באמצעות „מתג השבתה”. אם בכוונתך להשתמש במנשק "
+"זה, כדאי להפעיל את המתג בטרם המשך התהליך."
 
 #. Type: select
 #. Choices
@@ -539,20 +539,20 @@ msgstr "הגדרת רשת אלחוטית"
 #. :sl2:
 #: ../netcfg-common.templates:26001
 msgid "Searching for wireless access points..."
-msgstr "מחפש נקודות גישה אלחוטיות..."
+msgstr "מתבצע חיפוש אחר נקודות גישה אלחוטיות…"
 
 #. Type: text
 #. Description
 #: ../netcfg-common.templates:29001
 msgid "Detecting link on ${interface}; please wait..."
-msgstr "בדיקת חיבור דרך ${interface}, נא להמתין…"
+msgstr "החיבור דרך ${interface} בבדיקה, נא להמתין…"
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../netcfg-common.templates:30001
 msgid "<none>"
-msgstr "<none>"
+msgstr "<אין>"
 
 #. Type: text
 #. Description
@@ -650,7 +650,7 @@ msgstr "Inter-user communication vehicle"
 #. :sl2:
 #: ../netcfg-common.templates:46001
 msgid "Unknown interface"
-msgstr "ממשק לא מוכר"
+msgstr "מנשק לא מוכר"
 
 #. Type: text
 #. Description
@@ -782,7 +782,7 @@ msgstr "לא נמצא לקוח DHCP. החבילה הנוכחית דורשת pump
 #. :sl2:
 #: ../netcfg-dhcp.templates:5001
 msgid "The DHCP configuration process has been aborted."
-msgstr "תהליך הגדרת של DHCP בוטל."
+msgstr "תהליך הגדרת DHCP בוטל."
 
 #. Type: select
 #. Choices
@@ -870,7 +870,7 @@ msgstr ""
 #. :sl2:
 #: ../netcfg-dhcp.templates:8001
 msgid "Continue without a default route?"
-msgstr "להמשיך בלי ניתוב ברירת מחדל?"
+msgstr "להמשיך ללא ניתוב בררת מחדל?"
 
 #. Type: boolean
 #. Description
@@ -883,10 +883,10 @@ msgid ""
 "have the first installation CD-ROM, a 'Netinst' CD-ROM, or packages "
 "available on the local network."
 msgstr ""
-"הגדרת רשת אוטומטית הצליחה. למרות זאת לא נקבע ניתוב ברירת מחדל: המערכת לא "
-"יודעת כיצד לתקשר עם מחשבים באינטרנט. ולפיכך, לא ניתן להמשיך בהתקנה אלא אם יש "
-"לך את תקליטור ההתקנה הראשון, תקליטור התקנת רשת (Netinst CD), או מאגר חבילות "
-"שזמין ברשת המקומית שלך."
+"הגדרת הרשת באופן אוטומטי הצליחה. עם זאת לא נקבע ניתוב בררת מחדל: המערכת לא "
+"יודעת כיצד לתקשר עם מחשבים באינטרנט. לכן, לא ניתן להמשיך בהתקנה אלא אם יש לך "
+"את תקליטור ההתקנה הראשון, תקליטור התקנת רשת (Netinst CD), או מאגר חבילות "
+"שזמין לרשת המקומית שלך."
 
 #. Type: boolean
 #. Description
@@ -896,8 +896,8 @@ msgid ""
 "If you are unsure, you should not continue without a default route: contact "
 "your local network administrator about this problem."
 msgstr ""
-"אם אינך בטוח, לא כדאי שתמשיך בלי נתיב ברירת מחדל: צורך קשר עם מנהל הרשת שלך "
-"לגבי בעיה זאת."
+"במקרה של חוסר ודאות, לא כדאי להמשיך ללא נתיב בררת מחדל: יש ליצור קשר עם מנהל "
+"הרשת שלך לגבי בעיה זאת."
 
 #. Type: text
 #. Description
@@ -916,7 +916,7 @@ msgstr "הרשת האלחוטית מוגדרת מחדש"
 #. :sl2:
 #: ../netcfg-dhcp.templates:12001 ../netcfg-dhcp.templates:14001
 msgid "Attempting IPv6 autoconfiguration..."
-msgstr "מנסה להגדיר אוטומטית דרך IPv6..."
+msgstr "מתבצע ניסיון להגדרת IPv6 אוטומטית…"
 
 #. Type: text
 #. Description
@@ -924,7 +924,7 @@ msgstr "מנסה להגדיר אוטומטית דרך IPv6..."
 #. :sl2:
 #: ../netcfg-dhcp.templates:13001
 msgid "Waiting for link-local address..."
-msgstr "מחכה לכתובת קישור מקומי (link-local)..."
+msgstr "בהמתנה לכתובת קישור מקומי (link-local)…"
 
 #. Type: text
 #. Description
@@ -996,9 +996,9 @@ msgid ""
 "blocks of hexadecimal digits separated by colons (an IPv6 address). Please "
 "try again."
 msgstr ""
-"כתובת ה-IP שספקת אינה תקינה. היא צריכה להיות במבנה של x.x.x.x כאשר כל x הינו "
-"מספר שאינו גדול מ‑255 (כתובת IPv4), או רצף של בלוקים של תווים הקסדצימליים "
-"המופרדים על ידי נקודותיים (כתובת IPv6). אנא נסה שוב."
+"מבנה כתובת ה־IP שסיפקת שגוי. על הכתובת להיות במבנה של x.x.x.x כאשר כל x "
+"מייצג שאינו עולה על 255 (כתובת IPv4), או רצף מקטעים של תווים הקסדצימליים "
+"המופרדים בנקודתיים (כתובת IPv6). נא לנסות שוב."
 
 #. Type: string
 #. Description
@@ -1017,9 +1017,9 @@ msgid ""
 "know the value.  The point-to-point address should be entered as four "
 "numbers separated by periods."
 msgstr ""
-"כתובת הנקודה לנקודה שמשתמש כדי לקבוע את הנקודה השנייה ברשת הנקודה לנקודה. "
-"התייעץ עם מנהל הרשת שלך, אם אינך יודע את הערך הנכון. מסכת הרשת שלך צריכה "
-"להיות 4 מספרים מופרדים בנקודות."
+"הכתובת עבור נקודה לנקודה משמשת לאיתור הנקודה השנייה בתקשורת. כדאי לפנות "
+"למנהל הרשת אם הערך אינו הדרוש אינו ידוע לך. יש להקליד את הכתובת בתצורת ארבע "
+"מספרים המופרדים בנקודות."
 
 #. Type: string
 #. Description
@@ -1071,14 +1071,14 @@ msgstr ""
 #. :sl2:
 #: ../netcfg-static.templates:6001
 msgid "Unreachable gateway"
-msgstr "gateway לא נגיש"
+msgstr "שער גישה בלתי נגיש"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../netcfg-static.templates:6001
 msgid "The gateway address you entered is unreachable."
-msgstr "כתובת ה-gateway שהכנסת אינה ניתנת להשגה."
+msgstr "כתובת שער הגישה שהקלדת אינה נגישה."
 
 #. Type: error
 #. Description
@@ -1086,7 +1086,7 @@ msgstr "כתובת ה-gateway שהכנסת אינה ניתנת להשגה."
 #: ../netcfg-static.templates:6001
 msgid ""
 "You may have made an error entering your IP address, netmask and/or gateway."
-msgstr "ייתכן שעשית שגיאה בהכנסת כתובת ה-IP, מסכת הרשת, או ה-gateway."
+msgstr "יתכן ששגית בהקלדת כתובת ה־IP, מסכת הרשת ו/או שער הגישה שלך."
 
 #. Type: error
 #. Description
