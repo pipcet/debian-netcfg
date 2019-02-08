@@ -21,14 +21,14 @@
 # Meni Livne <livne@kde.org>, 2000.
 # Meital Bourvine <meitalbourvine@gmail.com>, 2007.
 # Lior Kaplan <kaplan@debian.org>, 2004-2007, 2008, 2010, 2011, 2015, 2017.
-# Yaron Shahrabani <sh.yaron@gmail.com>, 2018.
+# Yaron Shahrabani <sh.yaron@gmail.com>, 2018, 2019.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
 "POT-Creation-Date: 2012-11-03 22:02+0000\n"
-"PO-Revision-Date: 2019-01-18 15:20+0000\n"
+"PO-Revision-Date: 2019-02-08 13:09+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew (https://www.transifex.com/yaron/teams/79473/he/)\n"
 "Language: he\n"
@@ -102,10 +102,10 @@ msgid ""
 "first to be queried. If you don't want to use any name server, just leave "
 "this field blank."
 msgstr ""
-"שרתי שמות משמשים לחיפוש שמות שרתים ברשת. הכנס כתובות IP (לא שם שרת) של עד "
-"שלושה שרתי שמות, מופרדים ברווחים. אל תשתמש בפסיקים. שרת השמות הראשון ברשימה "
-"יהיה הראשון שתישלח אליו שאילתה. אם אינך רוצה להשתמש בשרת שמות, השאר את השדה "
-"ריק."
+"שרתי שמות משמשים לחיפוש שמות מחשבים ברשת. יש להקליד כתובות IP (לא שם מחשב) "
+"של עד שלושה שרתי שמות, מופרדים ברווחים. לא להשתמש בפסיקים. שרת השמות הראשון "
+"ברשימה יהיה הראשון שתישלח אליו שאילתה. אם אין לך עניין בשימוש בשרתי שמות "
+"כלל, ניתן להשאיר את השדה הזה ריק."
 
 #. Type: select
 #. Description
