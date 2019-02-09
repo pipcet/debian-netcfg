@@ -1,3 +1,15 @@
+netcfg (1.158) unstable; urgency=medium
+  * Team upload
+
+  [ Updated translations ]
+  * Persian (fa.po) by nima sahraneshin
+  * Finnish (fi.po) by Juhani Numminen
+  * Hebrew (he.po) by Yaron Shahrabani
+  * Kazakh (kk.po) by Baurzhan Muftakhidinov
+  * Traditional Chinese (zh_TW.po) by Louies
+
+ -- Holger Wansing <hwansing@mailbox.org>  Sat, 09 Feb 2019 09:36:32 +0100
+
 netcfg (1.157) unstable; urgency=medium
   * Team upload
 
