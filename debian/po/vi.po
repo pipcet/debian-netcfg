@@ -9,21 +9,18 @@
 # Jean Christophe André <progfou@gmail.com>
 # Vũ Quang Trung <vu.quang.trung@auf.org>
 # Trịnh Minh Thành <tmthanh@yahoo.com>
+# Nguyễn Hùng Vũ <vuhung16@bigfoot.com>, 2001.
 # Clytie Siddall <clytie@riverland.net.au>, 2005-2010
 # Hai-Nam Nguyen <hainam@jcisio.com>, 2012
-#
-# Translations from iso-codes:
-# Clytie Siddall <clytie@riverland.net.au>, 2005-2009.
-# Copyright © 2009 Free Software Foundation, Inc.
-# Nguyễn Hùng Vũ <vuhung16@bigfoot.com>, 2001.
+# Trần Ngọc Quân <vnwildman@gmail.com>, 2018, 2019.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: debian-installer Level 1\n"
+"Project-Id-Version: debian-installer sublevel1\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
 "POT-Creation-Date: 2012-11-03 22:02+0000\n"
-"PO-Revision-Date: 2012-09-21 07:51+0100\n"
-"Last-Translator: Hai-Nam Nguyen <hainam@jcisio.com>\n"
+"PO-Revision-Date: 2019-02-27 14:34+0700\n"
+"Last-Translator: Trần Ngọc Quân <vnwildman@gmail.com>\n"
 "Language-Team: Vietnamese <debian-l10n-vietnamese@lists.debian.org>\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
@@ -51,9 +48,10 @@ msgid ""
 "the installer is unable to get a working configuration from the network, you "
 "will be given the opportunity to configure the network manually."
 msgstr ""
-"Cấu hình có thể làm thủ công hoặc, hoặc dùng DHCP (hoặc các phương pháp IPv6 "
-"khác) để tìm cấu hình mạng tự động. Nếu bạn chọn Tự động Cấu hình nhưng hệ "
-"thống không lấy được cấu hình, sẽ yêu cầu bạn làm thủ công."
+"Mạng có thể cấu hình hoặc là nhập mọi thông tin một cách thủ công hoặc dùng "
+"DHCP (hoặc các phương pháp IPv6 khác) để dò tìm cấu hình mạng tự động. Nếu "
+"bạn chọn tự động cấu hình và bộ cài đặt không lấy được cấu hình từ màng, sẽ "
+"yêu cầu bạn cấu hình mạng một cách thủ công."
 
 #. Type: string
 #. Description
@@ -79,7 +77,7 @@ msgstr ""
 " .edu\t\tgiao dục\n"
 " .org\t\t\ttổ chức.\n"
 " .info\t\t\tthông tin\n"
-"Nếu bạn đang thiết lập một mạng ở nhà, vẫn có thể tạo tên miền (vì nó không "
+"Nếu bạn đang cài đặt một mạng ở nhà, vẫn có thể tạo tên miền (vì nó không "
 "phải thuộc về Mạng bên ngoại), nhưng hãy chắc là bạn dùng cùng một tên miền "
 "trên mọi máy vi tính trên mạng cục bộ."
 
@@ -135,7 +133,7 @@ msgstr ""
 #. :sl1:
 #: ../netcfg-common.templates:6001 ../netcfg-common.templates:7001
 msgid "Wireless ESSID for ${iface}:"
-msgstr "ESSID vô tuyến cho ${iface}:"
+msgstr "ESSID không dây cho ${iface}:"
 
 #. Type: string
 #. Description
@@ -146,16 +144,16 @@ msgid ""
 "of the wireless network you would like ${iface} to use. If you would like to "
 "use any available network, leave this field blank."
 msgstr ""
-"${iface} là một giao diện mạng vô tuyến (wireless). Hãy nhập tên (ESSID) của "
-"giao diện mạng vô tuyến nào bạn muốn ${iface} sử dụng. Nếu bạn muốn sử dụng "
-"bất cứ mạng sẵn sằng nào, hãy bỏ trường này rỗng."
+"${iface} là một giao diện mạng không dây (wireless). Hãy nhập tên (ESSID) "
+"của giao diện mạng không dây nào bạn muốn ${iface} sử dụng. Nếu bạn muốn sử "
+"dụng bất cứ mạng sẵn sằng nào, hãy bỏ trường này rỗng."
 
 #. Type: string
 #. Description
 #. :sl1:
 #: ../netcfg-common.templates:7001
 msgid "Attempting to find an available wireless network failed."
-msgstr "Việc thử tìm mạng vô tuyến sẵn sàng bị lỗi."
+msgstr "Việc thử tìm mạng không dây sẵn sàng bị lỗi."
 
 #. Type: string
 #. Description
@@ -166,9 +164,9 @@ msgid ""
 "of the wireless network you would like ${iface} to use. To connect to any "
 "available network, leave this field blank."
 msgstr ""
-"${iface} là một giao diện mạng vô tuyến. Hãy nhập tên (ESSID) của giao diện "
-"mạng vô tuyến bạn muốn ${iface} sử dụng. Để kết nối với bất kì mạng vô tuyến "
-"nào có sẵn, hãy để trống trường này."
+"${iface} là một giao diện mạng không dây. Hãy nhập tên (ESSID) của giao diện "
+"mạng không dây bạn muốn ${iface} sử dụng. Để kết nối với bất kì mạng không "
+"dây nào có sẵn, hãy để trống trường này."
 
 #. Type: select
 #. Choices
@@ -205,7 +203,7 @@ msgstr ""
 #. :sl2:
 #: ../netcfg-common.templates:9001
 msgid "WEP key for wireless device ${iface}:"
-msgstr "Khoá WEP cho thiết bị vô tuyến ${iface}:"
+msgstr "Khóa WEP cho thiết bị không dây ${iface}:"
 
 #. Type: string
 #. Description
@@ -215,8 +213,8 @@ msgid ""
 "If applicable, please enter the WEP security key for the wireless device "
 "${iface}. There are two ways to do this:"
 msgstr ""
-"Nếu thích hợp, hãy nhập khoá bảo mật (security key) WEP cho thiết bị vô "
-"tuyến ${iface}. Có hai phương pháp:"
+"Nếu thích hợp, hãy nhập khóa bảo mật (security key) WEP cho thiết bị không "
+"dây ${iface}. Có hai phương pháp:"
 
 #. Type: string
 #. Description
@@ -226,9 +224,9 @@ msgid ""
 "If your WEP key is in the format 'nnnn-nnnn-nn', 'nn:nn:nn:nn:nn:nn:nn:nn', "
 "or 'nnnnnnnn', where n is a number, just enter it as it is into this field."
 msgstr ""
-"Nếu khoá WEP của bạn có định dạng « nnnn-nnnn-nn », « nn:nn:nn:nn:nn:nn:nn:"
-"nn », hay « nnnnnnnn », mà « n » là con số, chỉ đơn giản hãy nhập dãy số đó "
-"vào trường này."
+"Nếu khóa WEP của bạn có định dạng “nnnn-nnnn-nn”, “nn:nn:nn:nn:nn:nn:nn:nn”, "
+"hay “nnnnnnnn”, mà “n” là con số, chỉ đơn giản hãy nhập dãy số đó vào trường "
+"này."
 
 #. Type: string
 #. Description
@@ -238,8 +236,8 @@ msgid ""
 "If your WEP key is in the format of a passphrase, prefix it with "
 "'s:' (without quotes)."
 msgstr ""
-"Nếu khoá WEP của ban co định dạng cụm từ mật khẩu (passphrase), hãy thêm chữ "
-"« s » và dấu hai chấm vào đầu khoá đó : « s:cụm_từ_mật_khẩu »."
+"Nếu khóa WEP của ban co định dạng cụm từ mật khẩu (passphrase), hãy thêm chữ "
+"“s” và dấu hai chấm vào đầu khóa đó : “s:cụm_từ_mật_khẩu”."
 
 #. Type: string
 #. Description
@@ -249,7 +247,7 @@ msgid ""
 "Of course, if there is no WEP key for your wireless network, leave this "
 "field blank."
 msgstr ""
-"Tất nhiên, nếu không có khoá WEP cho mạng vô tuyến của bạn, hãy bỏ trường "
+"Tất nhiên, nếu không có khóa WEP cho mạng không dây của bạn, hãy bỏ trường "
 "này rỗng."
 
 #. Type: error
@@ -267,15 +265,15 @@ msgid ""
 "The WEP key '${wepkey}' is invalid. Please refer to the instructions on the "
 "next screen carefully on how to enter your WEP key correctly, and try again."
 msgstr ""
-"Khóa WEP « ${wepkey} » không hợp lệ. Hãy tham chiếu cẩn thận đến những hướng "
-"dẫn trên màn hình kế tiếp về cách nhập khoá WEP cho đúng, rồi thư lại."
+"Khóa WEP “${wepkey}” không hợp lệ. Hãy tham chiếu cẩn thận đến những hướng "
+"dẫn trên màn hình kế tiếp về cách nhập khóa WEP cho đúng, rồi thư lại."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../netcfg-common.templates:11001
 msgid "Invalid passphrase"
-msgstr "Mật ngữ không hợp lệ"
+msgstr "Mật khẩu không hợp lệ"
 
 #. Type: error
 #. Description
@@ -285,7 +283,7 @@ msgid ""
 "The WPA/WPA2 PSK passphrase was either too long (more than 64 characters) or "
 "too short (less than 8 characters)."
 msgstr ""
-"Mật ngữ WPA/WPA2 PSK quá dài (vượt quá 64 kí tự) hoặc quá ngắn (ít hơn 8 kí "
+"Mật khẩu WPA/WPA2 PSK quá dài (vượt quá 64 kí tự) hoặc quá ngắn (ít hơn 8 kí "
 "tự)."
 
 #. Type: string
@@ -293,7 +291,7 @@ msgstr ""
 #. :sl2:
 #: ../netcfg-common.templates:12001
 msgid "WPA/WPA2 passphrase for wireless device ${iface}:"
-msgstr "Mật ngữ WPA/WPA2 cho thiết bị không dây ${iface}:"
+msgstr "Mật khẩu WPA/WPA2 cho thiết bị không dây ${iface}:"
 
 #. Type: string
 #. Description
@@ -303,7 +301,7 @@ msgid ""
 "Enter the passphrase for WPA/WPA2 PSK authentication. This should be the "
 "passphrase defined for the wireless network you are trying to use."
 msgstr ""
-"Nhập mật ngữ xác thực WPA/WPA2 PSK. Đây là mật ngữ của mạng không dây bạn "
+"Nhập mật khẩu xác thực WPA/WPA2 PSK. Đây là mật khẩu của mạng không dây bạn "
 "đang định sử dụng."
 
 #. Type: error
@@ -329,7 +327,7 @@ msgstr ""
 #. :sl2:
 #: ../netcfg-common.templates:14001
 msgid "Attempting to exchange keys with the access point..."
-msgstr "Đang thử trao đổi khóa với điểm truy cập..."
+msgstr "Đang thử trao đổi khóa với điểm truy cập…"
 
 #. Type: text
 #. Description
@@ -339,7 +337,7 @@ msgstr "Đang thử trao đổi khóa với điểm truy cập..."
 #. :sl1:
 #: ../netcfg-common.templates:15001 ../netcfg-dhcp.templates:3001
 msgid "This may take some time."
-msgstr "Có thể kéo dài một lát."
+msgstr "Việc này có thể cần một ít thời gian."
 
 #. Type: text
 #. Description
@@ -364,7 +362,7 @@ msgid ""
 "check the WPA/WPA2 parameters you provided."
 msgstr ""
 "Trao đổi khóa và kết hợp với điểm truy cập thất bại. Vui lòng kiểm tra lại "
-"thiết lập WPA/WPA2 của bạn."
+"các tham số WPA/WPA2 của bạn."
 
 #. Type: string
 #. Description
@@ -391,9 +389,9 @@ msgid ""
 "something up here."
 msgstr ""
 "Tên máy (hostname) là một từ riêng lẻ nhận biết hệ thống của bạn cho mạng. "
-"Nếu bạn chưa biết tên máy nên là gì, hãy hỏi quản trị mạng. Nếu bạn đang "
-"thiết lập mạng ở nhà, vẫn có thể tạo gì ở đây (vì nó không có tác dụng Mạng "
-"bên ngoài)."
+"Nếu bạn chưa biết tên máy nên là gì, hãy hỏi quản trị mạng. Nếu bạn đang cài "
+"đặt mạng ở nhà, vẫn có thể tạo gì ở đây (vì nó không có tác dụng Mạng bên "
+"ngoài)."
 
 #. Type: error
 #. Description
@@ -407,7 +405,7 @@ msgstr "Tên máy không hợp lệ"
 #. :sl2:
 #: ../netcfg-common.templates:20001
 msgid "The name \"${hostname}\" is invalid."
-msgstr "Tên máy « ${hostname} » không phải hợp lệ."
+msgstr "Tên máy “${hostname}” không hợp lệ."
 
 #. Type: error
 #. Description
@@ -467,7 +465,7 @@ msgid ""
 "You may need to load a specific module for your network card, if you have "
 "one. For this, go back to the network hardware detection step."
 msgstr ""
-"Bạn có thể cần phải nạp một mô-đun dành cho thẻ mạng, nếu có. Để làm như "
+"Bạn có thể cần phải tải một mô-đun dành cho thẻ mạng, nếu có. Để làm như "
 "thế, hãy trở về bước phát hiện phần cứng mạng."
 
 #. Type: note
@@ -490,7 +488,7 @@ msgid ""
 "\". If you intend to use this interface, please switch it on before "
 "continuing."
 msgstr ""
-"Có vẻ là ${iface} đã bị tắt bằng một « cái chuyển buộc kết thúc » (kill "
+"Có vẻ là ${iface} đã bị tắt bằng một “cái chuyển buộc kết thúc” (kill "
 "switch) vật lý. Nếu bạn định sử dụng giao diện này, hãy bật nó trước khi "
 "tiếp tục lại."
 
@@ -504,7 +502,7 @@ msgstr ""
 #. You MUST NOT use commas inside choices
 #: ../netcfg-common.templates:24001
 msgid "Infrastructure (Managed) network"
-msgstr "mạng hạ tầng cơ sở (đã quản lý)"
+msgstr "Mạng hạ tầng cơ sở (có quản lý)"
 
 #. Type: select
 #. Choices
@@ -516,13 +514,13 @@ msgstr "mạng hạ tầng cơ sở (đã quản lý)"
 #. You MUST NOT use commas inside choices
 #: ../netcfg-common.templates:24001
 msgid "Ad-hoc network (Peer to peer)"
-msgstr "mạng như có (đồng đẳng)"
+msgstr "Mạng Ad-hoc (ngang hàng)"
 
 #. Type: select
 #. Description
 #: ../netcfg-common.templates:24002
 msgid "Type of wireless network:"
-msgstr "Kiểu mạng vô tuyến:"
+msgstr "Kiểu mạng không dây:"
 
 #. Type: select
 #. Description
@@ -532,30 +530,30 @@ msgid ""
 "point of some sort, your network is Managed. If another computer is your "
 "'access point', then your network may be Ad-hoc."
 msgstr ""
-"Mạng vô tuyến hoặc là « Đã quản lý » (managed) hoặc là « Như có  » (ad-hoc). "
-"Nếu bạn sử dụng một điểm truy cập (access point) thật kiểu nào, mạng của bạn "
-"Đã quản lý. Còn nếu máy vi tính khác thay quyền điểm truy cập, mạng của bạn "
-"có thể là Như có."
+"Mạng không dây hoặc là “Đã quản lý” (managed) hoặc là “Như có” (ad-hoc). Nếu "
+"bạn sử dụng một điểm truy cập (access point) thật kiểu nào, mạng của bạn Đã "
+"quản lý. Còn nếu máy vi tính khác thay quyền điểm truy cập, mạng của bạn có "
+"thể là Như có."
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../netcfg-common.templates:25001
 msgid "Wireless network configuration"
-msgstr "Cấu hình mạng vô tuyến"
+msgstr "Cấu hình mạng không dây"
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../netcfg-common.templates:26001
 msgid "Searching for wireless access points..."
-msgstr "Đang tìm kiếm các điểm truy cập vô tuyến..."
+msgstr "Đang tìm kiếm các điểm truy cập không dây…"
 
 #. Type: text
 #. Description
 #: ../netcfg-common.templates:29001
 msgid "Detecting link on ${interface}; please wait..."
-msgstr "Đang dò tìm kết nối trên ${interface}; hãy chờ..."
+msgstr "Đang dò tìm kết nối trên ${interface}; hãy chờ…"
 
 #. Type: text
 #. Description
@@ -569,14 +567,14 @@ msgstr "<không có>"
 #. :sl2:
 #: ../netcfg-common.templates:31001
 msgid "Wireless ethernet (802.11x)"
-msgstr "Ethernet vô tuyến (802.11x)"
+msgstr "Ethernet không dây (802.11x)"
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../netcfg-common.templates:32001
 msgid "wireless"
-msgstr "vô tuyến"
+msgstr "không dây"
 
 #. Type: text
 #. Description
@@ -605,7 +603,7 @@ msgstr "Mạng USB"
 #. :sl2:
 #: ../netcfg-common.templates:37001
 msgid "Serial-line IP"
-msgstr "IP dòng nối tiếp"
+msgstr "IP cổng nối tiếp"
 
 #. Type: text
 #. Description
@@ -669,7 +667,7 @@ msgstr "Giao diện lạ"
 #. :sl1:
 #: ../netcfg-common.templates:47001
 msgid "Storing network settings..."
-msgstr "Đang ghi lưu thiết lập mạng..."
+msgstr "Đang lưu các cài đạt mạng…"
 
 #. Type: text
 #. Description
@@ -719,21 +717,21 @@ msgstr ""
 #. :sl1:
 #: ../netcfg-common.templates:52001
 msgid "${essid_list} Enter ESSID manually"
-msgstr "${essid_list} Hãy nhập ESSID thủ công"
+msgstr "${essid_list} Nhập ESSID thủ công"
 
 #. Type: select
 #. Description
 #. :sl1:
 #: ../netcfg-common.templates:52002
 msgid "Wireless network:"
-msgstr "Mạng vô tuyến:"
+msgstr "Mạng không dây:"
 
 #. Type: select
 #. Description
 #. :sl1:
 #: ../netcfg-common.templates:52002
 msgid "Select the wireless network to use during the installation process."
-msgstr "Chọn mạng vô tuyến bạn muốn sử dụng trong quá trình cài đặt."
+msgstr "Chọn mạng không dây bạn muốn sử dụng trong quá trình cài đặt."
 
 #. Type: string
 #. Description
@@ -788,8 +786,8 @@ msgstr "Không tìm thấy ứng dụng khách DHCP"
 #: ../netcfg-dhcp.templates:5001
 msgid "No DHCP client was found. This package requires pump or dhcp-client."
 msgstr ""
-"Không tìm thấy ứng dụng khách DHCP nào. Gói này cần đến gói « pump » hay « "
-"dhcp-client »."
+"Không tìm thấy ứng dụng khách DHCP nào. Gói này cần đến gói “pump” hay “dhcp-"
+"client”."
 
 #. Type: error
 #. Description
@@ -920,7 +918,7 @@ msgstr ""
 #. :sl1:
 #: ../netcfg-dhcp.templates:9001
 msgid "Reconfigure the wireless network"
-msgstr "Cấu hình lại mạng vô tuyến"
+msgstr "Cấu hình lại mạng không dây"
 
 #. Type: text
 #. Description
@@ -932,7 +930,7 @@ msgstr "Cấu hình lại mạng vô tuyến"
 #. :sl2:
 #: ../netcfg-dhcp.templates:12001 ../netcfg-dhcp.templates:14001
 msgid "Attempting IPv6 autoconfiguration..."
-msgstr "Đang thử tự cấu hình IPv6..."
+msgstr "Đang thử tự cấu hình IPv6…"
 
 #. Type: text
 #. Description
@@ -940,7 +938,7 @@ msgstr "Đang thử tự cấu hình IPv6..."
 #. :sl2:
 #: ../netcfg-dhcp.templates:13001
 msgid "Waiting for link-local address..."
-msgstr "Đang chờ địa chỉ liên kết cục bộ..."
+msgstr "Đang chờ địa chỉ liên kết cục bộ…"
 
 #. Type: text
 #. Description
@@ -983,7 +981,7 @@ msgstr ""
 #. :sl1:
 #: ../netcfg-static.templates:1001
 msgid "You can also optionally append a CIDR netmask (such as \"/24\")."
-msgstr "Bạn có thể thêm mặt nạ mang CIDR (thí dụ \"/24\")."
+msgstr "Bạn có thể thêm mặt nạ mạng CIDR (thí dụ \"/24\")."
 
 #. Type: string
 #. Description
@@ -991,7 +989,7 @@ msgstr "Bạn có thể thêm mặt nạ mang CIDR (thí dụ \"/24\")."
 #. :sl1:
 #: ../netcfg-static.templates:1001
 msgid "If you don't know what to use here, consult your network administrator."
-msgstr "Nếu bạn chưa hiểu, hãy hỏi quản trị mạng."
+msgstr "Nếu bạn chưa biết dùng gì ở đây, hãy hỏi người quản trị mạng."
 
 #. Type: error
 #. Description
@@ -1012,7 +1010,7 @@ msgid ""
 "blocks of hexadecimal digits separated by colons (an IPv6 address). Please "
 "try again."
 msgstr ""
-"Địa chỉ IP bạn nhập không đúng. IP phải có dạng x.x.x.x, trong đó 'x' không "
+"Địa chỉ IP bạn nhập không đúng. IP phải có dạng x.x.x.x, trong đó “x” không "
 "lớn hơn 255 (với IPv4), hoặc chuỗi số thập lục phân ngăn cách bởi các dấu "
 "hai chấm (với địa chỉ IPv6). Hãy thử lại."
 
@@ -1036,7 +1034,7 @@ msgstr ""
 "Địa chỉ điểm-đến-điểm (Point-to-Point, PPP) được dùng để quyết định điểm "
 "cuối khác của mạng điểm-đến-điểm. Hãy liên lạc với quản trị mạng nếu bạn "
 "chưa biết giá trị này. Cần phải nhập địa chỉ điểm-đến-điểm có dạng bốn con "
-"số định giới bằng dấu chấm (v.d. « 127.0.0.0 »)."
+"số định giới bằng dấu chấm (v.d. “127.0.0.0”)."
 
 #. Type: string
 #. Description
@@ -1056,8 +1054,8 @@ msgid ""
 msgstr ""
 "Mặt nạ mạng (netmask) được dùng để quyết định những máy nào nằm trong mạng "
 "cục bộ của bạn. Hãy liên lạc với quản trị mạng nếu bạn chưa biết giá trị "
-"này. Cần phải nhập mặt nạ mạng có dạng bốn con số định giới bằng dấu chấm (v."
-"d. « 127.0.0.0 »)."
+"này. Cần phải nhập mặt nạ mạng có dạng bốn con số ngăn cách nhau bằng dấu "
+"chấm (v.d. “127.0.0.0”)."
 
 #. Type: string
 #. Description
@@ -1081,7 +1079,7 @@ msgstr ""
 "Cổng ra (gateway) là một địa chỉ IP (bốn con số định giới bằng dấu phẩy) mà "
 "ngụ ý bộ định tuyến cổng ra (gateway router), cũng được biết như là bộ định "
 "tuyến mặc định. Tất cả dữ liệu được truyền bên ngoại mạng cục bộ (LAN) của "
-"bạn (chẳng hạn lên Mạng) được gởi qua bộ định tuyến này. Rất ít thiết lập "
+"bạn (chẳng hạn lên Mạng) được gởi qua bộ định tuyến này. Rất ít cài đặt "
 "không có bộ định tuyến nào ; trong trường hợp đó, bạn có thể bỏ trường này "
 "rỗng. Nếu bạn chưa biết trả lời đúng cho câu hỏi này, hãy liên lạc với quản "
 "trị mạng."
@@ -1154,12 +1152,12 @@ msgid ""
 " pointopoint   = ${pointopoint}\n"
 " nameservers   = ${nameservers}"
 msgstr ""
-" giao diện\t\t${interface}\n"
-" địa chỉ IP\t\t${ipaddress}\n"
-" mặt nạ mạng\t\t${netmask}\n"
-" cổng ra\t\t\t${gateway}\n"
-" điểm-đến-điểm\t${pointopoint}\n"
-" máy phục vụ tên\t${nameservers}"
+" giao diện       = ${interface}\n"
+" địa chỉ IP      = ${ipaddress}\n"
+" mặt nạ mạng     = ${netmask}\n"
+" cổng ra         = ${gateway}\n"
+" điểm-đến-điểm   = ${pointopoint}\n"
+" máy phục vụ tên = ${nameservers}"
 
 #. Type: text
 #. Description
@@ -1167,4 +1165,4 @@ msgstr ""
 #. :sl1:
 #: ../netcfg-static.templates:9001
 msgid "Configure a network using static addressing"
-msgstr "Cấu hình mạng bằng khả năng gán địa chỉ tĩnh"
+msgstr "Cấu hình mạng bằng cách gán địa chỉ cố định"
