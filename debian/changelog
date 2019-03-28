@@ -1,3 +1,11 @@
+netcfg (1.160) unstable; urgency=medium
+  * Team upload
+
+  [ Updated translations ]
+  * Ukrainian (uk.po) by Anton Gladky
+
+ -- Holger Wansing <hwansing@mailbox.org>  Thu, 28 Mar 2019 18:56:21 +0100
+
 netcfg (1.159) unstable; urgency=medium
   * Team upload
 
