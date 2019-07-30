@@ -1,11 +1,19 @@
-netcfg (1.161) UNRELEASED; urgency=medium
+netcfg (1.161) unstable; urgency=medium
 
+  * Team upload
+
+  [ Cyril Brulebois ]
   * Remove Christian Perrier from Uploaders, with many thanks for all
     his contributions over the years! (Closes: #927498)
 
- -- Cyril Brulebois <kibi@debian.org>  Sat, 20 Apr 2019 22:36:48 +0200
+  [ Updated translations ]
+  * Arabic (ar.po) by ButterflyOfFire
+  * Croatian (hr.po) by gogogogi
+
+ -- Holger Wansing <hwansing@mailbox.org>  Tue, 30 Jul 2019 23:01:50 +0200
 
 netcfg (1.160) unstable; urgency=medium
+
   * Team upload
 
   [ Updated translations ]
@@ -14,6 +22,7 @@ netcfg (1.160) unstable; urgency=medium
  -- Holger Wansing <hwansing@mailbox.org>  Thu, 28 Mar 2019 18:56:21 +0100
 
 netcfg (1.159) unstable; urgency=medium
+
   * Team upload
 
   [ Updated translations ]
@@ -22,6 +31,7 @@ netcfg (1.159) unstable; urgency=medium
  -- Holger Wansing <hwansing@mailbox.org>  Mon, 04 Mar 2019 23:55:30 +0100
 
 netcfg (1.158) unstable; urgency=medium
+
   * Team upload
 
   [ Updated translations ]
@@ -34,6 +44,7 @@ netcfg (1.158) unstable; urgency=medium
  -- Holger Wansing <hwansing@mailbox.org>  Sat, 09 Feb 2019 09:36:32 +0100
 
 netcfg (1.157) unstable; urgency=medium
+
   * Team upload
 
   [ Colin Watson ]
