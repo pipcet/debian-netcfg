@@ -4,7 +4,7 @@
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
 # Spanish messages for debian-installer.
-# Copyright (C) 2003-2007 Software in the Public Interest, Inc.
+# Copyright (C) 2003-2018 Software in the Public Interest, Inc.
 # This file is distributed under the same license as debian-installer.
 #
 # Contributors to the translation of debian-installer:
@@ -17,7 +17,7 @@
 # Enrique Matias Sanchez (aka Quique) <cronopios@gmail.com>, 2005
 # Rubén Porras Campo <nahoo@inicia.es>, 2005
 # Omar Campagne <ocampagne@gmail.com>, 2010
-# Javier Fernández-Sanguino <jfs@debian.org>, 2003-2012, 2014
+# Javier Fernández-Sanguino <jfs@debian.org>, 2003-2012, 2014-2018
 #
 # Equipo de traducción al español, por favor lean antes de traducir
 # los siguientes documentos:
@@ -58,9 +58,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
-"POT-Creation-Date: 2012-11-03 22:02+0000\n"
-"PO-Revision-Date: 2014-12-03 00:47+0100\n"
-"Last-Translator: Javier Fernández-Sanguino Peña <jfs@debian.org>\n"
+"POT-Creation-Date: 2019-08-15 19:16+0000\n"
+"PO-Revision-Date: 2018-12-19 23:49+0100\n"
+"Last-Translator: Javier Fernández-Sanguino <jfs@debian.org>\n"
 "Language-Team:  Debian Spanish <debian-l10n-spanish@lists.debian.org>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -825,10 +825,10 @@ msgstr "No se encontró un cliente DHCP"
 #. Description
 #. :sl2:
 #: ../netcfg-dhcp.templates:5001
-msgid "No DHCP client was found. This package requires pump or dhcp-client."
+msgid ""
+"No DHCP client was found. Please make sure, that a dhcp installer component "
+"is installed."
 msgstr ""
-"No se ha encontrado un cliente DHCP. Este paquete requiere «pump» o «dhcp-"
-"client»."
 
 #. Type: error
 #. Description

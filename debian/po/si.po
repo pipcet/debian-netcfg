@@ -17,8 +17,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
-"POT-Creation-Date: 2012-11-03 22:02+0000\n"
-"PO-Revision-Date: 2012-09-24 17:59+0530\n"
+"POT-Creation-Date: 2019-08-15 19:16+0000\n"
+"PO-Revision-Date: 2012-02-28 10:16+0530\n"
 "Last-Translator: Danishka Navin <danishka@gmail.com>\n"
 "Language-Team: Sinhala <info@hanthana.org>\n"
 "Language: si\n"
@@ -760,9 +760,10 @@ msgstr "කිසිඳු DHCP සේවාලාභියෙක් හමු �
 #. Description
 #. :sl2:
 #: ../netcfg-dhcp.templates:5001
-msgid "No DHCP client was found. This package requires pump or dhcp-client."
+msgid ""
+"No DHCP client was found. Please make sure, that a dhcp installer component "
+"is installed."
 msgstr ""
-"කිසිඳු DHCP සේවාලාභියෙක් හමු නොවිනි. මෙම පැකේජයට පොම්පයක් හෝ dhcp-සේවාලාභියෙක් ඇවැසියි."
 
 #. Type: error
 #. Description

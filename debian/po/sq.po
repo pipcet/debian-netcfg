@@ -20,9 +20,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
-"POT-Creation-Date: 2012-11-03 22:02+0000\n"
-"PO-Revision-Date: 2017-09-04 19:14+0200\n"
-"Last-Translator: Silva Arapi <silva.arapi@gmail.com>\n"
+"POT-Creation-Date: 2019-08-15 19:16+0000\n"
+"PO-Revision-Date: 2017-09-11 23:13+0300\n"
+"Last-Translator: Sotirios Vrachas <sotirios@vrachas.net>\n"
 "Language-Team: Albanian <debian-l10n-albanian@lists.debian.org>\n"
 "Language: sq\n"
 "MIME-Version: 1.0\n"
@@ -782,8 +782,10 @@ msgstr "Nuk u gjet asnjë klient DHCP"
 #. Description
 #. :sl2:
 #: ../netcfg-dhcp.templates:5001
-msgid "No DHCP client was found. This package requires pump or dhcp-client."
-msgstr "Nuk u gjet asnjë klient DHCP. Ky paket kërkon pump ose dhcp-client."
+msgid ""
+"No DHCP client was found. Please make sure, that a dhcp installer component "
+"is installed."
+msgstr ""
 
 #. Type: error
 #. Description

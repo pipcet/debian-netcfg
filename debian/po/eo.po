@@ -4,12 +4,12 @@
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
 # translation of Debian Installer templates to Esperanto.
-# Copyright (C) 2005-2011 Software in the Public Interest, Inc.
+# Copyright (C) 2005-2013 Software in the Public Interest, Inc.
 # This file is distributed under the same license as debian-installer.
 #
 # Samuel Gimeno <sgimeno@gmail.com>, 2005.
 # Serge Leblanc <serge.leblanc@wanadoo.fr>, 2005, 2006, 2007.
-# Felipe Castro <fefcas@gmail.com>, 2008, 2009, 2010, 2011, 2012.
+# Felipe Castro <fefcas@gmail.com>, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2017, 2018.
 #
 # Translations from iso-codes:
 # Alastair McKInstry <mckinstry@computer.org>, 2001,2002.
@@ -21,14 +21,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
-"POT-Creation-Date: 2012-11-03 22:02+0000\n"
-"PO-Revision-Date: 2012-10-18 22:33-0300\n"
+"POT-Creation-Date: 2019-08-15 19:16+0000\n"
+"PO-Revision-Date: 2018-11-08 14:07+0000\n"
 "Last-Translator: Felipe Castro <fefcas@gmail.com>\n"
 "Language-Team: Esperanto <debian-l10n-esperanto@lists.debian.org>\n"
 "Language: eo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #. Type: boolean
 #. Description
@@ -782,10 +783,10 @@ msgstr "Neniu trovita 'DHCP'-kliento"
 #. Description
 #. :sl2:
 #: ../netcfg-dhcp.templates:5001
-msgid "No DHCP client was found. This package requires pump or dhcp-client."
+msgid ""
+"No DHCP client was found. Please make sure, that a dhcp installer component "
+"is installed."
 msgstr ""
-"Neniu 'DHCP'-kliento estis trovita. Tiu ĉi pakaĵo postulas klienton 'pump' "
-"aŭ 'dhcp-client'."
 
 #. Type: error
 #. Description

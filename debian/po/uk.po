@@ -21,7 +21,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: uk\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
-"POT-Creation-Date: 2012-11-03 22:02+0000\n"
+"POT-Creation-Date: 2019-08-15 19:16+0000\n"
 "PO-Revision-Date: 2019-03-20 22:31+0100\n"
 "Last-Translator: Anton Gladky <gladk@debian.org>\n"
 "Language-Team: Ukrainian <translation-team-uk@lists.sourceforge.net>\n"
@@ -786,10 +786,10 @@ msgstr "Клієнти DHCP не знайдені"
 #. Description
 #. :sl2:
 #: ../netcfg-dhcp.templates:5001
-msgid "No DHCP client was found. This package requires pump or dhcp-client."
+msgid ""
+"No DHCP client was found. Please make sure, that a dhcp installer component "
+"is installed."
 msgstr ""
-"Клієнти DHCP не знайдені. Для цього пакунку потрібні пакунки pump або dhcp-"
-"client."
 
 #. Type: error
 #. Description

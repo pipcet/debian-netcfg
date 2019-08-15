@@ -17,19 +17,20 @@
 # Christian Perrier <bubulle@debian.org>, 2005, 2006, 2007, 2008, 2009, 2010, 2011.
 #   Alastair McKinstry <mckinstry@computer.org>, 2001.
 #   Cedric De Wilde <daique@tiscalinet.be>, 2001.
-#   Christian Perrier <bubulle@debian.org>, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2012.
+#   Christian Perrier <bubulle@debian.org>, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2012, 2013, 2014, 2015, 2016, 2017.
 #   Christophe Fergeau <christophe.fergeau@ensimag.imag.fr>, 2000-2001.
 #   Christophe Merlet (RedFox) <redfox@eikonex.org>, 2001.
 #   Free Software Foundation, Inc., 2000-2001, 2004, 2005, 2006.
 #   Grégoire Colbert <gregus@linux-mandrake.com>, 2001.
 #   Tobias Quathamer <toddy@debian.org>, 2007, 2008.
+# Alban Vidal <alban.vidal@zordhak.fr>, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: fr\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
-"POT-Creation-Date: 2012-11-03 22:02+0000\n"
-"PO-Revision-Date: 2013-01-29 07:17+0100\n"
-"Last-Translator: Christian Perrier <bubulle@debian.org>\n"
+"POT-Creation-Date: 2019-08-15 19:16+0000\n"
+"PO-Revision-Date: 2018-08-28 07:19+0100\n"
+"Last-Translator: Alban Vidal <alban.vidal@zordhak.fr>\n"
 "Language-Team: French <debian-l10n-french@lists.debian.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -796,8 +797,10 @@ msgstr "Aucun client DHCP trouvé"
 #. Description
 #. :sl2:
 #: ../netcfg-dhcp.templates:5001
-msgid "No DHCP client was found. This package requires pump or dhcp-client."
-msgstr "Aucun client DHCP trouvé. Ce paquet demande pump ou dhcp-client."
+msgid ""
+"No DHCP client was found. Please make sure, that a dhcp installer component "
+"is installed."
+msgstr ""
 
 #. Type: error
 #. Description
