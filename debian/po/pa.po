@@ -27,7 +27,7 @@ msgstr ""
 "Project-Id-Version: pa\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
 "POT-Creation-Date: 2019-08-15 19:16+0000\n"
-"PO-Revision-Date: 2019-04-20 07:33+0000\n"
+"PO-Revision-Date: 2019-08-26 15:24+0000\n"
 "Last-Translator: Aman ALam <alam.yellow@gmail.com>\n"
 "Language-Team: Punjabi <punjabi-users@lists.sf.net>\n"
 "Language: pa\n"
@@ -771,7 +771,7 @@ msgstr "ਕੋਈ DHCP ਕਲਾਇਟ ਨਹੀਂ ਲੱਭਿਆ"
 msgid ""
 "No DHCP client was found. Please make sure, that a dhcp installer component "
 "is installed."
-msgstr ""
+msgstr "ਕੋਈ DHCP ਕਲਾਈਂਟ ਨਹੀਂ ਲੱਭਿਆ। ਪੱਕਾ ਕਰੋ ਕਿ dhcp ਇੰਸਟਾਲਰ ਭਾਗ ਇੰਸਟਾਲ ਹੈ।"
 
 #. Type: error
 #. Description
