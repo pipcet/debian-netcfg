@@ -2,8 +2,9 @@ netcfg (1.162) UNRELEASED; urgency=medium
 
   * Change dhcp template (pump and dhcp-client are no longer in the archive;
     rephrase message into a generic form).
+  * Rephrase template, to rename "CD"/"CD-ROM" into "installation media".
 
- -- Holger Wansing <hwansing@mailbox.org>  Thu, 15 Aug 2019 20:04:27 +0200
+ -- Holger Wansing <hwansing@mailbox.org>  Mon, 16 Sep 2019 21:02:18 +0200
 
 netcfg (1.161) unstable; urgency=medium
 
