@@ -28,9 +28,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
-"POT-Creation-Date: 2019-08-15 19:16+0000\n"
-"PO-Revision-Date: 2018-08-28 07:19+0100\n"
-"Last-Translator: Alban Vidal <alban.vidal@zordhak.fr>\n"
+"POT-Creation-Date: 2019-09-19 16:19+0000\n"
+"PO-Revision-Date: 2019-09-12 15:44+0100\n"
+"Last-Translator: Baptiste Jammet <baptiste@mailoo.org>\n"
 "Language-Team: French <debian-l10n-french@lists.debian.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -801,6 +801,8 @@ msgid ""
 "No DHCP client was found. Please make sure, that a dhcp installer component "
 "is installed."
 msgstr ""
+"Aucun client DHCP n'a été trouvé. Veuillez vérifier qu'un composant DHCP est "
+"installé."
 
 #. Type: error
 #. Description
@@ -903,12 +905,13 @@ msgstr "Faut-il continuer sans route par défaut ?"
 #. Description
 #. :sl2:
 #: ../netcfg-dhcp.templates:8001
+#, fuzzy
 msgid ""
 "The network autoconfiguration was successful. However, no default route was "
 "set: the system does not know how to communicate with hosts on the Internet. "
 "This will make it impossible to continue with the installation unless you "
-"have the first installation CD-ROM, a 'Netinst' CD-ROM, or packages "
-"available on the local network."
+"have the first image from a set of installation media, a 'Netinst' image, or "
+"packages available on the local network."
 msgstr ""
 "La configuration automatique du réseau a réussi. Cependant aucune route par "
 "défaut n'a été déclarée : le système ne sait pas comment communiquer avec "
