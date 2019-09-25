@@ -86,5 +86,6 @@ _Description: Is this information correct?
 Template: debian-installer/netcfg-static/title
 Type: text
 #  Item in the main menu to select this package
+#  Translators: keep below 55 columns
 # :sl1:
 _Description: Configure a network using static addressing
