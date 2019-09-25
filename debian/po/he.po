@@ -28,7 +28,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
 "POT-Creation-Date: 2019-09-19 16:19+0000\n"
-"PO-Revision-Date: 2019-08-19 04:24+0000\n"
+"PO-Revision-Date: 2019-09-22 13:28+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew (https://www.transifex.com/yaron/teams/79473/he/)\n"
 "Language: he\n"
@@ -878,13 +878,6 @@ msgstr "להמשיך ללא ניתוב בררת מחדל?"
 #. Description
 #. :sl2:
 #: ../netcfg-dhcp.templates:8001
-#, fuzzy
-#| msgid ""
-#| "The network autoconfiguration was successful. However, no default route "
-#| "was set: the system does not know how to communicate with hosts on the "
-#| "Internet. This will make it impossible to continue with the installation "
-#| "unless you have the first installation CD-ROM, a 'Netinst' CD-ROM, or "
-#| "packages available on the local network."
 msgid ""
 "The network autoconfiguration was successful. However, no default route was "
 "set: the system does not know how to communicate with hosts on the Internet. "
@@ -894,8 +887,8 @@ msgid ""
 msgstr ""
 "הגדרת הרשת באופן אוטומטי הצליחה. עם זאת לא נקבע ניתוב בררת מחדל: המערכת לא "
 "יודעת כיצד לתקשר עם מחשבים באינטרנט. לכן, לא ניתן להמשיך בהתקנה אלא אם יש לך "
-"את תקליטור ההתקנה הראשון, תקליטור התקנת רשת (Netinst CD), או מאגר חבילות "
-"שזמין לרשת המקומית שלך."
+"את הדמות הראשונה מתוך סדרה של אמצעי התקנה, דמות התקנת רשת (Netinst CD), או "
+"מאגר חבילות שזמין ברשת המקומית שלך."
 
 #. Type: boolean
 #. Description

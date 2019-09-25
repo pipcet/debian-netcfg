@@ -7,7 +7,7 @@
 # Copyright (C) 2003 Software in the Public Interest, Inc.
 # Console-setup strings translations:
 # (identified by "./console-setup.templates")
-# Copyright (C) 2003-2016 Miguel Figueiredo <elmig@debianpt.org>
+# Copyright (C) 2003-2019 Miguel Figueiredo <elmig@debianpt.org>
 # This file is distributed under the same license as debian-installer.
 #
 #
@@ -24,7 +24,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
 "POT-Creation-Date: 2019-09-19 16:19+0000\n"
-"PO-Revision-Date: 2019-08-17 10:52+0100\n"
+"PO-Revision-Date: 2019-09-23 20:36+0100\n"
 "Last-Translator:  Miguel Figueiredo <elmig@debianpt.org>\n"
 "Language-Team:  Portuguese <traduz@debianpt.org>\n"
 "Language: pt\n"
@@ -53,10 +53,10 @@ msgid ""
 "will be given the opportunity to configure the network manually."
 msgstr ""
 "A rede pode ser configurada introduzindo manualmente todas as informações "
-"necessárias ou utilizando DHCP (ou através de uma veriedade de métodos "
+"necessárias ou utilizando DHCP (ou através de uma variedade de métodos "
 "específicos de IPv6) para detectar automaticamente as definições de rede. Se "
 "escolher utilizar a autoconfiguração e o instalador não for capaz de obter "
-"uma configuração através da rede, ser-lhe-à dada a oportunidade de "
+"uma configuração através da rede, ser-lhe-á dada a oportunidade de "
 "configurar manualmente a sua rede."
 
 #. Type: string
@@ -237,7 +237,7 @@ msgid ""
 "If your WEP key is in the format of a passphrase, prefix it with "
 "'s:' (without quotes)."
 msgstr ""
-"Se a sua chave WEP está no formato de uma frase-chave, deverá precede-la com "
+"Se a sua chave WEP está no formato de uma frase-chave, deverá precedê-la com "
 "'s:' (sem plicas)."
 
 #. Type: string
@@ -363,7 +363,7 @@ msgid ""
 "The exchange of keys and association with the access point failed. Please "
 "check the WPA/WPA2 parameters you provided."
 msgstr ""
-"Falhou a troca de chaves e associação com o ponto de acesso.Por favor "
+"Falhou a troca de chaves e associação com o ponto de acesso. Por favor "
 "verifique os parâmetros WPA/WPA2 que indicou."
 
 #. Type: string
@@ -892,19 +892,12 @@ msgstr ""
 #. :sl2:
 #: ../netcfg-dhcp.templates:8001
 msgid "Continue without a default route?"
-msgstr "Continuar sem uma rota pré-definida?"
+msgstr "Continuar sem uma rota predefinida?"
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../netcfg-dhcp.templates:8001
-#, fuzzy
-#| msgid ""
-#| "The network autoconfiguration was successful. However, no default route "
-#| "was set: the system does not know how to communicate with hosts on the "
-#| "Internet. This will make it impossible to continue with the installation "
-#| "unless you have the first installation CD-ROM, a 'Netinst' CD-ROM, or "
-#| "packages available on the local network."
 msgid ""
 "The network autoconfiguration was successful. However, no default route was "
 "set: the system does not know how to communicate with hosts on the Internet. "
@@ -912,11 +905,11 @@ msgid ""
 "have the first image from a set of installation media, a 'Netinst' image, or "
 "packages available on the local network."
 msgstr ""
-"A auto-configuração da rede teve sucesso. No entanto, não foi definida "
-"nenhuma rota pré-definida: o sistema não sabe como comunicar com máquinas na "
-"Internet. Isto vai fazer com que seja impossível continuar com a instalação "
-"a menos que tenha o primeiro CD-ROM de instalação, um CD-ROM 'Netinst', ou "
-"os pacotes disponíveis na rede local."
+"A configuração automática da rede teve sucesso. No entanto, não foi definida "
+"nenhuma rota predefinida: o sistema não sabe como comunicar com máquinas na "
+"Internet. Isto irá tornar impossível continuar com a instalação a menos que "
+"tenha a primeira imagem do conjunto de mídia de instalação, uma imagem "
+"'Netinst' ou os pacotes disponíveis na rede local."
 
 #. Type: boolean
 #. Description
@@ -926,8 +919,8 @@ msgid ""
 "If you are unsure, you should not continue without a default route: contact "
 "your local network administrator about this problem."
 msgstr ""
-"Se não estiver seguro, não deve continuar sem uma rota pré-definida: "
-"contacte o seu administrador da rede local acerca deste problema."
+"Se não estiver seguro, não deve continuar sem uma rota predefinida: contacte "
+"o seu administrador da rede local acerca deste problema."
 
 #. Type: text
 #. Description
@@ -1186,4 +1179,4 @@ msgstr ""
 #. :sl1:
 #: ../netcfg-static.templates:9001
 msgid "Configure a network using static addressing"
-msgstr "Configurar a rede utilizando endereçamento estático"
+msgstr "Configurar a rede com endereçamento estático"

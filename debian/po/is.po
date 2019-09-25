@@ -9,7 +9,7 @@
 # Copyright (C) 2003 Software in the Public Interest, Inc.
 #
 # Copyright (C) 2010 Free Software Foundation
-# Sveinn í Felli <sv1@fellsnet.is>, 2018.
+# Sveinn í Felli <sv1@fellsnet.is>, 2018, 2019.
 #
 # Translations from iso-codes:
 # Copyright (C) 2002,2003, 2010, 2011, 2012 Free Software Foundation, Inc.
@@ -25,7 +25,7 @@ msgstr ""
 "Project-Id-Version: Icelandic (Debian Installer)\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
 "POT-Creation-Date: 2019-09-19 16:19+0000\n"
-"PO-Revision-Date: 2019-08-17 15:23+0000\n"
+"PO-Revision-Date: 2019-09-22 13:28+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: Icelandic <translation-team-is@lists.sourceforge.net>\n"
 "Language: is\n"
@@ -886,13 +886,6 @@ msgstr "Halda áfram án sjálfgefinnar netleiðar (default route)?"
 #. Description
 #. :sl2:
 #: ../netcfg-dhcp.templates:8001
-#, fuzzy
-#| msgid ""
-#| "The network autoconfiguration was successful. However, no default route "
-#| "was set: the system does not know how to communicate with hosts on the "
-#| "Internet. This will make it impossible to continue with the installation "
-#| "unless you have the first installation CD-ROM, a 'Netinst' CD-ROM, or "
-#| "packages available on the local network."
 msgid ""
 "The network autoconfiguration was successful. However, no default route was "
 "set: the system does not know how to communicate with hosts on the Internet. "
@@ -903,7 +896,8 @@ msgstr ""
 "Sjálfvirk stilling nets tókst, en engin sjálfgefin netleið (default route) "
 "var uppgefin. Kerfið getur því ekki haft samband við vélar á internetinu. "
 "Það er því ómögulegt fyrir þig að klára uppsetninguna nema þú sért með "
-"uppsetningargeisladisk, eða pakkana sem þarf á staðarnetinu."
+"uppsetningardiskmynd, 'Netinst' diskmynd, eða þá pakka sem þarf á "
+"staðarnetinu."
 
 #. Type: boolean
 #. Description

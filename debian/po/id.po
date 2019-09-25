@@ -18,7 +18,7 @@
 # * Setyo Nugroho (setyo@gmx.net), 2004.
 # * Arief S Fitrianto <arief@gurame.fisika.ui.ac.id>, 2008-2011.
 # * Al Qalit <qal.smith@gmail.com>, 2018.
-# * Andika Triwidada <andika@gmail.com>, 2018.
+# * Andika Triwidada <andika@gmail.com>, 2018, 2019.
 #
 # Translations from iso-codes:
 #   Alastair McKinstry <mckinstry@computer.org>, 2002.
@@ -34,7 +34,7 @@ msgstr ""
 "Project-Id-Version: debian-installer (level1)\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
 "POT-Creation-Date: 2019-09-19 16:19+0000\n"
-"PO-Revision-Date: 2019-08-26 15:24+0000\n"
+"PO-Revision-Date: 2019-09-24 14:28+0000\n"
 "Last-Translator: Andika Triwidada <andika@gmail.com>\n"
 "Language-Team: Debian Indonesia Translators <debian-l10n-indonesian@lists."
 "debian.org>\n"
@@ -901,13 +901,6 @@ msgstr "Lanjutkan tanpa sebuah rute utama?"
 #. Description
 #. :sl2:
 #: ../netcfg-dhcp.templates:8001
-#, fuzzy
-#| msgid ""
-#| "The network autoconfiguration was successful. However, no default route "
-#| "was set: the system does not know how to communicate with hosts on the "
-#| "Internet. This will make it impossible to continue with the installation "
-#| "unless you have the first installation CD-ROM, a 'Netinst' CD-ROM, or "
-#| "packages available on the local network."
 msgid ""
 "The network autoconfiguration was successful. However, no default route was "
 "set: the system does not know how to communicate with hosts on the Internet. "
@@ -915,11 +908,11 @@ msgid ""
 "have the first image from a set of installation media, a 'Netinst' image, or "
 "packages available on the local network."
 msgstr ""
-"Konfigurasi otomatis jaringan telah berhasil. Namun, rute utama tidak "
-"diatur: sistem tidak tahu bagaimana berkomunikasi dengan host-host di "
-"Internet. Hal ini menyebabkan Anda tidak dapat melanjutkan instalasi, "
-"kecuali Anda memiliki CD-ROM Debian resmi pertama (#1), CD-ROM 'Netinst', "
-"atau paket-paket instalasi tersedia pada jaringan lokal."
+"Konfigurasi otomatis jaringan berhasil. Namun, tidak ada rute default yang "
+"ditetapkan: sistem tidak tahu bagaimana berkomunikasi dengan host di "
+"Internet. Ini tidak memungkinkan untuk melanjutkan instalasi kecuali Anda "
+"memiliki image pertama dari satu set media instalasi, image 'Netinst', atau "
+"paket-paket yang tersedia di jaringan lokal."
 
 #. Type: boolean
 #. Description
