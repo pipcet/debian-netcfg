@@ -5,6 +5,8 @@
 #
 # Traditional Chinese messages for debian-installer.
 # Copyright (C) 2003 Software in the Public Interest, Inc.
+# Louies <louies0623@gmail.com>, 2019.
+# Walter Cheuk <wwycheuk@gmail.com>, 2019.
 # This file is distributed under the same license as debian-installer.
 #
 #
@@ -30,9 +32,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
-"POT-Creation-Date: 2019-09-19 16:19+0000\n"
-"PO-Revision-Date: 2019-01-13 14:06+0000\n"
-"Last-Translator: Louies <louies0623@gmail.com>\n"
+"POT-Creation-Date: 2019-09-26 22:03+0000\n"
+"PO-Revision-Date: 2019-09-26 08:54+0000\n"
+"Last-Translator: Walter Cheuk <wwycheuk@gmail.com>\n"
 "Language-Team: Debian-user in Chinese [Big5] <debian-chinese-big5@lists."
 "debian.org>\n"
 "Language: zh_TW\n"
@@ -650,6 +652,7 @@ msgstr "正在儲存網路設定……"
 #. Type: text
 #. Description
 #. Item in the main menu to select this package
+#. Translators: keep below 55 columns
 #. :sl1:
 #: ../netcfg-common.templates:48001
 msgid "Configure the network"
@@ -863,13 +866,6 @@ msgstr "是否不使用 Default Route 並繼續進行？"
 #. Description
 #. :sl2:
 #: ../netcfg-dhcp.templates:8001
-#, fuzzy
-#| msgid ""
-#| "The network autoconfiguration was successful. However, no default route "
-#| "was set: the system does not know how to communicate with hosts on the "
-#| "Internet. This will make it impossible to continue with the installation "
-#| "unless you have the first installation CD-ROM, a 'Netinst' CD-ROM, or "
-#| "packages available on the local network."
 msgid ""
 "The network autoconfiguration was successful. However, no default route was "
 "set: the system does not know how to communicate with hosts on the Internet. "
@@ -878,9 +874,9 @@ msgid ""
 "packages available on the local network."
 msgstr ""
 "網路自動設定成功了。然而，卻沒有指定預設的路由 (Default Route): 系統無法得知"
-"該如何才能和網際網路上的主機進行連線。除非您手上有著第一張安裝光"
-"碟、'Netinst' 光碟、或是有辨法在您區域網路中取得所需套件，否則安裝作業將會無"
-"法繼續進行。"
+"該如何才能和網際網路上的主機進行連線。除非您手上有著一套安裝媒體的第一"
+"張、'Netinst' 映像檔、或是有辨法在您區域網路中取得所需套件，否則安裝作業將會"
+"無法繼續進行。"
 
 #. Type: boolean
 #. Description
@@ -1136,6 +1132,7 @@ msgstr ""
 #. Type: text
 #. Description
 #. Item in the main menu to select this package
+#. Translators: keep below 55 columns
 #. :sl1:
 #: ../netcfg-static.templates:9001
 msgid "Configure a network using static addressing"

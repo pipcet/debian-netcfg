@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
-"POT-Creation-Date: 2019-09-19 16:19+0000\n"
+"POT-Creation-Date: 2019-09-26 22:03+0000\n"
 "PO-Revision-Date: 2014-04-04 22:07+0100\n"
 "Last-Translator: Tegegne Tefera <tefera@mekuria.com>\n"
 "Language-Team: Amharic <linux-ethiopia@googlegroups.com>\n"
@@ -633,6 +633,7 @@ msgstr "የአውታር ምርጫዎችን በማስቀመጥ ላይ"
 #. Type: text
 #. Description
 #. Item in the main menu to select this package
+#. Translators: keep below 55 columns
 #. :sl1:
 #: ../netcfg-common.templates:48001
 msgid "Configure the network"
@@ -1109,6 +1110,7 @@ msgstr ""
 #. Type: text
 #. Description
 #. Item in the main menu to select this package
+#. Translators: keep below 55 columns
 #. :sl1:
 #: ../netcfg-static.templates:9001
 msgid "Configure a network using static addressing"

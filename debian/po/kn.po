@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kn\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
-"POT-Creation-Date: 2019-09-19 16:19+0000\n"
+"POT-Creation-Date: 2019-09-26 22:03+0000\n"
 "PO-Revision-Date: 2019-02-13 15:09+0000\n"
 "Last-Translator: deepu2 <deepuhsdeepak@gmail.com>\n"
 "Language-Team: Kannada <debian-l10n-kannada@lists.debian.org>\n"
@@ -663,6 +663,7 @@ msgstr "ಜಾಲಬಂಧ-ಸಂಬಂಧಿತ ಸಂಯೋಜನೆಗಳನ�
 #. Type: text
 #. Description
 #. Item in the main menu to select this package
+#. Translators: keep below 55 columns
 #. :sl1:
 #: ../netcfg-common.templates:48001
 msgid "Configure the network"
@@ -1154,6 +1155,7 @@ msgstr ""
 #. Type: text
 #. Description
 #. Item in the main menu to select this package
+#. Translators: keep below 55 columns
 #. :sl1:
 #: ../netcfg-static.templates:9001
 msgid "Configure a network using static addressing"

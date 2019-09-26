@@ -23,7 +23,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fa\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
-"POT-Creation-Date: 2019-09-19 16:19+0000\n"
+"POT-Creation-Date: 2019-09-26 22:03+0000\n"
 "PO-Revision-Date: 2019-01-01 17:49+0000\n"
 "Last-Translator: nima sahraneshin <unix.nima@gmail.com>\n"
 "Language-Team: Debian-l10n-persian <debian-l10n-persian@lists.debian.org>\n"
@@ -662,6 +662,7 @@ msgstr "ذخیره کردن تنظیمات شبکه ..."
 #. Type: text
 #. Description
 #. Item in the main menu to select this package
+#. Translators: keep below 55 columns
 #. :sl1:
 #: ../netcfg-common.templates:48001
 msgid "Configure the network"
@@ -1160,6 +1161,7 @@ msgstr ""
 #. Type: text
 #. Description
 #. Item in the main menu to select this package
+#. Translators: keep below 55 columns
 #. :sl1:
 #: ../netcfg-static.templates:9001
 msgid "Configure a network using static addressing"
