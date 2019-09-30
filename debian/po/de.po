@@ -40,7 +40,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
 "POT-Creation-Date: 2019-09-26 22:03+0000\n"
-"PO-Revision-Date: 2019-09-28 14:12+0100\n"
+"PO-Revision-Date: 2019-09-30 20:12+0100\n"
 "Last-Translator: Holger Wansing <hwansing@mailbox.org>\n"
 "Language-Team: German <debian-l10n-german@lists.debian.org>\n"
 "Language: de\n"
@@ -402,7 +402,6 @@ msgstr "Rechnername:"
 msgid "Please enter the hostname for this system."
 msgstr "Bitte geben Sie den Namen dieses Rechners ein."
 
-# FIXME: der oder das?
 #. Type: string
 #. Description
 #. :sl1:
@@ -413,10 +412,10 @@ msgid ""
 "administrator. If you are setting up your own home network, you can make "
 "something up here."
 msgstr ""
-"Der Rechnername ist ein einzelnes Wort, das Ihren Rechner im Netzwerk "
-"identifiziert. Wenn Sie Ihren Rechnernamen nicht kennen, fragen Sie den "
-"Netzwerkadministrator. Wenn Sie ein lokales Heimnetz aufbauen, ist es egal, "
-"was Sie angeben."
+"Der Rechnername ist ein einzelnes Wort; über ihn wird Ihr Rechner im "
+"Netzwerk identifiziert. Wenn Sie Ihren Rechnernamen nicht kennen, fragen Sie "
+"den Netzwerkadministrator. Wenn Sie ein lokales Heimnetz aufbauen, ist es "
+"egal, was Sie angeben."
 
 #. Type: error
 #. Description
@@ -797,7 +796,6 @@ msgstr "Die meisten Benutzer können dieses Feld einfach leer lassen."
 msgid "Configuring the network with DHCP"
 msgstr "Konfigurieren des Netzwerks mit DHCP"
 
-# FIXME: Satzpunkt hinzufügen
 #. Type: text
 #. Description
 #. :sl1:
