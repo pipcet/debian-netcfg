@@ -1,12 +1,31 @@
-netcfg (1.162) UNRELEASED; urgency=medium
+netcfg (1.162) unstable; urgency=medium
 
+  * Team upload
+
+  [ Holger Wansing ]
   * Change dhcp template (pump and dhcp-client are no longer in the archive;
     rephrase message into a generic form).
   * Rephrase template, to rename "CD"/"CD-ROM" into "installation media".
   * Add comment for translators, to keep main menu entry below a 55 columns
     limit. This updates all po|pot files.
 
- -- Holger Wansing <hwansing@mailbox.org>  Fri, 27 Sep 2019 01:10:03 +0200
+  [ Updated translations ]
+  * German (de.po) by Holger Wansing
+  * Esperanto (eo.po) by Felipe E. F. de Castro
+  * French (fr.po) by Baptiste Jammet
+  * Hebrew (he.po) by Yaron Shahrabani
+  * Croatian (hr.po) by gogogogi
+  * Indonesian (id.po) by Andika Triwidada
+  * Icelandic (is.po) by Sveinn í Felli
+  * Norwegian Bokmal (nb.po) by Allan Nordhøy
+  * Punjabi (Gurmukhi) (pa.po) by Aman ALam
+  * Portuguese (pt.po) by Miguel Figueiredo
+  * Portuguese (Brazil) (pt_BR.po) by Adriano Rafael Gomes
+  * Swedish (sv.po) by Anders Jonsson
+  * Simplified Chinese (zh_CN.po) by Boyuan Yang
+  * Traditional Chinese (zh_TW.po) by Walter Cheuk
+
+ -- Holger Wansing <hwansing@mailbox.org>  Mon, 07 Oct 2019 21:23:57 +0200
 
 netcfg (1.161) unstable; urgency=medium
 
