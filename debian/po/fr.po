@@ -24,12 +24,13 @@
 #   Grégoire Colbert <gregus@linux-mandrake.com>, 2001.
 #   Tobias Quathamer <toddy@debian.org>, 2007, 2008.
 # Alban Vidal <alban.vidal@zordhak.fr>, 2018.
+# Baptiste Jammet <baptiste@mailoo.org>, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: fr\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
 "POT-Creation-Date: 2019-09-26 22:03+0000\n"
-"PO-Revision-Date: 2019-09-12 15:44+0100\n"
+"PO-Revision-Date: 2019-10-15 11:09+0100\n"
 "Last-Translator: Baptiste Jammet <baptiste@mailoo.org>\n"
 "Language-Team: French <debian-l10n-french@lists.debian.org>\n"
 "Language: fr\n"
@@ -906,7 +907,6 @@ msgstr "Faut-il continuer sans route par défaut ?"
 #. Description
 #. :sl2:
 #: ../netcfg-dhcp.templates:8001
-#, fuzzy
 msgid ""
 "The network autoconfiguration was successful. However, no default route was "
 "set: the system does not know how to communicate with hosts on the Internet. "
@@ -917,8 +917,8 @@ msgstr ""
 "La configuration automatique du réseau a réussi. Cependant aucune route par "
 "défaut n'a été déclarée : le système ne sait pas comment communiquer avec "
 "des machines sur Internet. Cela rendra l'installation impossible, sauf si "
-"vous utilisez le premier CD d'installation, un CD « netinst » ou des paquets "
-"disponibles sur le réseau local."
+"vous utilisez la première image d'un jeu de media d'installation, une image "
+"« netinst » ou des paquets disponibles sur le réseau local."
 
 #. Type: boolean
 #. Description
