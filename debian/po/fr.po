@@ -917,7 +917,7 @@ msgstr ""
 "La configuration automatique du réseau a réussi. Cependant aucune route par "
 "défaut n'a été déclarée : le système ne sait pas comment communiquer avec "
 "des machines sur Internet. Cela rendra l'installation impossible, sauf si "
-"vous utilisez la première image d'un jeu de media d'installation, une image "
+"vous utilisez la première image d'un jeu de médias d'installation, une image "
 "« netinst » ou des paquets disponibles sur le réseau local."
 
 #. Type: boolean
