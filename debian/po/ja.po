@@ -26,7 +26,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
-"POT-Creation-Date: 2019-09-26 22:03+0000\n"
+"POT-Creation-Date: 2019-11-05 23:54+0100\n"
 "PO-Revision-Date: 2018-10-17 18:49+0900\n"
 "Last-Translator:  Kenshi Muto <kmuto@debian.org>\n"
 "Language-Team: Debian L10n Japanese <debian-japanese@lists.debian.org>\n"
@@ -172,12 +172,14 @@ msgstr ""
 
 #. Type: select
 #. Choices
+#. :sl2:
 #: ../netcfg-common.templates:8001
 msgid "WEP/Open Network"
 msgstr "WEP/Open Network"
 
 #. Type: select
 #. Choices
+#. :sl2:
 #: ../netcfg-common.templates:8001
 msgid "WPA/WPA2 PSK"
 msgstr "WPA/WPA2 PSK"
@@ -518,12 +520,14 @@ msgstr "アドホックネットワーク (ピアツーピア)"
 
 #. Type: select
 #. Description
+#. :sl2:
 #: ../netcfg-common.templates:24002
 msgid "Type of wireless network:"
 msgstr "無線ネットワークの種類:"
 
 #. Type: select
 #. Description
+#. :sl2:
 #: ../netcfg-common.templates:24002
 msgid ""
 "Wireless networks are either managed or ad-hoc. If you use a real access "
@@ -551,6 +555,7 @@ msgstr "無線アクセスポイントを探しています..."
 
 #. Type: text
 #. Description
+#. :sl2:
 #: ../netcfg-common.templates:29001
 msgid "Detecting link on ${interface}; please wait..."
 msgstr "${interface} のリンクの検出中です。しばらくお待ちください..."

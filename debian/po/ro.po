@@ -37,7 +37,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ro\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
-"POT-Creation-Date: 2019-09-26 22:03+0000\n"
+"POT-Creation-Date: 2019-11-05 23:54+0100\n"
 "PO-Revision-Date: 2018-11-29 15:49+0200\n"
 "Last-Translator: Andrei POPESCU <andreimpopescu@gmail.com>\n"
 "Language-Team: Romanian <debian-l10n-romanian@lists.debian.org>\n"
@@ -186,12 +186,14 @@ msgstr ""
 
 #. Type: select
 #. Choices
+#. :sl2:
 #: ../netcfg-common.templates:8001
 msgid "WEP/Open Network"
 msgstr "WEP/Rețea deschisă"
 
 #. Type: select
 #. Choices
+#. :sl2:
 #: ../netcfg-common.templates:8001
 msgid "WPA/WPA2 PSK"
 msgstr "WPA/WPA2 PSK"
@@ -537,12 +539,14 @@ msgstr "Rețea ad-hoc (Peer to peer)"
 
 #. Type: select
 #. Description
+#. :sl2:
 #: ../netcfg-common.templates:24002
 msgid "Type of wireless network:"
 msgstr "Tipul rețelei fără fir:"
 
 #. Type: select
 #. Description
+#. :sl2:
 #: ../netcfg-common.templates:24002
 msgid ""
 "Wireless networks are either managed or ad-hoc. If you use a real access "
@@ -569,6 +573,7 @@ msgstr "Se caută puncte de acces fără fir ..."
 
 #. Type: text
 #. Description
+#. :sl2:
 #: ../netcfg-common.templates:29001
 msgid "Detecting link on ${interface}; please wait..."
 msgstr "Se detectează conexiunea pe ${interface}, vă rugăm să așteptați..."

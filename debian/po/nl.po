@@ -27,7 +27,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer/sublevel1\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
-"POT-Creation-Date: 2019-09-26 22:03+0000\n"
+"POT-Creation-Date: 2019-11-05 23:54+0100\n"
 "PO-Revision-Date: 2018-12-08 17:49+0100\n"
 "Last-Translator: Frans Spiesschaert <Frans.Spiesschaert@yucom.be>\n"
 "Language-Team: Debian Dutch l10n Team <debian-l10n-dutch@lists.debian.org>\n"
@@ -176,12 +176,14 @@ msgstr ""
 
 #. Type: select
 #. Choices
+#. :sl2:
 #: ../netcfg-common.templates:8001
 msgid "WEP/Open Network"
 msgstr "WEP/Open netwerk"
 
 #. Type: select
 #. Choices
+#. :sl2:
 #: ../netcfg-common.templates:8001
 msgid "WPA/WPA2 PSK"
 msgstr "WPA/WPA2-PSK"
@@ -524,12 +526,14 @@ msgstr "Ad-hoc netwerk (Peer to peer)"
 
 #. Type: select
 #. Description
+#. :sl2:
 #: ../netcfg-common.templates:24002
 msgid "Type of wireless network:"
 msgstr "Type draadloos netwerk:"
 
 #. Type: select
 #. Description
+#. :sl2:
 #: ../netcfg-common.templates:24002
 msgid ""
 "Wireless networks are either managed or ad-hoc. If you use a real access "
@@ -557,6 +561,7 @@ msgstr "Er wordt gezocht naar draadloze toegangspunten..."
 
 #. Type: text
 #. Description
+#. :sl2:
 #: ../netcfg-common.templates:29001
 msgid "Detecting link on ${interface}; please wait..."
 msgstr "Link op ${interface} aan het detecteren, even geduld..."

@@ -32,7 +32,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
-"POT-Creation-Date: 2019-09-26 22:03+0000\n"
+"POT-Creation-Date: 2019-11-05 23:54+0100\n"
 "PO-Revision-Date: 2019-09-26 08:54+0000\n"
 "Last-Translator: Walter Cheuk <wwycheuk@gmail.com>\n"
 "Language-Team: Debian-user in Chinese [Big5] <debian-chinese-big5@lists."
@@ -172,12 +172,14 @@ msgstr ""
 
 #. Type: select
 #. Choices
+#. :sl2:
 #: ../netcfg-common.templates:8001
 msgid "WEP/Open Network"
 msgstr "WEP/開放網路"
 
 #. Type: select
 #. Choices
+#. :sl2:
 #: ../netcfg-common.templates:8001
 msgid "WPA/WPA2 PSK"
 msgstr "WPA/WPA2 PSK"
@@ -501,12 +503,14 @@ msgstr "Ad-hoc 網路 (點對點)"
 
 #. Type: select
 #. Description
+#. :sl2:
 #: ../netcfg-common.templates:24002
 msgid "Type of wireless network:"
 msgstr "無線網路的類型:"
 
 #. Type: select
 #. Description
+#. :sl2:
 #: ../netcfg-common.templates:24002
 msgid ""
 "Wireless networks are either managed or ad-hoc. If you use a real access "
@@ -532,6 +536,7 @@ msgstr "正在尋找無線基地台……"
 
 #. Type: text
 #. Description
+#. :sl2:
 #: ../netcfg-common.templates:29001
 msgid "Detecting link on ${interface}; please wait..."
 msgstr "正在偵測 ${interface} 上的連結，請稍候……"

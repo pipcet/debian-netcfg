@@ -28,7 +28,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lv\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
-"POT-Creation-Date: 2019-09-26 22:03+0000\n"
+"POT-Creation-Date: 2019-11-05 23:54+0100\n"
 "PO-Revision-Date: 2018-10-17 19:33+0000\n"
 "Last-Translator: Tranzistors <rudolfs.mazurs@gmail.com>\n"
 "Language-Team: Latvian <lata-l10n@googlegroups.com>\n"
@@ -174,12 +174,14 @@ msgstr ""
 
 #. Type: select
 #. Choices
+#. :sl2:
 #: ../netcfg-common.templates:8001
 msgid "WEP/Open Network"
 msgstr "WEP / atvērts tīkls"
 
 #. Type: select
 #. Choices
+#. :sl2:
 #: ../netcfg-common.templates:8001
 msgid "WPA/WPA2 PSK"
 msgstr "WPA/WPA2 PSK"
@@ -520,12 +522,14 @@ msgstr "Ad-hoc (vienādranga) tīkls"
 
 #. Type: select
 #. Description
+#. :sl2:
 #: ../netcfg-common.templates:24002
 msgid "Type of wireless network:"
 msgstr "Bezvadu tīkla veids:"
 
 #. Type: select
 #. Description
+#. :sl2:
 #: ../netcfg-common.templates:24002
 msgid ""
 "Wireless networks are either managed or ad-hoc. If you use a real access "
@@ -552,6 +556,7 @@ msgstr "Meklē bezvadu tīkla piekļuves punktus..."
 
 #. Type: text
 #. Description
+#. :sl2:
 #: ../netcfg-common.templates:29001
 msgid "Detecting link on ${interface}; please wait..."
 msgstr "Meklē saiti uz ${interface}. Lūdzu, uzgaidiet..."
