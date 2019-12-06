@@ -26,7 +26,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-05 23:54+0100\n"
-"PO-Revision-Date: 2018-12-16 11:12+0000\n"
+"PO-Revision-Date: 2019-12-05 21:45+0000\n"
 "Last-Translator: Filipovic Dragan <filipovic@tutanota.com>\n"
 "Language-Team: Serbian <debian-l10n-serbian@lists.debian.org>\n"
 "Language: sr\n"
@@ -795,6 +795,8 @@ msgid ""
 "No DHCP client was found. Please make sure, that a dhcp installer component "
 "is installed."
 msgstr ""
+"Није пронађен DHCP клијент. Молимо вас проверите је ли инсталирана "
+"одговарајућа компонента."
 
 #. Type: error
 #. Description
@@ -896,13 +898,6 @@ msgstr "Наставити без подразумевајуће руте?"
 #. Description
 #. :sl2:
 #: ../netcfg-dhcp.templates:8001
-#, fuzzy
-#| msgid ""
-#| "The network autoconfiguration was successful. However, no default route "
-#| "was set: the system does not know how to communicate with hosts on the "
-#| "Internet. This will make it impossible to continue with the installation "
-#| "unless you have the first installation CD-ROM, a 'Netinst' CD-ROM, or "
-#| "packages available on the local network."
 msgid ""
 "The network autoconfiguration was successful. However, no default route was "
 "set: the system does not know how to communicate with hosts on the Internet. "
@@ -911,7 +906,7 @@ msgid ""
 "packages available on the local network."
 msgstr ""
 "Самоподешавање мреже је успело. Додуше, ниједна подразумевана рута није "
-"подешена: систем не зна како да комуницира са рачунарима на Интернету. Ово "
+"подешена: систем не зна како да комуницира са рачунарима на интернету. Ово "
 "ће онемогућити наставак инсталције осим ако имате први инсталациони диск, "
 "„Netinst“ диск, или доступне пакете на локалној мрежи."
 
