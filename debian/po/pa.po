@@ -27,7 +27,7 @@ msgstr ""
 "Project-Id-Version: pa\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-05 23:54+0100\n"
-"PO-Revision-Date: 2019-08-26 15:24+0000\n"
+"PO-Revision-Date: 2019-12-15 20:21+0000\n"
 "Last-Translator: Aman ALam <alam.yellow@gmail.com>\n"
 "Language-Team: Punjabi <punjabi-users@lists.sf.net>\n"
 "Language: pa\n"
@@ -878,13 +878,6 @@ msgstr "ਡਿਫਾਲਟ ਰੂਟ (root) ਤੋਂ ਬਿਨਾਂ ਜਾਰ�
 #. Description
 #. :sl2:
 #: ../netcfg-dhcp.templates:8001
-#, fuzzy
-#| msgid ""
-#| "The network autoconfiguration was successful. However, no default route "
-#| "was set: the system does not know how to communicate with hosts on the "
-#| "Internet. This will make it impossible to continue with the installation "
-#| "unless you have the first installation CD-ROM, a 'Netinst' CD-ROM, or "
-#| "packages available on the local network."
 msgid ""
 "The network autoconfiguration was successful. However, no default route was "
 "set: the system does not know how to communicate with hosts on the Internet. "
@@ -893,9 +886,9 @@ msgid ""
 "packages available on the local network."
 msgstr ""
 "ਨੈੱਟਵਰਕ ਆਟੋ-ਸੰਰਚਨਾ ਸਫਲ ਹੋਈ ਸੀ। ਭਾਵੇਂ, ਕੋਈ ਡਿਫਾਲਟ ਰੂਟ ਸੈੱਟ ਨਹੀਂ ਸੀ: ਸਿਸਟਮ ਨਹੀਂ ਜਾਣਦਾ ਕਿ "
-"ਨੈੱਟਵਰਕ ਤੇ ਹੋਸਟਾਂ ਨਾਲ ਕਿਵੇਂ ਸੰਪਰਕ ਕਰਨਾ ਹੈ। ਇਸ ਇੰਸਟਾਲੇਸ਼ਨ ਜਾਰੀ ਕਰਨ ਨੂੰ ਅਸੰਭਵ ਕਰੇਗਾ ਜਦੋਂ ਤੱਕ ਤੁਹਾਡੇ "
-"ਕੋਲ ਪਹਿਲੀ ਦਫਤਰੀ ਡੇਬੀਅਨ CD-ROM, ਇੱਕ 'Netinst' CD-ROM, ਜਾਂ ਪੈਕੇਜ ਲੋਕਲ  ਨੈੱਟਵਰਕ ਤੇਜ ਉਪਲੱਬਧ "
-"ਨਹੀਂ ਹੁੰਦੇ।"
+"ਨੈੱਟਵਰਕ ਤੇ ਹੋਸਟਾਂ ਨਾਲ ਕਿਵੇਂ ਸੰਪਰਕ ਕਰਨਾ ਹੈ। ਇਸ ਇੰਸਟਾਲੇਸ਼ਨ ਜਾਰੀ ਕਰਨ ਨੂੰ ਸੰਭਵ ਕਰੇਗਾ ਜਦੋਂ ਤੱਕ ਤੁਹਾਡੇ "
+"ਕੋਲ ਮੌਜੂਦ ਇੰਸਟਾਲੇਸ਼ਨ ਮੀਡਿਆ ਦੇ ਸਮੂਹ ਵਿੱਚੋਂ ਪਹਿਲੇ ਈਮੇਜ਼, 'Netinst' ਈਮੇਜ਼, ਜਾਂ ਪੈਕੇਜ ਲੋਕਲ  ਨੈੱਟਵਰਕ ਤੇਜ "
+"ਉਪਲੱਬਧ ਨਹੀਂ ਹੁੰਦੇ।"
 
 #. Type: boolean
 #. Description
