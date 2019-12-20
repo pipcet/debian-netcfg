@@ -1,3 +1,16 @@
+netcfg (1.163) unstable; urgency=medium
+
+  * Team upload
+
+  [ Updated translations ]
+  * French (fr.po) by Baptiste Jammet
+  * Dutch (nl.po) by Frans Spiesschaert
+  * Punjabi (Gurmukhi) (pa.po) by Aman ALam
+  * Serbian (sr.po) by Filipovic Dragan
+  * Swedish (sv.po) by Mattias Münster
+
+ -- Holger Wansing <hwansing@mailbox.org>  Fri, 20 Dec 2019 17:19:26 +0100
+
 netcfg (1.162) unstable; urgency=medium
 
   * Team upload
