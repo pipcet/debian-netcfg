@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-05 23:54+0100\n"
-"PO-Revision-Date: 2019-03-30 18:32+0100\n"
+"PO-Revision-Date: 2019-12-27 14:49+0100\n"
 "Last-Translator:  Miroslav Kure <kurem@debian.cz>\n"
 "Language-Team:  Czech <provoz@debian.cz>\n"
 "Language: cs\n"
@@ -217,8 +217,8 @@ msgid ""
 "If your WEP key is in the format 'nnnn-nnnn-nn', 'nn:nn:nn:nn:nn:nn:nn:nn', "
 "or 'nnnnnnnn', where n is a number, just enter it as it is into this field."
 msgstr ""
-"Pokud je váš WEP klíč ve tvaru 'nnnn-nnnn-nn', 'nn:nn:nn:nn:nn:nn:nn:nn' "
-"nebo 'nnnnnnnn', kde n jsou číslice, jednoduše jej přepište do pole."
+"Pokud je váš WEP klíč ve tvaru „nnnn-nnnn-nn“, „nn:nn:nn:nn:nn:nn:nn:nn“ "
+"nebo „nnnnnnnn“, kde n jsou číslice, jednoduše jej přepište do pole."
 
 #. Type: string
 #. Description
@@ -228,7 +228,7 @@ msgid ""
 "If your WEP key is in the format of a passphrase, prefix it with "
 "'s:' (without quotes)."
 msgstr ""
-"Pokud je váš WEP klíč ve formě hesla, napište před něj 's:' (bez apostrofů)."
+"Pokud je váš WEP klíč ve formě hesla, napište před něj „s:“ (bez uvozovek)."
 
 #. Type: string
 #. Description
@@ -255,7 +255,7 @@ msgid ""
 "The WEP key '${wepkey}' is invalid. Please refer to the instructions on the "
 "next screen carefully on how to enter your WEP key correctly, and try again."
 msgstr ""
-"WEP klíč '${wepkey}' je neplatný. Pozorně si přečtete návod na další "
+"WEP klíč „${wepkey}“ je neplatný. Pozorně si přečtete návod na další "
 "obrazovce a zkuste to znovu."
 
 #. Type: error
@@ -522,7 +522,7 @@ msgid ""
 "'access point', then your network may be Ad-hoc."
 msgstr ""
 "Bezdrátové sítě jsou buď řízené, nebo náhodné. Pokud používáte skutečný "
-"přístupový bod, je tato síť řízená. Pokud je vaším 'přístupovým bodem' jiný "
+"přístupový bod, je tato síť řízená. Pokud je vaším „přístupovým bodem“ jiný "
 "počítač, jedná se pravděpodobně o náhodnou síť."
 
 #. Type: text
@@ -780,6 +780,8 @@ msgid ""
 "No DHCP client was found. Please make sure, that a dhcp installer component "
 "is installed."
 msgstr ""
+"Nebyl nalezen žádný DHCP klient. Ujistěte se, že je nainstalována komponenta "
+"instalátoru dhcp."
 
 #. Type: error
 #. Description
@@ -880,13 +882,6 @@ msgstr "Pokračovat bez implicitního směrování?"
 #. Description
 #. :sl2:
 #: ../netcfg-dhcp.templates:8001
-#, fuzzy
-#| msgid ""
-#| "The network autoconfiguration was successful. However, no default route "
-#| "was set: the system does not know how to communicate with hosts on the "
-#| "Internet. This will make it impossible to continue with the installation "
-#| "unless you have the first installation CD-ROM, a 'Netinst' CD-ROM, or "
-#| "packages available on the local network."
 msgid ""
 "The network autoconfiguration was successful. However, no default route was "
 "set: the system does not know how to communicate with hosts on the Internet. "
@@ -896,8 +891,8 @@ msgid ""
 msgstr ""
 "Automatické nastavení sítě bylo úspěšné, avšak nebylo nastaveno implicitní "
 "směrování: systém tak neví, jak komunikovat s počítači na Internetu. Pokud "
-"nemáte všechny potřebné balíky na místní síti nebo na prvním instalačním CD-"
-"ROM, je pravděpodobné, že se instalaci nepodaří dokončit."
+"nemáte všechny potřebné balíky na místní síti nebo na prvním instalačním "
+"médiu, je pravděpodobné, že se instalaci nepodaří dokončit."
 
 #. Type: boolean
 #. Description
