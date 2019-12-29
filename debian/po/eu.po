@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: eu\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
-"POT-Creation-Date: 2019-11-05 23:54+0100\n"
+"POT-Creation-Date: 2019-12-29 18:48+0100\n"
 "PO-Revision-Date: 2012-05-06 15:56+0200\n"
 "Last-Translator: Piarres Beobide <pi@beobide.net>\n"
 "Language-Team: debian-l10n-eu@lists.debian.org\n"
@@ -786,7 +786,7 @@ msgstr "Ez da DHCP bezerorik aurkitu"
 #. :sl2:
 #: ../netcfg-dhcp.templates:5001
 msgid ""
-"No DHCP client was found. Please make sure, that a dhcp installer component "
+"No DHCP client was found. Please make sure, that a DHCP installer component "
 "is installed."
 msgstr ""
 

@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ku\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
-"POT-Creation-Date: 2019-11-05 23:54+0100\n"
+"POT-Creation-Date: 2019-12-29 18:48+0100\n"
 "PO-Revision-Date: 2010-08-16 00:19+0200\n"
 "Last-Translator: Erdal Ronahi <erdal.ronahi@gmail.com>\n"
 "Language-Team: Kurdish Team http://pckurd.net\n"
@@ -781,7 +781,7 @@ msgstr "Mişteriyê DHCP (client) nehat dîtin"
 #. :sl2:
 #: ../netcfg-dhcp.templates:5001
 msgid ""
-"No DHCP client was found. Please make sure, that a dhcp installer component "
+"No DHCP client was found. Please make sure, that a DHCP installer component "
 "is installed."
 msgstr ""
 

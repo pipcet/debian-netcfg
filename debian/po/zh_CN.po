@@ -34,7 +34,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
-"POT-Creation-Date: 2019-11-05 23:54+0100\n"
+"POT-Creation-Date: 2019-12-29 18:48+0100\n"
 "PO-Revision-Date: 2019-08-26 15:24+0000\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: <debian-l10n-chinese@lists.debian.org>\n"
@@ -770,8 +770,12 @@ msgstr "没有找到 DHCP 客户端程序"
 #. Description
 #. :sl2:
 #: ../netcfg-dhcp.templates:5001
+#, fuzzy
+#| msgid ""
+#| "No DHCP client was found. Please make sure, that a dhcp installer "
+#| "component is installed."
 msgid ""
-"No DHCP client was found. Please make sure, that a dhcp installer component "
+"No DHCP client was found. Please make sure, that a DHCP installer component "
 "is installed."
 msgstr "未找到 DHCP 客户端。请再次确认安装器的 dhcp 组件是否存在。"
 

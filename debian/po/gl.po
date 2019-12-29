@@ -22,7 +22,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gl\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
-"POT-Creation-Date: 2019-11-05 23:54+0100\n"
+"POT-Creation-Date: 2019-12-29 18:48+0100\n"
 "PO-Revision-Date: 2018-09-27 20:25+0000\n"
 "Last-Translator: mantinan <github@manty.net>\n"
 "Language-Team: Galician <proxecto@trasno.net>\n"
@@ -788,7 +788,7 @@ msgstr "Non se atopou ningún cliente DHCP"
 #. :sl2:
 #: ../netcfg-dhcp.templates:5001
 msgid ""
-"No DHCP client was found. Please make sure, that a dhcp installer component "
+"No DHCP client was found. Please make sure, that a DHCP installer component "
 "is installed."
 msgstr ""
 

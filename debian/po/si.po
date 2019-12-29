@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
-"POT-Creation-Date: 2019-11-05 23:54+0100\n"
+"POT-Creation-Date: 2019-12-29 18:48+0100\n"
 "PO-Revision-Date: 2012-02-28 10:16+0530\n"
 "Last-Translator: Danishka Navin <danishka@gmail.com>\n"
 "Language-Team: Sinhala <info@hanthana.org>\n"
@@ -767,7 +767,7 @@ msgstr "කිසිඳු DHCP සේවාලාභියෙක් හමු �
 #. :sl2:
 #: ../netcfg-dhcp.templates:5001
 msgid ""
-"No DHCP client was found. Please make sure, that a dhcp installer component "
+"No DHCP client was found. Please make sure, that a DHCP installer component "
 "is installed."
 msgstr ""
 
@@ -897,8 +897,8 @@ msgid ""
 "If you are unsure, you should not continue without a default route: contact "
 "your local network administrator about this problem."
 msgstr ""
-"ඔබට අවිශ්වාස නම්, ඔබ පෙරනිමි පථයකින් තොරව ඉදිරියට නොයා යුතුයි: මෙම ගැටළුව පිළිබඳව ඔබේ "
-"ප්‍රාදේශීය ජාල පරිපාලක සම්බන්ධ කරගන්න."
+"ඔබට අවිශ්වාස නම්, ඔබ පෙරනිමි පථයකින් තොරව ඉදිරියට නොයා යුතුයි: මෙම ගැටළුව පිළිබඳව ඔබේ ප්‍"
+"රාදේශීය ජාල පරිපාලක සම්බන්ධ කරගන්න."
 
 #. Type: text
 #. Description

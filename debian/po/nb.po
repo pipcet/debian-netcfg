@@ -33,7 +33,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nb\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
-"POT-Creation-Date: 2019-11-05 23:54+0100\n"
+"POT-Creation-Date: 2019-12-29 18:48+0100\n"
 "PO-Revision-Date: 2019-08-19 04:24+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <i18n-nb@lister.ping.uio.no>\n"
@@ -796,8 +796,12 @@ msgstr "Fant ingen DHCP-klient"
 #. Description
 #. :sl2:
 #: ../netcfg-dhcp.templates:5001
+#, fuzzy
+#| msgid ""
+#| "No DHCP client was found. Please make sure, that a dhcp installer "
+#| "component is installed."
 msgid ""
-"No DHCP client was found. Please make sure, that a dhcp installer component "
+"No DHCP client was found. Please make sure, that a DHCP installer component "
 "is installed."
 msgstr ""
 "Fant ingen DHCP-klient. FOrsikre deg om at en DHCP-installasjonskomponent er "

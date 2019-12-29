@@ -27,7 +27,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
-"POT-Creation-Date: 2019-11-05 23:54+0100\n"
+"POT-Creation-Date: 2019-12-29 18:48+0100\n"
 "PO-Revision-Date: 2019-09-22 13:28+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew (https://www.transifex.com/yaron/teams/79473/he/)\n"
@@ -780,8 +780,12 @@ msgstr "לא נמצא לקוח DHCP"
 #. Description
 #. :sl2:
 #: ../netcfg-dhcp.templates:5001
+#, fuzzy
+#| msgid ""
+#| "No DHCP client was found. Please make sure, that a dhcp installer "
+#| "component is installed."
 msgid ""
-"No DHCP client was found. Please make sure, that a dhcp installer component "
+"No DHCP client was found. Please make sure, that a DHCP installer component "
 "is installed."
 msgstr "לא נמצא לקוח DHCP. נא לוודא שרכיב התקנת dhcp אכן מותקן."
 

@@ -1,3 +1,10 @@
+netcfg (1.164) UNRELEASED; urgency=medium
+
+  * Fix lower case use of "dhcp" in template. This includes updating all
+    po|pot files.
+
+ -- Holger Wansing <hwansing@mailbox.org>  Sun, 29 Dec 2019 18:47:05 +0100
+
 netcfg (1.163) unstable; urgency=medium
 
   * Team upload

@@ -26,7 +26,7 @@ Template: netcfg/no_dhcp_client
 Type: error
 # :sl2:
 _Description: No DHCP client found
- No DHCP client was found. Please make sure, that a dhcp installer component
+ No DHCP client was found. Please make sure, that a DHCP installer component
  is installed.
  .
  The DHCP configuration process has been aborted.
