@@ -28,7 +28,7 @@ msgstr ""
 "Project-Id-Version: debian-installer/sublevel1\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
 "POT-Creation-Date: 2019-12-29 18:48+0100\n"
-"PO-Revision-Date: 2019-11-06 16:14+0100\n"
+"PO-Revision-Date: 2019-12-02 21:25+0100\n"
 "Last-Translator: Frans Spiesschaert <Frans.Spiesschaert@yucom.be>\n"
 "Language-Team: Debian Dutch l10n Team <debian-l10n-dutch@lists.debian.org>\n"
 "Language: nl\n"
@@ -795,15 +795,11 @@ msgstr "Er is geen DHCP-clientprogramma gevonden"
 #. Description
 #. :sl2:
 #: ../netcfg-dhcp.templates:5001
-#, fuzzy
-#| msgid ""
-#| "No DHCP client was found. Please make sure, that a dhcp installer "
-#| "component is installed."
 msgid ""
 "No DHCP client was found. Please make sure, that a DHCP installer component "
 "is installed."
 msgstr ""
-"Er werd geen DHCP-clientprogramma gevonden. Zorg ervoor dat een dhcp-"
+"Er werd geen DHCP-clientprogramma gevonden. Zorg ervoor dat een DHCP-"
 "component van het installatieprogramma geïnstalleerd is."
 
 #. Type: error

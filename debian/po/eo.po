@@ -789,16 +789,12 @@ msgstr "Neniu trovita 'DHCP'-kliento"
 #. Description
 #. :sl2:
 #: ../netcfg-dhcp.templates:5001
-#, fuzzy
-#| msgid ""
-#| "No DHCP client was found. Please make sure, that a dhcp installer "
-#| "component is installed."
 msgid ""
 "No DHCP client was found. Please make sure, that a DHCP installer component "
 "is installed."
 msgstr ""
 "Neniu 'DHCP-kliento' estis trovita. Bonvolu certigu, ke instal-komponanto "
-"dhcp estas instalita."
+"DHCP estas instalita."
 
 #. Type: error
 #. Description
@@ -901,12 +897,6 @@ msgstr "Ĉu daŭrigi sen implicita irvojo?"
 #. :sl2:
 #: ../netcfg-dhcp.templates:8001
 #, fuzzy
-#| msgid ""
-#| "The network autoconfiguration was successful. However, no default route "
-#| "was set: the system does not know how to communicate with hosts on the "
-#| "Internet. This will make it impossible to continue with the installation "
-#| "unless you have the first installation CD-ROM, a 'Netinst' CD-ROM, or "
-#| "packages available on the local network."
 msgid ""
 "The network autoconfiguration was successful. However, no default route was "
 "set: the system does not know how to communicate with hosts on the Internet. "

@@ -34,7 +34,7 @@ msgstr ""
 "Project-Id-Version: debian-installer (level1)\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
 "POT-Creation-Date: 2019-12-29 18:48+0100\n"
-"PO-Revision-Date: 2019-09-24 14:28+0000\n"
+"PO-Revision-Date: 2019-12-02 10:05+0000\n"
 "Last-Translator: Andika Triwidada <andika@gmail.com>\n"
 "Language-Team: Debian Indonesia Translators <debian-l10n-indonesian@lists."
 "debian.org>\n"
@@ -799,16 +799,12 @@ msgstr "Klien DHCP tidak ditemukan"
 #. Description
 #. :sl2:
 #: ../netcfg-dhcp.templates:5001
-#, fuzzy
-#| msgid ""
-#| "No DHCP client was found. Please make sure, that a dhcp installer "
-#| "component is installed."
 msgid ""
 "No DHCP client was found. Please make sure, that a DHCP installer component "
 "is installed."
 msgstr ""
 "Klien DHCP tidak ditemukan. Harap pastikan bahwa sebuah komponen installer "
-"dhcp terpasang."
+"DHCP terpasang."
 
 #. Type: error
 #. Description

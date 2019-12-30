@@ -27,7 +27,7 @@ msgstr ""
 "Project-Id-Version: pa\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
 "POT-Creation-Date: 2019-12-29 18:48+0100\n"
-"PO-Revision-Date: 2019-12-15 20:21+0000\n"
+"PO-Revision-Date: 2019-12-30 18:36+0000\n"
 "Last-Translator: Aman ALam <alam.yellow@gmail.com>\n"
 "Language-Team: Punjabi <punjabi-users@lists.sf.net>\n"
 "Language: pa\n"
@@ -774,14 +774,10 @@ msgstr "ਕੋਈ DHCP ਕਲਾਇਟ ਨਹੀਂ ਲੱਭਿਆ"
 #. Description
 #. :sl2:
 #: ../netcfg-dhcp.templates:5001
-#, fuzzy
-#| msgid ""
-#| "No DHCP client was found. Please make sure, that a dhcp installer "
-#| "component is installed."
 msgid ""
 "No DHCP client was found. Please make sure, that a DHCP installer component "
 "is installed."
-msgstr "ਕੋਈ DHCP ਕਲਾਈਂਟ ਨਹੀਂ ਲੱਭਿਆ। ਪੱਕਾ ਕਰੋ ਕਿ dhcp ਇੰਸਟਾਲਰ ਭਾਗ ਇੰਸਟਾਲ ਹੈ।"
+msgstr "ਕੋਈ DHCP ਕਲਾਈਂਟ ਨਹੀਂ ਲੱਭਿਆ। ਪੱਕਾ ਕਰੋ ਕਿ DHCP ਇੰਸਟਾਲਰ ਭਾਗ ਇੰਸਟਾਲ ਹੈ।"
 
 #. Type: error
 #. Description
@@ -891,7 +887,7 @@ msgid ""
 msgstr ""
 "ਨੈੱਟਵਰਕ ਆਟੋ-ਸੰਰਚਨਾ ਸਫਲ ਹੋਈ ਸੀ। ਭਾਵੇਂ, ਕੋਈ ਡਿਫਾਲਟ ਰੂਟ ਸੈੱਟ ਨਹੀਂ ਸੀ: ਸਿਸਟਮ ਨਹੀਂ ਜਾਣਦਾ ਕਿ "
 "ਨੈੱਟਵਰਕ ਤੇ ਹੋਸਟਾਂ ਨਾਲ ਕਿਵੇਂ ਸੰਪਰਕ ਕਰਨਾ ਹੈ। ਇਸ ਇੰਸਟਾਲੇਸ਼ਨ ਜਾਰੀ ਕਰਨ ਨੂੰ ਸੰਭਵ ਕਰੇਗਾ ਜਦੋਂ ਤੱਕ ਤੁਹਾਡੇ "
-"ਕੋਲ ਮੌਜੂਦ ਇੰਸਟਾਲੇਸ਼ਨ ਮੀਡਿਆ ਦੇ ਸਮੂਹ ਵਿੱਚੋਂ ਪਹਿਲੇ ਈਮੇਜ਼, 'Netinst' ਈਮੇਜ਼, ਜਾਂ ਪੈਕੇਜ ਲੋਕਲ  ਨੈੱਟਵਰਕ ਤੇਜ "
+"ਕੋਲ ਮੌਜੂਦ ਇੰਸਟਾਲੇਸ਼ਨ ਮੀਡਿਆ ਦੇ ਸਮੂਹ ਵਿੱਚੋਂ ਪਹਿਲੇ ਈਮੇਜ਼, 'Netinst' ਈਮੇਜ਼, ਜਾਂ ਪੈਕੇਜ ਲੋਕਲ ਨੈੱਟਵਰਕ ਤੇਜ "
 "ਉਪਲੱਬਧ ਨਹੀਂ ਹੁੰਦੇ।"
 
 #. Type: boolean

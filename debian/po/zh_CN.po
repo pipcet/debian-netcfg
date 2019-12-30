@@ -28,14 +28,14 @@
 #   Mai Hao Hui <mhh@126.com>, 2001 (translations from galeon)
 # YunQiang Su <wzssyqa@gmail.com>, 2010, 2011, 2012, 2013.
 # Yangfl <mmyangfl@gmail.com>, 2017.
-# Boyuan Yang <073plan@gmail.com>, 2018.
+# Boyuan Yang <073plan@gmail.com>, 2018, 2019.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
 "POT-Creation-Date: 2019-12-29 18:48+0100\n"
-"PO-Revision-Date: 2019-08-26 15:24+0000\n"
+"PO-Revision-Date: 2019-11-27 22:05+0000\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: <debian-l10n-chinese@lists.debian.org>\n"
 "Language: zh_CN\n"
@@ -770,14 +770,10 @@ msgstr "没有找到 DHCP 客户端程序"
 #. Description
 #. :sl2:
 #: ../netcfg-dhcp.templates:5001
-#, fuzzy
-#| msgid ""
-#| "No DHCP client was found. Please make sure, that a dhcp installer "
-#| "component is installed."
 msgid ""
 "No DHCP client was found. Please make sure, that a DHCP installer component "
 "is installed."
-msgstr "未找到 DHCP 客户端。请再次确认安装器的 dhcp 组件是否存在。"
+msgstr "未找到 DHCP 客户端。请再次确认安装器的 DHCP 组件是否存在。"
 
 #. Type: error
 #. Description
@@ -879,12 +875,6 @@ msgstr "无默认路由，继续安装吗？"
 #. :sl2:
 #: ../netcfg-dhcp.templates:8001
 #, fuzzy
-#| msgid ""
-#| "The network autoconfiguration was successful. However, no default route "
-#| "was set: the system does not know how to communicate with hosts on the "
-#| "Internet. This will make it impossible to continue with the installation "
-#| "unless you have the first installation CD-ROM, a 'Netinst' CD-ROM, or "
-#| "packages available on the local network."
 msgid ""
 "The network autoconfiguration was successful. However, no default route was "
 "set: the system does not know how to communicate with hosts on the Internet. "

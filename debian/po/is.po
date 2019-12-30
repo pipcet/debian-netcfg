@@ -25,7 +25,7 @@ msgstr ""
 "Project-Id-Version: Icelandic (Debian Installer)\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
 "POT-Creation-Date: 2019-12-29 18:48+0100\n"
-"PO-Revision-Date: 2019-09-22 13:28+0000\n"
+"PO-Revision-Date: 2019-12-02 10:05+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: Icelandic <translation-team-is@lists.sourceforge.net>\n"
 "Language: is\n"
@@ -786,15 +786,11 @@ msgstr "Enginn DHCP biðlari fannst"
 #. Description
 #. :sl2:
 #: ../netcfg-dhcp.templates:5001
-#, fuzzy
-#| msgid ""
-#| "No DHCP client was found. Please make sure, that a dhcp installer "
-#| "component is installed."
 msgid ""
 "No DHCP client was found. Please make sure, that a DHCP installer component "
 "is installed."
 msgstr ""
-"Enginn DHCP-biðlari fannst. Gakktu úr skugga um að dhcp-hluti "
+"Enginn DHCP-biðlari fannst. Gakktu úr skugga um að DHCP-hluti "
 "uppsetningarinnar hafi verið settur upp."
 
 #. Type: error
