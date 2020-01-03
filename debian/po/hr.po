@@ -24,7 +24,7 @@ msgstr ""
 "Project-Id-Version: Debian-installer 1st-stage master file HR\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
 "POT-Creation-Date: 2019-12-29 18:48+0100\n"
-"PO-Revision-Date: 2019-12-28 16:21+0000\n"
+"PO-Revision-Date: 2020-01-01 19:21+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
 "Language: hr\n"
@@ -783,12 +783,12 @@ msgstr "Nema pronađenog DHCP klijenta"
 #. Description
 #. :sl2:
 #: ../netcfg-dhcp.templates:5001
-#, fuzzy
 msgid ""
 "No DHCP client was found. Please make sure, that a DHCP installer component "
 "is installed."
 msgstr ""
-"DHCP klijent nije nađen. Provjeri da je instalirana odgovarajuća komponenta."
+"DHCP klijent nije pronađen. Provjeri, je li instalirana odgovarajuća DHCP "
+"komponenta instalacije."
 
 #. Type: error
 #. Description
@@ -889,7 +889,6 @@ msgstr "Nastavi bez zadane rute?"
 #. Description
 #. :sl2:
 #: ../netcfg-dhcp.templates:8001
-#, fuzzy
 msgid ""
 "The network autoconfiguration was successful. However, no default route was "
 "set: the system does not know how to communicate with hosts on the Internet. "
@@ -899,9 +898,8 @@ msgid ""
 msgstr ""
 "Automatsko podešavanje mreže je uspjelo. Međutim, nije postavljena zadana "
 "ruta: sustav ne zna kako komunicirati s računalima na internetu. Zbog toga "
-"nećete moći nastaviti instalaciju, osim ako nemate prvi službeni Debianov "
-"instalacijski CD-ROM, ili 'Netinst' CD-ROM, ili pakete dostupne na lokalnoj "
-"mreži."
+"nećete moći nastaviti instalaciju, osim ako nemate prvi sliku instalacijskog "
+"medija ili 'Netinst' sliku ili pakete dostupne na lokalnoj mreži."
 
 #. Type: boolean
 #. Description
