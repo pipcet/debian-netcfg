@@ -1,7 +1,9 @@
 netcfg (1.164) UNRELEASED; urgency=medium
 
-  * Fix lower case use of "dhcp" in template. This includes updating all
-    po|pot files.
+  * Fix lower case use of "dhcp" in template.
+  * Improve "Malformed IP address" template for simplification and
+    consistency.
+  * The points above include updating all po|pot files.
 
  -- Holger Wansing <hwansing@mailbox.org>  Sun, 29 Dec 2019 18:47:05 +0100
 
