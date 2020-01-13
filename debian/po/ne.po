@@ -23,7 +23,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer_packages_po_sublevel1_ne\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
-"POT-Creation-Date: 2019-12-29 18:48+0100\n"
+"POT-Creation-Date: 2020-01-13 23:11+0100\n"
 "PO-Revision-Date: 2017-12-17 18:40+0000\n"
 "Last-Translator: Jeewal Kunwar <jeewalkunwar1@gmail.com>\n"
 "Language-Team: Nepali <info@mpp.org.np>\n"
@@ -1008,15 +1008,10 @@ msgstr "गलत किसिमले बनाएको आइ पी ठे�
 #. IPv6
 #. :sl2:
 #: ../netcfg-static.templates:2001
-#, fuzzy
 msgid ""
-"The IP address you provided is malformed. It should be in the form x.x.x.x "
-"where each 'x' is no larger than 255 (an IPv4 address), or a sequence of "
-"blocks of hexadecimal digits separated by colons (an IPv6 address). Please "
-"try again."
+"The value you provided is not a usable IPv4 or IPv6 address. Please consult "
+"your network administrator and try again."
 msgstr ""
-"तपाईँले प्रदान गर्नुभएको आइ पी ठेगाना गलत किसिमले बनाइएको छ । यो x.x.x.x को रुपमा हुनु "
-"पर्दछ जहाँ प्रत्येक 'x' २५५ भन्दा ठूलो हुनु हुदैन । कृपया फेरि प्रयास गर्नुहोस् ।"
 
 #. Type: string
 #. Description
@@ -1164,3 +1159,13 @@ msgstr ""
 #: ../netcfg-static.templates:9001
 msgid "Configure a network using static addressing"
 msgstr "स्थिर ठेगाना प्रयोग गरेर एउटा सञ्जाल कन्फिगर गर्नुहोस्"
+
+#, fuzzy
+#~ msgid ""
+#~ "The IP address you provided is malformed. It should be in the form x.x.x."
+#~ "x where each 'x' is no larger than 255 (an IPv4 address), or a sequence "
+#~ "of blocks of hexadecimal digits separated by colons (an IPv6 address). "
+#~ "Please try again."
+#~ msgstr ""
+#~ "तपाईँले प्रदान गर्नुभएको आइ पी ठेगाना गलत किसिमले बनाइएको छ । यो x.x.x.x को रुपमा "
+#~ "हुनु पर्दछ जहाँ प्रत्येक 'x' २५५ भन्दा ठूलो हुनु हुदैन । कृपया फेरि प्रयास गर्नुहोस् ।"

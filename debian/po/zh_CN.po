@@ -34,7 +34,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
-"POT-Creation-Date: 2019-12-29 18:48+0100\n"
+"POT-Creation-Date: 2020-01-13 23:11+0100\n"
 "PO-Revision-Date: 2019-11-27 22:05+0000\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: <debian-l10n-chinese@lists.debian.org>\n"
@@ -989,13 +989,9 @@ msgstr "格式错误的 IP 地址"
 #. :sl2:
 #: ../netcfg-static.templates:2001
 msgid ""
-"The IP address you provided is malformed. It should be in the form x.x.x.x "
-"where each 'x' is no larger than 255 (an IPv4 address), or a sequence of "
-"blocks of hexadecimal digits separated by colons (an IPv6 address). Please "
-"try again."
+"The value you provided is not a usable IPv4 or IPv6 address. Please consult "
+"your network administrator and try again."
 msgstr ""
-"您所提供的 IP 地址的格式错误。它的格式应该是 x.x.x.x (IPv4地址)，其中的“x”不"
-"大于 255，或者冒号分隔的一系列十六进制数字块 (IPv6 地址)。请重试。"
 
 #. Type: string
 #. Description
@@ -1142,3 +1138,12 @@ msgstr ""
 #: ../netcfg-static.templates:9001
 msgid "Configure a network using static addressing"
 msgstr "使用静态地址配置网络"
+
+#~ msgid ""
+#~ "The IP address you provided is malformed. It should be in the form x.x.x."
+#~ "x where each 'x' is no larger than 255 (an IPv4 address), or a sequence "
+#~ "of blocks of hexadecimal digits separated by colons (an IPv6 address). "
+#~ "Please try again."
+#~ msgstr ""
+#~ "您所提供的 IP 地址的格式错误。它的格式应该是 x.x.x.x (IPv4地址)，其中"
+#~ "的“x”不大于 255，或者冒号分隔的一系列十六进制数字块 (IPv6 地址)。请重试。"

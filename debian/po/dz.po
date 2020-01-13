@@ -18,7 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dDz.po\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
-"POT-Creation-Date: 2019-12-29 18:48+0100\n"
+"POT-Creation-Date: 2020-01-13 23:11+0100\n"
 "PO-Revision-Date: 2012-02-29 04:41-0500\n"
 "Last-Translator: Jurmey Rabgay <jrabgay@dit.gov.bt>\n"
 "Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
@@ -1011,15 +1011,10 @@ msgstr "བཟོ་ཉེས་གྱུར་བའི་ ཨའི་པི�
 #. IPv6
 #. :sl2:
 #: ../netcfg-static.templates:2001
-#, fuzzy
 msgid ""
-"The IP address you provided is malformed. It should be in the form x.x.x.x "
-"where each 'x' is no larger than 255 (an IPv4 address), or a sequence of "
-"blocks of hexadecimal digits separated by colons (an IPv6 address). Please "
-"try again."
+"The value you provided is not a usable IPv4 or IPv6 address. Please consult "
+"your network administrator and try again."
 msgstr ""
-"ཁྱོད་ཀྱིས་བྱིན་མི་ཨའི་པི་ཁ་བྱང་འདི་བཟོ་ཉེས་གྱུར་ནུག་ དེ་ཚུ་x.x.x.xའདི་བཟུམ་གྱི་རྣམ་པ་སྦེ་འོང་དགོཔ་"
-"དང་'x'རེ་རེ་ཡང་༢༥༥་ལས་སྦོམ་ནི་མི་འོང་ ལོག་སྟེ་འབད་རྩོལ་བསྐྱེད་གནང་།"
 
 #. Type: string
 #. Description
@@ -1168,3 +1163,13 @@ msgstr ""
 #: ../netcfg-static.templates:9001
 msgid "Configure a network using static addressing"
 msgstr "རྟག་བརྟན་ཁ་བྱང་བཏགས་ནི་ལག་ལེན་འཐབ་འདི་ཡོངས་འབྲེལ་རིམ་སྒྲིག་འབད་ནི།"
+
+#, fuzzy
+#~ msgid ""
+#~ "The IP address you provided is malformed. It should be in the form x.x.x."
+#~ "x where each 'x' is no larger than 255 (an IPv4 address), or a sequence "
+#~ "of blocks of hexadecimal digits separated by colons (an IPv6 address). "
+#~ "Please try again."
+#~ msgstr ""
+#~ "ཁྱོད་ཀྱིས་བྱིན་མི་ཨའི་པི་ཁ་བྱང་འདི་བཟོ་ཉེས་གྱུར་ནུག་ དེ་ཚུ་x.x.x.xའདི་བཟུམ་གྱི་རྣམ་པ་སྦེ་འོང་དགོཔ་"
+#~ "དང་'x'རེ་རེ་ཡང་༢༥༥་ལས་སྦོམ་ནི་མི་འོང་ ལོག་སྟེ་འབད་རྩོལ་བསྐྱེད་གནང་།"

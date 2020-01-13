@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: km\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
-"POT-Creation-Date: 2019-12-29 18:48+0100\n"
+"POT-Creation-Date: 2020-01-13 23:11+0100\n"
 "PO-Revision-Date: 2012-01-18 15:40+0700\n"
 "Last-Translator: Khoem Sokhem <khoemsokhem@khmeros.info>\n"
 "Language-Team: Khmer <support@khmeros.info>\n"
@@ -988,14 +988,9 @@ msgstr "អាសយដ្ឋាន​​ IP មិន​ត្រឹមត្�
 #. :sl2:
 #: ../netcfg-static.templates:2001
 msgid ""
-"The IP address you provided is malformed. It should be in the form x.x.x.x "
-"where each 'x' is no larger than 255 (an IPv4 address), or a sequence of "
-"blocks of hexadecimal digits separated by colons (an IPv6 address). Please "
-"try again."
+"The value you provided is not a usable IPv4 or IPv6 address. Please consult "
+"your network administrator and try again."
 msgstr ""
-"អាសយដ្ឋាន IP ដែល​អ្នក​បាន​ផ្ដល់​មាន​ទម្រង់​មិន​ត្រឹមត្រូវ​ឡើយ ។ វា​គួរ​មាន​ទម្រង់​ជា x.x.x.x ដែល​ 'x' "
-"នីមួយៗ​មិន​វែង​ជាង 255 ឡើយ (អាសយដ្ឋាន IPv4)។ ឬ​លំដាប់​ប្លុកតួលេខ​គោលដប់​ប្រាំមួយ​បំបែក​ដោយ​សញ្ញា (:) "
-"(អាសយដ្ឋាន IPv6) ។ សូម​ព្យាយាម​ម្ដ​ងទៀត។"
 
 #. Type: string
 #. Description
@@ -1145,3 +1140,13 @@ msgstr ""
 #: ../netcfg-static.templates:9001
 msgid "Configure a network using static addressing"
 msgstr "​កំណត់​រចនាសម្ព័ន្ធ​បណ្ដាញ​ដោយ​ប្រើ​អាសយដ្ឋាន​ថេរ"
+
+#~ msgid ""
+#~ "The IP address you provided is malformed. It should be in the form x.x.x."
+#~ "x where each 'x' is no larger than 255 (an IPv4 address), or a sequence "
+#~ "of blocks of hexadecimal digits separated by colons (an IPv6 address). "
+#~ "Please try again."
+#~ msgstr ""
+#~ "អាសយដ្ឋាន IP ដែល​អ្នក​បាន​ផ្ដល់​មាន​ទម្រង់​មិន​ត្រឹមត្រូវ​ឡើយ ។ វា​គួរ​មាន​ទម្រង់​ជា x.x.x.x ដែល​ "
+#~ "'x' នីមួយៗ​មិន​វែង​ជាង 255 ឡើយ (អាសយដ្ឋាន IPv4)។ ឬ​លំដាប់​ប្លុកតួលេខ​គោលដប់​ប្រាំមួយ​បំបែក​ដោយ​"
+#~ "សញ្ញា (:) (អាសយដ្ឋាន IPv6) ។ សូម​ព្យាយាម​ម្ដ​ងទៀត។"

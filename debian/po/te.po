@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: te\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
-"POT-Creation-Date: 2019-12-29 18:48+0100\n"
+"POT-Creation-Date: 2020-01-13 23:11+0100\n"
 "PO-Revision-Date: 2019-08-28 18:10+0000\n"
 "Last-Translator: leela <53352@protonmail.com>\n"
 "Language-Team: d-i <kde-i18n-doc@kde.org>\n"
@@ -987,13 +987,9 @@ msgstr "తీరు సరిగాలేని  IP చిరునామా"
 #. :sl2:
 #: ../netcfg-static.templates:2001
 msgid ""
-"The IP address you provided is malformed. It should be in the form x.x.x.x "
-"where each 'x' is no larger than 255 (an IPv4 address), or a sequence of "
-"blocks of hexadecimal digits separated by colons (an IPv6 address). Please "
-"try again."
+"The value you provided is not a usable IPv4 or IPv6 address. Please consult "
+"your network administrator and try again."
 msgstr ""
-"మీరు ఇచ్చిన   IP చిరునామా తీరు సరిగాలేదు. x.x.x.x లాగా,ఒక్కొక్క x,  255 (ఒక IPv4 చిరునామా లాగా) "
-"కన్నా పెద్దదిగా లేకుండా వుండాలి. దయచేసి మరల ప్రయత్నించు."
 
 #. Type: string
 #. Description
@@ -1142,3 +1138,12 @@ msgstr ""
 #: ../netcfg-static.templates:9001
 msgid "Configure a network using static addressing"
 msgstr "నెట్వర్క్ ని స్థిర చిరునామా పద్ధతి వాడి అమరికచేయు"
+
+#~ msgid ""
+#~ "The IP address you provided is malformed. It should be in the form x.x.x."
+#~ "x where each 'x' is no larger than 255 (an IPv4 address), or a sequence "
+#~ "of blocks of hexadecimal digits separated by colons (an IPv6 address). "
+#~ "Please try again."
+#~ msgstr ""
+#~ "మీరు ఇచ్చిన   IP చిరునామా తీరు సరిగాలేదు. x.x.x.x లాగా,ఒక్కొక్క x,  255 (ఒక IPv4 చిరునామా "
+#~ "లాగా) కన్నా పెద్దదిగా లేకుండా వుండాలి. దయచేసి మరల ప్రయత్నించు."

@@ -18,7 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
-"POT-Creation-Date: 2019-12-29 18:48+0100\n"
+"POT-Creation-Date: 2020-01-13 23:11+0100\n"
 "PO-Revision-Date: 2018-10-07 18:30+0000\n"
 "Last-Translator: Nayan Nakhare <nayannakhare@rediffmail.com>\n"
 "Language-Team: CDAC_DI\n"
@@ -1002,15 +1002,9 @@ msgstr "चुकीच्या पध्दतीने लिहीलेल�
 #. :sl2:
 #: ../netcfg-static.templates:2001
 msgid ""
-"The IP address you provided is malformed. It should be in the form x.x.x.x "
-"where each 'x' is no larger than 255 (an IPv4 address), or a sequence of "
-"blocks of hexadecimal digits separated by colons (an IPv6 address). Please "
-"try again."
+"The value you provided is not a usable IPv4 or IPv6 address. Please consult "
+"your network administrator and try again."
 msgstr ""
-"आपण दिलेला आयपी पत्ता हा चुकीच्या स्वरूपात आहे. तो x.x.x.x या स्वरुपात ज्यात कोणताही "
-"'x' 255 पेक्षा लहान असला पाहिजे (IPv4 पत्ता), किंवा अर्धविरामांनी विलग केलेली "
-"हेग्झाडेसिमल अंकांच्या ब्लॉक्सची मालिका (IPv6 पत्ता) असा असणे गरजेचे आहे. कृपया पुन्हा प्रयत्न "
-"करा."
 
 #. Type: string
 #. Description
@@ -1162,3 +1156,14 @@ msgstr ""
 #: ../netcfg-static.templates:9001
 msgid "Configure a network using static addressing"
 msgstr "स्थायी पत्ता वापरणाऱ्या नेटवर्कची संरचना करा"
+
+#~ msgid ""
+#~ "The IP address you provided is malformed. It should be in the form x.x.x."
+#~ "x where each 'x' is no larger than 255 (an IPv4 address), or a sequence "
+#~ "of blocks of hexadecimal digits separated by colons (an IPv6 address). "
+#~ "Please try again."
+#~ msgstr ""
+#~ "आपण दिलेला आयपी पत्ता हा चुकीच्या स्वरूपात आहे. तो x.x.x.x या स्वरुपात ज्यात "
+#~ "कोणताही 'x' 255 पेक्षा लहान असला पाहिजे (IPv4 पत्ता), किंवा अर्धविरामांनी विलग "
+#~ "केलेली हेग्झाडेसिमल अंकांच्या ब्लॉक्सची मालिका (IPv6 पत्ता) असा असणे गरजेचे आहे. कृपया "
+#~ "पुन्हा प्रयत्न करा."
