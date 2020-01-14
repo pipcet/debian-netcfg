@@ -886,12 +886,6 @@ msgstr "기본 라우팅 없이 계속 하시겠습니까?"
 #. :sl2:
 #: ../netcfg-dhcp.templates:8001
 #, fuzzy
-#| msgid ""
-#| "The network autoconfiguration was successful. However, no default route "
-#| "was set: the system does not know how to communicate with hosts on the "
-#| "Internet. This will make it impossible to continue with the installation "
-#| "unless you have the first installation CD-ROM, a 'Netinst' CD-ROM, or "
-#| "packages available on the local network."
 msgid ""
 "The network autoconfiguration was successful. However, no default route was "
 "set: the system does not know how to communicate with hosts on the Internet. "
@@ -1160,13 +1154,3 @@ msgstr ""
 #: ../netcfg-static.templates:9001
 msgid "Configure a network using static addressing"
 msgstr "고정 주소를 사용해 네트워크를 설정합니다"
-
-#~ msgid ""
-#~ "The IP address you provided is malformed. It should be in the form x.x.x."
-#~ "x where each 'x' is no larger than 255 (an IPv4 address), or a sequence "
-#~ "of blocks of hexadecimal digits separated by colons (an IPv6 address). "
-#~ "Please try again."
-#~ msgstr ""
-#~ "입력한 IP 주소의 형식이 틀렸습니다. IPv4 주소는 x.x.x.x의 형태여야 하며, "
-#~ "여기서 x는 255보다 크지 않아야 합니다. IPv6 주소는 콜론으로 구분한 16진수 "
-#~ "숫자 블럭 연속입니다. 다시 시도하십시오."

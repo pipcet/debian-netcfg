@@ -21,14 +21,14 @@
 # Freek de Kruijf <f.de.kruijf@hetnet.nl>, 2006, 2007, 2008, 2009, 2010, 2011.
 # Taco Witte <tcwitte@cs.uu.nl>, 2004.
 # Reinout van Schouwen <reinouts@gnome.org>, 2007.
-# Frans Spiesschaert <Frans.Spiesschaert@yucom.be>, 2014, 2015, 2016, 2017, 2018, 2019.
+# Frans Spiesschaert <Frans.Spiesschaert@yucom.be>, 2014-2020.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer/sublevel1\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
 "POT-Creation-Date: 2020-01-13 23:11+0100\n"
-"PO-Revision-Date: 2019-12-02 21:25+0100\n"
+"PO-Revision-Date: 2020-01-11 12:20+0100\n"
 "Last-Translator: Frans Spiesschaert <Frans.Spiesschaert@yucom.be>\n"
 "Language-Team: Debian Dutch l10n Team <debian-l10n-dutch@lists.debian.org>\n"
 "Language: nl\n"
@@ -1181,14 +1181,3 @@ msgstr ""
 #: ../netcfg-static.templates:9001
 msgid "Configure a network using static addressing"
 msgstr "Netwerk instellen met statische adressen"
-
-#~ msgid ""
-#~ "The IP address you provided is malformed. It should be in the form x.x.x."
-#~ "x where each 'x' is no larger than 255 (an IPv4 address), or a sequence "
-#~ "of blocks of hexadecimal digits separated by colons (an IPv6 address). "
-#~ "Please try again."
-#~ msgstr ""
-#~ "Het door u opgegeven IP-adres is misvormd. Het dient te voldoen aan de "
-#~ "vorm x.x.x.x waarbij elke 'x' een getal is kleiner dan of gelijk aan 255, "
-#~ "of een reeks blokken van hexadecimale getallen gescheiden door dubbele "
-#~ "punten (een IPv6-adres). U kunt opnieuw proberen."

@@ -918,12 +918,6 @@ msgstr "Continuare senza una «route» predefinita?"
 #. :sl2:
 #: ../netcfg-dhcp.templates:8001
 #, fuzzy
-#| msgid ""
-#| "The network autoconfiguration was successful. However, no default route "
-#| "was set: the system does not know how to communicate with hosts on the "
-#| "Internet. This will make it impossible to continue with the installation "
-#| "unless you have the first installation CD-ROM, a 'Netinst' CD-ROM, or "
-#| "packages available on the local network."
 msgid ""
 "The network autoconfiguration was successful. However, no default route was "
 "set: the system does not know how to communicate with hosts on the Internet. "
@@ -1199,14 +1193,3 @@ msgstr ""
 #: ../netcfg-static.templates:9001
 msgid "Configure a network using static addressing"
 msgstr "Configura la rete con indirizzamento statico"
-
-#~ msgid ""
-#~ "The IP address you provided is malformed. It should be in the form x.x.x."
-#~ "x where each 'x' is no larger than 255 (an IPv4 address), or a sequence "
-#~ "of blocks of hexadecimal digits separated by colons (an IPv6 address). "
-#~ "Please try again."
-#~ msgstr ""
-#~ "L'indirizzo IP fornito non è corretto. Dovrebbe essere nella forma x.x.x."
-#~ "x dove ogni «x» non è maggiore di 255 (un indirizzo IPv4) o una sequenza "
-#~ "di blocchi esadecimali separati dal simbolo dei due punti (un indirizzo "
-#~ "IPv6) Riprovare."

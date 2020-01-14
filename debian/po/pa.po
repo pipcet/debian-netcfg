@@ -1147,13 +1147,3 @@ msgstr ""
 #: ../netcfg-static.templates:9001
 msgid "Configure a network using static addressing"
 msgstr "ਸਥਿਰ ਐਡਰੈੱਸ ਵਰਤ ਕੇ ਨੈੱਟਵਰਕ ਸੰਰਚਿਤ ਕਰੋ"
-
-#~ msgid ""
-#~ "The IP address you provided is malformed. It should be in the form x.x.x."
-#~ "x where each 'x' is no larger than 255 (an IPv4 address), or a sequence "
-#~ "of blocks of hexadecimal digits separated by colons (an IPv6 address). "
-#~ "Please try again."
-#~ msgstr ""
-#~ "IP ਐਡਰੈੱਸ ਜੋ ਤੁਸੀਂ ਦਿੱਤਾ ਹੈ ਨੁਕਸਦਾਰ ਹੈ। ਇਹ x.x.x.x ਰੂਪ ਵਿੱਚ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ ਜਿੱਥੇ ਹਰੇਕ "
-#~ "'x'  255 ਤੋਂ ਵੱਡਾ ਨਹੀਂ ਹੁੰਦਾ (IPv4) ਜਾਂ ਕਾਮਿਆਂ ਨਾਲ ਵੱਖ ਕੀਤਾ ਹੈਕਸਾਡੈਸੀਮਲ ਕੋਡ ਦੀ ਲੜੀ "
-#~ "ਹੁੰਦੀ ਹੈ (IPv6 ਐਡਰੈਸ)। ਫਿਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ ਜੀ।"

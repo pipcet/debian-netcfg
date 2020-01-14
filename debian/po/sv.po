@@ -1173,13 +1173,3 @@ msgstr ""
 #: ../netcfg-static.templates:9001
 msgid "Configure a network using static addressing"
 msgstr "Konfigurera ett nätverk genom statisk adressering"
-
-#~ msgid ""
-#~ "The IP address you provided is malformed. It should be in the form x.x.x."
-#~ "x where each 'x' is no larger than 255 (an IPv4 address), or a sequence "
-#~ "of blocks of hexadecimal digits separated by colons (an IPv6 address). "
-#~ "Please try again."
-#~ msgstr ""
-#~ "IP-adressen som du angav är felformaterad. Den ska vara på formatet x.x.x."
-#~ "x där varje \"x\" inte är större än 255 (för IPv4), eller en sekvens med "
-#~ "hexadecimala tecken separerade med kolon (för IPv6). Försök igen."

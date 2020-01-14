@@ -19,8 +19,8 @@ msgstr ""
 "Project-Id-Version: dDz.po\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
 "POT-Creation-Date: 2020-01-13 23:11+0100\n"
-"PO-Revision-Date: 2012-02-29 04:41-0500\n"
-"Last-Translator: Jurmey Rabgay <jrabgay@dit.gov.bt>\n"
+"PO-Revision-Date: 2019-08-28 18:09+0000\n"
+"Last-Translator: leela <53352@protonmail.com>\n"
 "Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
 "Language: dz\n"
 "MIME-Version: 1.0\n"
@@ -887,12 +887,6 @@ msgstr "སྔོན་སྒྲིག་འགྲུལ་ལམ་མེདཔ
 #. :sl2:
 #: ../netcfg-dhcp.templates:8001
 #, fuzzy
-#| msgid ""
-#| "The network autoconfiguration was successful. However, no default route "
-#| "was set: the system does not know how to communicate with hosts on the "
-#| "Internet. This will make it impossible to continue with the installation "
-#| "unless you have the first installation CD-ROM, a 'Netinst' CD-ROM, or "
-#| "packages available on the local network."
 msgid ""
 "The network autoconfiguration was successful. However, no default route was "
 "set: the system does not know how to communicate with hosts on the Internet. "
@@ -1163,13 +1157,3 @@ msgstr ""
 #: ../netcfg-static.templates:9001
 msgid "Configure a network using static addressing"
 msgstr "རྟག་བརྟན་ཁ་བྱང་བཏགས་ནི་ལག་ལེན་འཐབ་འདི་ཡོངས་འབྲེལ་རིམ་སྒྲིག་འབད་ནི།"
-
-#, fuzzy
-#~ msgid ""
-#~ "The IP address you provided is malformed. It should be in the form x.x.x."
-#~ "x where each 'x' is no larger than 255 (an IPv4 address), or a sequence "
-#~ "of blocks of hexadecimal digits separated by colons (an IPv6 address). "
-#~ "Please try again."
-#~ msgstr ""
-#~ "ཁྱོད་ཀྱིས་བྱིན་མི་ཨའི་པི་ཁ་བྱང་འདི་བཟོ་ཉེས་གྱུར་ནུག་ དེ་ཚུ་x.x.x.xའདི་བཟུམ་གྱི་རྣམ་པ་སྦེ་འོང་དགོཔ་"
-#~ "དང་'x'རེ་རེ་ཡང་༢༥༥་ལས་སྦོམ་ནི་མི་འོང་ ལོག་སྟེ་འབད་རྩོལ་བསྐྱེད་གནང་།"
