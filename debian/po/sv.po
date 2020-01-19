@@ -18,15 +18,15 @@
 # Christian Rose <menthos@menthos.com>, 2004.
 # Daniel Nylander <po@danielnylander.se>, 2007.
 # Martin Bagge <martin.bagge@bthstudent.se>, 2008, 2016.
-# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2018.
+# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2018, 2020.
 # Mattias Münster <mattiasmun@gmail.com>, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
 "POT-Creation-Date: 2020-01-13 23:11+0100\n"
-"PO-Revision-Date: 2019-11-19 12:04+0000\n"
-"Last-Translator: Mattias Münster <mattiasmun@gmail.com>\n"
+"PO-Revision-Date: 2020-01-16 19:21+0000\n"
+"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <debian-l10n-swedish@lists.debian.org>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -1021,6 +1021,8 @@ msgid ""
 "The value you provided is not a usable IPv4 or IPv6 address. Please consult "
 "your network administrator and try again."
 msgstr ""
+"Värdet som du tillhandahållit är inte en användbar IPv4- eller IPv6-adress. "
+"Konsultera din nätverksadministratör och försök igen."
 
 #. Type: string
 #. Description

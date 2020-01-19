@@ -24,7 +24,7 @@ msgstr ""
 "Project-Id-Version: Debian-installer 1st-stage master file HR\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
 "POT-Creation-Date: 2020-01-13 23:11+0100\n"
-"PO-Revision-Date: 2020-01-01 19:21+0000\n"
+"PO-Revision-Date: 2020-01-19 18:19+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
 "Language: hr\n"
@@ -1009,6 +1009,8 @@ msgid ""
 "The value you provided is not a usable IPv4 or IPv6 address. Please consult "
 "your network administrator and try again."
 msgstr ""
+"Vrijednost koju ste naveli nije upotrebljiva IPv4 ili IPv6 adresa. Obratite "
+"se mrežnom administratoru i pokušajte ponovo."
 
 #. Type: string
 #. Description
@@ -1028,7 +1030,7 @@ msgid ""
 "numbers separated by periods."
 msgstr ""
 "Točka-u-točka adresa se koristi za određivanje druge krajnje točke u točka-u-"
-"točka mreži.  Upitajte svog mrežnog administratora ako je ne znate.  Točka-u-"
+"točka mreži.  Obratite se mrežnom administratoru ako je ne znate.  Točka-u-"
 "točka adresa se sastoji od četiri broja, odvojena točkama."
 
 #. Type: string

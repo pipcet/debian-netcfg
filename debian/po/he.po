@@ -28,7 +28,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
 "POT-Creation-Date: 2020-01-13 23:11+0100\n"
-"PO-Revision-Date: 2019-12-03 17:59+0000\n"
+"PO-Revision-Date: 2020-01-16 19:21+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew (https://www.transifex.com/yaron/teams/79473/he/)\n"
 "Language: he\n"
@@ -1002,6 +1002,8 @@ msgid ""
 "The value you provided is not a usable IPv4 or IPv6 address. Please consult "
 "your network administrator and try again."
 msgstr ""
+"הערך שציינת אינו כתובת IPv4 או IPv6 שמישה. נא להתייעץ עם הנהלת הרשת שלך "
+"ולנסות שוב."
 
 #. Type: string
 #. Description
