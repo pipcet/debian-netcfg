@@ -30,7 +30,7 @@ msgstr ""
 "Project-Id-Version: fr\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
 "POT-Creation-Date: 2020-01-13 23:11+0100\n"
-"PO-Revision-Date: 2019-12-06 14:54+0100\n"
+"PO-Revision-Date: 2020-01-20 16:09+0100\n"
 "Last-Translator: Baptiste Jammet <baptiste@mailoo.org>\n"
 "Language-Team: French <debian-l10n-french@lists.debian.org>\n"
 "Language: fr\n"
@@ -1036,6 +1036,8 @@ msgid ""
 "The value you provided is not a usable IPv4 or IPv6 address. Please consult "
 "your network administrator and try again."
 msgstr ""
+"La valeur fournie n'est pas une adresse IPv4 ni IPv6 utilisable. Veuillez "
+"consulter votre administrateur réseau et recommencer."
 
 #. Type: string
 #. Description
