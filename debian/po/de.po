@@ -40,7 +40,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
 "POT-Creation-Date: 2020-01-13 23:11+0100\n"
-"PO-Revision-Date: 2019-12-01 09:03+0100\n"
+"PO-Revision-Date: 2020-01-20 23:13+0100\n"
 "Last-Translator: Holger Wansing <hwansing@mailbox.org>\n"
 "Language-Team: German <debian-l10n-german@lists.debian.org>\n"
 "Language: de\n"
@@ -1052,6 +1052,9 @@ msgid ""
 "The value you provided is not a usable IPv4 or IPv6 address. Please consult "
 "your network administrator and try again."
 msgstr ""
+"Der Wert, den Sie angegeben haben, ist keine gültige IPv4- oder IPv6-"
+"Adresse. Bitte konsultieren Sie Ihren Netzwerkadministrator und versuchen "
+"Sie es erneut."
 
 #. Type: string
 #. Description
