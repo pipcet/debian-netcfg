@@ -1,11 +1,28 @@
-netcfg (1.164) UNRELEASED; urgency=medium
+netcfg (1.164) unstable; urgency=medium
+
+  * Team upload
 
   * Fix lower case use of "dhcp" in template.
   * Improve "Malformed IP address" template for simplification and
     consistency.
   * The points above include updating all po|pot files.
 
- -- Holger Wansing <hwansing@mailbox.org>  Sun, 29 Dec 2019 18:47:05 +0100
+  [ Updated translations ]
+  * Czech (cs.po) by Miroslav Kure
+  * German (de.po) by Holger Wansing
+  * Esperanto (eo.po) by Felipe Castro
+  * French (fr.po) by Baptiste Jammet
+  * Hebrew (he.po) by Yaron Shahrabani
+  * Croatian (hr.po) by Milo Ivir
+  * Indonesian (id.po) by Andika Triwidada
+  * Icelandic (is.po) by Sveinn í Felli
+  * Dutch (nl.po) by Frans Spiesschaert
+  * Punjabi (Gurmukhi) (pa.po) by Aman ALam
+  * Portuguese (pt.po) by Miguel Figueiredo
+  * Swedish (sv.po) by Anders Jonsson
+  * Simplified Chinese (zh_CN.po) by 玉堂白鹤
+
+ -- Holger Wansing <hwansing@mailbox.org>  Tue, 28 Jan 2020 21:57:11 +0100
 
 netcfg (1.163) unstable; urgency=medium
 
