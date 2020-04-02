@@ -18,14 +18,15 @@
 #   Tomislav Krznar <tomislav.krznar@gmail.com>, 2012, 2013, 2014, 2015.
 #   Valentin Vidic <Valentin.Vidic@CARNet.hr>, 2017
 #   Milo Ivir <mail@milotype.de>, 2019.
+#   gogogogi <trebelnik2@gmail.com>, 2020.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Debian-installer 1st-stage master file HR\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
 "POT-Creation-Date: 2020-01-13 23:11+0100\n"
-"PO-Revision-Date: 2020-01-19 18:19+0000\n"
-"Last-Translator: Milo Ivir <mail@milotype.de>\n"
+"PO-Revision-Date: 2020-04-02 18:02+0000\n"
+"Last-Translator: gogogogi <trebelnik2@gmail.com>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
@@ -787,8 +788,8 @@ msgid ""
 "No DHCP client was found. Please make sure, that a DHCP installer component "
 "is installed."
 msgstr ""
-"DHCP klijent nije pronađen. Provjeri, je li instalirana odgovarajuća DHCP "
-"komponenta instalacije."
+"Nema pronađenog DHCP klijenta. Provjerite je li instalirana odgovarajuća "
+"DHCP komponenta instalacije."
 
 #. Type: error
 #. Description
@@ -898,8 +899,9 @@ msgid ""
 msgstr ""
 "Automatsko podešavanje mreže je uspjelo. Međutim, nije postavljena zadana "
 "ruta: sustav ne zna kako komunicirati s računalima na internetu. Zbog toga "
-"nećete moći nastaviti instalaciju, osim ako nemate prvi sliku instalacijskog "
-"medija ili 'Netinst' sliku ili pakete dostupne na lokalnoj mreži."
+"nećete moći nastaviti instalaciju, osim ako nemate prvu sliku instalacijskog "
+"medija iz skupa instalacijskih medija, 'Netinst' sliku, ili pakete dostupne "
+"na lokalnoj mreži."
 
 #. Type: boolean
 #. Description
@@ -1010,7 +1012,7 @@ msgid ""
 "your network administrator and try again."
 msgstr ""
 "Vrijednost koju ste naveli nije upotrebljiva IPv4 ili IPv6 adresa. Obratite "
-"se mrežnom administratoru i pokušajte ponovo."
+"se vašem mrežnom administratoru i pokušajte ponovno."
 
 #. Type: string
 #. Description
@@ -1030,8 +1032,8 @@ msgid ""
 "numbers separated by periods."
 msgstr ""
 "Točka-u-točka adresa se koristi za određivanje druge krajnje točke u točka-u-"
-"točka mreži.  Obratite se mrežnom administratoru ako je ne znate.  Točka-u-"
-"točka adresa se sastoji od četiri broja, odvojena točkama."
+"točka mreži.  Obratite se vašem mrežnom administratoru ako ju ne znate.  "
+"Točka-u-točka adresa se sastoji od četiri broja, odvojena točkama."
 
 #. Type: string
 #. Description
