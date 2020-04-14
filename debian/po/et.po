@@ -8,7 +8,7 @@
 # This translation is released under the same licence as the debian-installer.
 #
 # Siim Põder <siim@p6drad-teel.net>, 2007.
-# Kristjan Räts <kristjanrats@gmail.com>, 2017, 2018.
+# Kristjan Räts <kristjanrats@gmail.com>, 2017, 2018, 2020.
 #
 # Thanks to following Ubuntu Translators for review and fixes:
 #     Laur Mõtus
@@ -32,7 +32,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
 "POT-Creation-Date: 2020-01-13 23:11+0100\n"
-"PO-Revision-Date: 2018-07-24 14:27+0000\n"
+"PO-Revision-Date: 2020-04-12 08:11+0000\n"
 "Last-Translator: Kristjan Räts <kristjanrats@gmail.com>\n"
 "Language-Team: Estonian <>\n"
 "Language: et\n"
@@ -793,6 +793,8 @@ msgid ""
 "No DHCP client was found. Please make sure, that a DHCP installer component "
 "is installed."
 msgstr ""
+"DHCP klienti ei leitud. Palun veendu, et DHCP paigaldaja komponent on "
+"paigaldatud."
 
 #. Type: error
 #. Description
@@ -894,7 +896,6 @@ msgstr "Kas jätkata vaikemarsruudita?"
 #. Description
 #. :sl2:
 #: ../netcfg-dhcp.templates:8001
-#, fuzzy
 msgid ""
 "The network autoconfiguration was successful. However, no default route was "
 "set: the system does not know how to communicate with hosts on the Internet. "
@@ -902,10 +903,11 @@ msgid ""
 "have the first image from a set of installation media, a 'Netinst' image, or "
 "packages available on the local network."
 msgstr ""
-"Võrgu iseseadistumine õnnestus, kuid vaikemarsruuti pole määratud: süsteem "
+"Võrgu iseseadistamine õnnestus, kuid vaikemarsruuti pole määratud: süsteem "
 "ei tea kuidas Internetis olevate serveriteni jõuda. Praegusel hetkel on "
-"võimatu paigaldamist jätkata, kui sul just pole esimest ametlikku Debiani "
-"laserketast, 'Netinst' laserketast või pakette kohtvõrgus kättesaadaval."
+"võimatu paigaldamist jätkata, kui sul just ei ole esimest tõmmist Debiani "
+"paigaldusmeediate seast, 'Netinst' tõmmist või kohtvõrgus kättesaadavaid "
+"paigalduspakette."
 
 #. Type: boolean
 #. Description
@@ -1013,6 +1015,8 @@ msgid ""
 "The value you provided is not a usable IPv4 or IPv6 address. Please consult "
 "your network administrator and try again."
 msgstr ""
+"Pakutud väärtus ei ole kasutatav IPv4 või IPv6 aadress. Palun pöördu oma "
+"võrguülema poole ja proovi uuesti."
 
 #. Type: string
 #. Description
