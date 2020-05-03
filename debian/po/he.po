@@ -28,7 +28,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
 "POT-Creation-Date: 2020-01-13 23:11+0100\n"
-"PO-Revision-Date: 2020-04-20 14:11+0000\n"
+"PO-Revision-Date: 2020-05-01 13:11+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew (https://www.transifex.com/yaron/teams/79473/he/)\n"
 "Language: he\n"
@@ -227,7 +227,7 @@ msgid ""
 "or 'nnnnnnnn', where n is a number, just enter it as it is into this field."
 msgstr ""
 "אם מפתח ה־WEP שלך הוא בתצורת ‚nnnn-nnnn-nn’‏, ‚nn:nn:nn:nn:nn:nn:nn:nn’ או "
-"‚nnnnnnnn', כאשר n היא ספרה, עליך להקליד את המפתח כמו שהוא לתוך השדה הזה."
+"‚nnnnnnnn’, כאשר n היא ספרה, עליך להקליד את המפתח כמו שהוא לתוך השדה הזה."
 
 #. Type: string
 #. Description
