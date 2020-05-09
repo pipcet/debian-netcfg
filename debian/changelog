@@ -1,3 +1,19 @@
+netcfg (1.166) unstable; urgency=medium
+
+  * Team upload
+
+  [ Updated translations ]
+  * Czech (cs.po) by Miroslav Kure
+  * Estonian (et.po) by Kristjan Räts
+  * Hebrew (he.po) by Yaron Shahrabani
+  * Croatian (hr.po) by gogogogi
+  * Korean (ko.po) by Changwoo Ryu
+  * Norwegian Bokmal (nb.po) by Allan Nordhøy
+  * Dutch (nl.po) by Frans Spiesschaert
+  * Portuguese (Brazil) (pt_BR.po) by Adriano Rafael Gomes
+
+ -- Holger Wansing <hwansing@mailbox.org>  Sat, 09 May 2020 23:26:36 +0200
+
 netcfg (1.165) unstable; urgency=medium
 
   * Team upload
