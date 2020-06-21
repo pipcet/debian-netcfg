@@ -12,7 +12,7 @@
 # Axel Bojer <axelb@skolelinux.no>, 2004.
 # Bjørn Steensrud <bjornst@powertech.no>, 2004-2007.
 # Hans Fredrik Nordhaug <hans@nordhaug.priv.no>, 2005, 2007-2015.
-# Petter Reinholdtsen <pere@hungry.com>, 2017.
+# Petter Reinholdtsen <pere@hungry.com>, 2017, 2020.
 # Allan Nordhøy <epost@anotheragency.no>, 2019, 2020.
 #
 # Translations from iso-codes:
@@ -35,7 +35,7 @@ msgstr ""
 "Project-Id-Version: nb\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
 "POT-Creation-Date: 2020-01-13 23:11+0100\n"
-"PO-Revision-Date: 2020-03-30 22:50+0000\n"
+"PO-Revision-Date: 2020-06-18 08:41+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <i18n-nb@lister.ping.uio.no>\n"
 "Language: nb\n"
@@ -416,7 +416,7 @@ msgstr "Ugyldig vertsnavn"
 #. :sl2:
 #: ../netcfg-common.templates:20001
 msgid "The name \"${hostname}\" is invalid."
-msgstr "Vertsnavnet  «${hostname}» er ugyldig."
+msgstr "Vertsnavnet «${hostname}» er ugyldig."
 
 #. Type: error
 #. Description
