@@ -24,13 +24,13 @@
 #   Grégoire Colbert <gregus@linux-mandrake.com>, 2001.
 #   Tobias Quathamer <toddy@debian.org>, 2007, 2008.
 # Alban Vidal <alban.vidal@zordhak.fr>, 2018.
-# Baptiste Jammet <baptiste@mailoo.org>, 2019.
+# Baptiste Jammet <baptiste@mailoo.org>, 2019, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: fr\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
 "POT-Creation-Date: 2020-01-13 23:11+0100\n"
-"PO-Revision-Date: 2020-01-20 16:09+0100\n"
+"PO-Revision-Date: 2020-08-17 10:18+0100\n"
 "Last-Translator: Baptiste Jammet <baptiste@mailoo.org>\n"
 "Language-Team: French <debian-l10n-french@lists.debian.org>\n"
 "Language: fr\n"
@@ -187,7 +187,7 @@ msgstr "Réseau ouvert ou WEP"
 #. :sl2:
 #: ../netcfg-common.templates:8001
 msgid "WPA/WPA2 PSK"
-msgstr "WPA PSK"
+msgstr "WPA/WPA2 PSK"
 
 #. Type: select
 #. Description
@@ -294,8 +294,8 @@ msgid ""
 "The WPA/WPA2 PSK passphrase was either too long (more than 64 characters) or "
 "too short (less than 8 characters)."
 msgstr ""
-"La phrase secrète WPA/WPA2 PSK est soit trop longue (plus de 64 caractères), "
-"soit trop courte (moins de 8 caractères)."
+"La phrase secrète WPA/WPA2 PSK est soit trop longue (plus de 64 caractères), "
+"soit trop courte (moins de 8 caractères)."
 
 #. Type: string
 #. Description
@@ -332,7 +332,7 @@ msgid ""
 "characters, but may contain all kinds of characters."
 msgstr ""
 "Le nom « ${essid} » n'est pas valable. Les ESSID ne doivent pas dépasser "
-"${max_essid_len} caractères, mais ils peuvent contenir toutes sortes de "
+"${max_essid_len} caractères, mais ils peuvent contenir toutes sortes de "
 "caractères."
 
 #. Type: text
@@ -431,7 +431,7 @@ msgid ""
 msgstr ""
 "Un nom valable ne peut contenir que les chiffres 0-9, des lettres minuscules "
 "ou majuscules (A-Z et a-z) et le signe moins ; sa longueur ne doit pas être "
-"supérieure à ${maxhostnamelen} caractères et il ne peut ni commencer ni "
+"supérieure à ${maxhostnamelen} caractères et il ne peut ni commencer ni "
 "finir par un signe moins."
 
 #. Type: error
@@ -479,7 +479,7 @@ msgid ""
 "You may need to load a specific module for your network card, if you have "
 "one. For this, go back to the network hardware detection step."
 msgstr ""
-"Vous devez sans doute charger un module spécifique à la carte réseau - si "
+"Vous devez sans doute charger un module spécifique à la carte réseau, si "
 "vous en avez une. Pour cela, revenez à l'étape de détection du matériel "
 "réseau."
 
@@ -711,7 +711,7 @@ msgid ""
 "Please enter the maximum time you would like to wait for network link "
 "detection."
 msgstr ""
-"Veuillez indiquer le délai maximum pour la détection de la présence du "
+"Veuillez indiquer le délai maximal pour la détection de la présence du "
 "réseau."
 
 #. Type: error
@@ -729,7 +729,7 @@ msgid ""
 "The value you have provided is not valid. The maximum waiting time (in "
 "seconds) for network link detection must be a positive integer."
 msgstr ""
-"La valeur indiquée n'est pas valable. Le délai d'attente maximum pour la "
+"La valeur indiquée n'est pas valable. Le délai d'attente maximal pour la "
 "détection du réseau doit être un entier positif."
 
 #. Type: select
@@ -876,9 +876,9 @@ msgid ""
 "by the client, so you can also choose to retry DHCP network "
 "autoconfiguration with a hostname that you provide."
 msgstr ""
-"Vous pouvez maintenant réessayer la configuration automatique du réseau, - "
-"cela peut réussir si le serveur DHCP met du temps à répondre -, ou bien vous "
-"pouvez configurer vous-même le réseau. Certains serveurs DHCP demandent "
+"Vous pouvez maintenant réessayer la configuration automatique du réseau, –"
+" cela peut réussir si le serveur DHCP met du temps à répondre –, ou bien "
+"vous pouvez configurer vous-même le réseau. Certains serveurs DHCP demandent "
 "qu'un hôte DHCP soit donné par le client, vous pouvez l'indiquer avant de "
 "réessayer la configuration automatique."
 
@@ -995,7 +995,7 @@ msgid ""
 " * four numbers separated by periods (IPv4);\n"
 " * blocks of hexadecimal characters separated by colons (IPv6)."
 msgstr ""
-" * quatre nombres séparés par des points (IPv4);\n"
+" * quatre nombres séparés par des points (IPv4) ;\n"
 " * des blocs de caractères hexadécimaux séparés par le caractère\n"
 "   « deux-points » (IPv6)."
 
