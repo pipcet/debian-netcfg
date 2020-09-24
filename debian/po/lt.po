@@ -20,13 +20,18 @@
 # Alastair McKinstry <mckinstry@computer.org>, 2001,2002.
 # Kęstutis Biliūnas <kebil@kaunas.init.lt>, 2004, 2006, 2008, 2009, 2010.
 # Rimas Kudelis <rq@akl.lt>, 2012, 2017, 2018.
+# Tautvydas Zukauskas <tautzuk@tutanota.com>, 2020.
+# Andrius Ulrikas <andrius@ulrikas.lt>, 2020.
+# Andrius Majauskas <komitetas@gmail.com>, 2020.
+# Kornelijus Tvarijanavičius <kornelitvari@protonmail.com>, 2020.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
 "POT-Creation-Date: 2020-01-13 23:11+0100\n"
-"PO-Revision-Date: 2018-10-11 19:10+0300\n"
-"Last-Translator: Rimas Kudelis <rq@akl.lt>\n"
+"PO-Revision-Date: 2020-09-22 02:39+0000\n"
+"Last-Translator: Kornelijus Tvarijanavičius <kornelitvari@protonmail.com>\n"
 "Language-Team: Lithuanian <komp_lt@konferencijos.lt>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
@@ -864,8 +869,8 @@ msgstr ""
 "(kuris gali pavykti, jei ilgai trunka, kol Jūsų DHCP serveris atsako) arba "
 "konfigūruoti tinklą rankiniu būdu. Kai kuriems DHCP serveriams reikia, kad "
 "klientinė programa siųstų DHCP kompiuterio vardą (hostname), taigi galite "
-"pasirinkti pakartotiną automatinį tinklo konfigūravimą su su DHCP, "
-"nurodydami tą kompiuterio vardą."
+"pasirinkti pakartotiną automatinį tinklo konfigūravimą su DHCP, nurodydami "
+"tą kompiuterio vardą."
 
 #. Type: note
 #. Description
