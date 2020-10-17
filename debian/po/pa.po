@@ -21,13 +21,13 @@
 # Amanpreet Singh Alam <aalam@users.sf.net>, 2008, 2009.
 # Amanpreet Singh Alam[ਆਲਮ] <amanpreetalam@yahoo.com>, 2005.
 # A S Alam <aalam@users.sf.net>, 2009, 2012, 2014, 2017.
-# Aman ALam <alam.yellow@gmail.com>, 2018, 2019.
+# Aman ALam <alam.yellow@gmail.com>, 2018, 2019, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: pa\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
 "POT-Creation-Date: 2020-01-13 23:11+0100\n"
-"PO-Revision-Date: 2019-12-30 18:36+0000\n"
+"PO-Revision-Date: 2020-10-15 04:26+0000\n"
 "Last-Translator: Aman ALam <alam.yellow@gmail.com>\n"
 "Language-Team: Punjabi <punjabi-users@lists.sf.net>\n"
 "Language: pa\n"
@@ -997,6 +997,8 @@ msgid ""
 "The value you provided is not a usable IPv4 or IPv6 address. Please consult "
 "your network administrator and try again."
 msgstr ""
+"ਤੁਹਾਡੇ ਵਲੋਂ ਦਿੱਤੇ ਮੁੱਲ IPv4 ਜਾਂ IPv6 ਐਡਰੈਸ ਲਈ ਵਰਤੋਂਯੋਗ ਨਹੀਂ ਹੈ। ਆਪਣੇ ਨੈੱਟਵਰਕ ਪਰਸ਼ਾਸ਼ਕ ਨਾਲ ਸੰਪਰਕ "
+"ਕਰਕੇ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ।"
 
 #. Type: string
 #. Description
