@@ -28,14 +28,15 @@
 #   Simos Xenitellis <simos@hellug.gr>, 2001.
 #   Konstantinos Margaritis <markos@debian.org>, 2004.
 #   Athanasios Lefteris <alefteris@gmail.com>, 2008, 2012.
+# root <galatoulas@cti.gr>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: el\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
 "POT-Creation-Date: 2020-01-13 23:11+0100\n"
-"PO-Revision-Date: 2019-06-26 14:09+0200\n"
-"Last-Translator: galaxico <galas@tee.gr>\n"
-"Language-Team: el <debian-l10n-greek@lists.debian.org>\n"
+"PO-Revision-Date: 2020-10-22 00:50+0300\n"
+"Last-Translator: EG <galatoulas@cti.gr>\n"
+"Language-Team: Greek\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -817,6 +818,8 @@ msgid ""
 "No DHCP client was found. Please make sure, that a DHCP installer component "
 "is installed."
 msgstr ""
+"Δεν βρέθηκε πελάτης DHCP. Παρακαλούμε βεβαιωθείτε ότι το συστατικό DHCP του "
+"εγκαταστάτη έχει εγκατασταθεί."
 
 #. Type: error
 #. Description

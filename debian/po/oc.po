@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: debian-installer sublevel1\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
 "POT-Creation-Date: 2020-01-13 23:11+0100\n"
-"PO-Revision-Date: 2020-10-11 15:47+0200\n"
+"PO-Revision-Date: 2020-10-21 18:13+0200\n"
 "Last-Translator: Quentin PAGÈS\n"
 "Language-Team: Occitan (post 1500) <ubuntu-l10n-oci@lists.ubuntu.com>\n"
 "Language: oc\n"
@@ -683,11 +683,11 @@ msgstr ""
 #. Description
 #. :sl3:
 #: ../netcfg-common.templates:50001
-#, fuzzy
 msgid ""
 "Please enter the maximum time you would like to wait for network link "
 "detection."
-msgstr "Picatz lo nom que volètz utilizar pel volum logic novèl."
+msgstr ""
+"Picatz lo temps maximum que volètz esperar abans la deteccion del ligam ret."
 
 #. Type: error
 #. Description
@@ -1103,7 +1103,7 @@ msgstr ""
 #. :sl3:
 #: ../netcfg-static.templates:7001
 msgid "IPv6 unsupported on point-to-point links"
-msgstr ""
+msgstr "IPv6 pas presa en cargar pels ligams punt a punt"
 
 #. Type: error
 #. Description
