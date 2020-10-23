@@ -34,7 +34,7 @@ msgstr ""
 "Project-Id-Version: el\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
 "POT-Creation-Date: 2020-01-13 23:11+0100\n"
-"PO-Revision-Date: 2020-10-22 00:50+0300\n"
+"PO-Revision-Date: 2020-10-23 01:43+0300\n"
 "Last-Translator: EG <galatoulas@cti.gr>\n"
 "Language-Team: Greek\n"
 "Language: el\n"
@@ -923,7 +923,6 @@ msgstr "Συνέχεια χωρίς προκαθορισμένη δρομολό�
 #. Description
 #. :sl2:
 #: ../netcfg-dhcp.templates:8001
-#, fuzzy
 msgid ""
 "The network autoconfiguration was successful. However, no default route was "
 "set: the system does not know how to communicate with hosts on the Internet. "
@@ -932,11 +931,10 @@ msgid ""
 "packages available on the local network."
 msgstr ""
 "Η αυτόματη ρύθμιση του δικτύου ήταν επιτυχής. Παρόλα αυτά δεν έχει οριστεί "
-"προκαθορισμένη δρομολόγηση: το σύστημα δεν γνωρίζει πως να επικοινωνήσει με "
-"άλλους υπολογιστές στο Διαδίκτυο. Αυτό ίσως κάνει αδύνατη τη συνέχιση της "
-"διαδικασίας εγκατάστασης εκτός αν διαθέτετε τον επίσημο πρώτο CD-ROM της "
-"εγκατάστασης ή ένα CD-ROM 'Netinst ή διαθέσιμα τα πακέτα σ' ένα τοπικό "
-"δίκτυο."
+"προκαθορισμένη δρομολόγηση: το σύστημα δεν γνωρίζει πώς να επικοινωνήσει με "
+"άλλους υπολογιστές στο Διαδίκτυο. Αυτό θα κάνει αδύνατη τη συνέχιση της "
+"διαδικασίας εγκατάστασης εκτός αν διαθέτετε την πρώτη εικόνα από τα μέσα "
+"εγκατάστασης, μια 'Netinst' εικόνα ή πακέτα διαθέσιμα σ' ένα τοπικό δίκτυο."
 
 #. Type: boolean
 #. Description
@@ -1049,6 +1047,9 @@ msgid ""
 "The value you provided is not a usable IPv4 or IPv6 address. Please consult "
 "your network administrator and try again."
 msgstr ""
+"Η τιμή που δώσατε δεν είνια μια διεύθυνση IPv4 ή IPv6 που μπορεί να "
+"χρησιμοποιηθεί. Παρακαλούμε συμβουλευτείτε τον διαχειριστή δικτύου σας και "
+"ξαναπροσπαθήστε."
 
 #. Type: string
 #. Description
