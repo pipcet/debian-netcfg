@@ -29,14 +29,14 @@
 #   Ognyan Kulev <ogi@fmi.uni-sofia.bg>, 2004.
 #   Damyan Ivanov <dmn@debian.org>, 2006, 2007, 2008, 2009, 2010.
 #   Roumen Petrov <transl@roumenpetrov.info>, 2010.
-# Damyan Ivanov <dmn@debian.org>, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2017, 2018.
+# Damyan Ivanov <dmn@debian.org>, 2006-2020.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: bg\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
 "POT-Creation-Date: 2020-01-13 23:11+0100\n"
-"PO-Revision-Date: 2018-08-21 21:43+0300\n"
+"PO-Revision-Date: 2020-10-24 09:53+0300\n"
 "Last-Translator: Damyan Ivanov <dmn@debian.org>\n"
 "Language-Team: Български <dict@fsa-bg.org>\n"
 "Language: bg\n"
@@ -804,6 +804,8 @@ msgid ""
 "No DHCP client was found. Please make sure, that a DHCP installer component "
 "is installed."
 msgstr ""
+"Не е открит клиент за протокол DHCP. Проверете наличието на компонента на "
+"инсталатора за DHCP."
 
 #. Type: error
 #. Description
@@ -906,7 +908,6 @@ msgstr "Продължаване без подразбиращ се маршру
 #. Description
 #. :sl2:
 #: ../netcfg-dhcp.templates:8001
-#, fuzzy
 msgid ""
 "The network autoconfiguration was successful. However, no default route was "
 "set: the system does not know how to communicate with hosts on the Internet. "
@@ -914,11 +915,12 @@ msgid ""
 "have the first image from a set of installation media, a 'Netinst' image, or "
 "packages available on the local network."
 msgstr ""
-"Автоматичното настройване на мрежа е успешно. Обаче не е зададен подразбиращ "
-"се маршрут (default route): системата не знае как да общува с други машини в "
-"Интернет. Това ще направи невъзможно продължаването на инсталацията, освен "
-"ако имате на разположение първия инсталационен компактдиск, компактдискът за "
-"инсталация от мрежа („Netinst“) или пакети, налични в локалната мрежа."
+"Автоматичното настройване на мрежата е успешно, обаче не е зададен "
+"подразбиращ се маршрут (default route) и системата не знае как да общува с "
+"други машини в Интернет. Това ще направи невъзможно продължаването на "
+"инсталацията, освен ако имате на разположение първия от комплект "
+"инсталационни носители, носител за инсталация от мрежа („Netinst“) или "
+"пакети, достъпни в локалната мрежа."
 
 #. Type: boolean
 #. Description
@@ -1028,6 +1030,8 @@ msgid ""
 "The value you provided is not a usable IPv4 or IPv6 address. Please consult "
 "your network administrator and try again."
 msgstr ""
+"Подадената стойност не е използваем адрес по IPv4 или IPv6. Консултирайте се "
+"с администратора на мрежата и опитайте отново."
 
 #. Type: string
 #. Description
