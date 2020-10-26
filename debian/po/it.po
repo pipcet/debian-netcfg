@@ -40,7 +40,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
 "POT-Creation-Date: 2020-01-13 23:11+0100\n"
-"PO-Revision-Date: 2018-08-27 10:27+0200\n"
+"PO-Revision-Date: 2020-10-26 09:14+0100\n"
 "Last-Translator: Milo Casagrande <milo@milo.name>\n"
 "Language-Team: Italian <tp@lists.linux.it>\n"
 "Language: it\n"
@@ -815,6 +815,8 @@ msgid ""
 "No DHCP client was found. Please make sure, that a DHCP installer component "
 "is installed."
 msgstr ""
+"Non è stato trovato alcun client DHCP. Assicurarsi che sia installato un "
+"componente DHCP del programma di installazione."
 
 #. Type: error
 #. Description
@@ -917,7 +919,6 @@ msgstr "Continuare senza una «route» predefinita?"
 #. Description
 #. :sl2:
 #: ../netcfg-dhcp.templates:8001
-#, fuzzy
 msgid ""
 "The network autoconfiguration was successful. However, no default route was "
 "set: the system does not know how to communicate with hosts on the Internet. "
@@ -928,8 +929,8 @@ msgstr ""
 "La configurazione automatica della rete ha funzionato, ma non è stata "
 "specificata una «route» predefinita: il sistema non sa come comunicare con "
 "gli host in Internet. Questo rende impossibile proseguire l'installazione a "
-"meno che non si abbia il primo CD-ROM d'installazione, un CD-ROM «netinst» o "
-"i pacchetti disponibili sulla rete locale."
+"meno che non si abbia la prima immagine da un supporto di installazione, "
+"un'immagine «netinst» o i pacchetti disponibili sulla rete locale."
 
 #. Type: boolean
 #. Description
@@ -1038,6 +1039,8 @@ msgid ""
 "The value you provided is not a usable IPv4 or IPv6 address. Please consult "
 "your network administrator and try again."
 msgstr ""
+"Il valore specificato non è un indirizzo IPv4 o IPv6 utilizzabile. "
+"Rivolgersi all'amministratore di rete e riprovare."
 
 #. Type: string
 #. Description
