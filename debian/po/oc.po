@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: debian-installer sublevel1\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
 "POT-Creation-Date: 2020-01-13 23:11+0100\n"
-"PO-Revision-Date: 2020-10-23 16:26+0000\n"
+"PO-Revision-Date: 2020-10-29 17:30+0000\n"
 "Last-Translator: Quentin PAGÈS <quentinantonin@free.fr>\n"
 "Language-Team: Occitan (post 1500) <ubuntu-l10n-oci@lists.ubuntu.com>\n"
 "Language: oc\n"
@@ -678,7 +678,7 @@ msgstr "Configurar la ret"
 #. :sl3:
 #: ../netcfg-common.templates:50001
 msgid "Waiting time (in seconds) for link detection:"
-msgstr ""
+msgstr "Temps d’espèra (en segonda) per la deteccion del ligam :"
 
 #. Type: string
 #. Description
@@ -695,7 +695,7 @@ msgstr ""
 #. :sl3:
 #: ../netcfg-common.templates:51001
 msgid "Invalid network link detection waiting time"
-msgstr ""
+msgstr "Temps d’espèra de deteccion del ret non valable"
 
 #. Type: error
 #. Description
@@ -705,6 +705,8 @@ msgid ""
 "The value you have provided is not valid. The maximum waiting time (in "
 "seconds) for network link detection must be a positive integer."
 msgstr ""
+"La valor qu’avètz provesida es pas valida. Lo temps maximum d’espèra (en "
+"segondas) per la deteccion del ligam ret deu èsser un nombre entièr positiu."
 
 #. Type: select
 #. Choices
@@ -1115,6 +1117,9 @@ msgid ""
 "IPv6 addresses cannot be configured on point-to-point links.  Please use an "
 "IPv4 address, or go back and select a different network interface."
 msgstr ""
+"Las adreças IPv6 pòdon pas èsser configuradas per de ligams de punt a punt. "
+"Mercés d’utilizar una adreça IPv4, o tornatz en arrièr e causissètz una "
+"interfàcia ret diferenta."
 
 #. Type: boolean
 #. Description
