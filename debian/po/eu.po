@@ -24,10 +24,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: eu\n"
+"Project-Id-Version: di-sublevel1_eu\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
 "POT-Creation-Date: 2020-01-13 23:11+0100\n"
-"PO-Revision-Date: 2020-10-28 20:33+0100\n"
+"PO-Revision-Date: 2020-11-03 18:23+0100\n"
 "Last-Translator: Iñaki Larrañaga Murgoitio <dooteo@zundan.com>\n"
 "Language-Team: Basque <librezale@librezale.eus>\n"
 "Language: eu\n"
@@ -146,9 +146,9 @@ msgid ""
 "of the wireless network you would like ${iface} to use. If you would like to "
 "use any available network, leave this field blank."
 msgstr ""
-"${iface} haririk gabeko sareko interfazea da. Idatzi ${iface}-(e)k "
-"erabiltzea nahi duzun haririk gabeko sarearen izena (ESSID). Erabilgarri "
-"dagoen edozein sare erabili nahi baduzu, utzi hutsik eremu hau."
+"${iface} haririk gabeko sareko interfazea da. Idatzi haririk gabeko sarearen "
+"izena (ESSID) ${iface} interfazeak erabiltzeko. Erabilgarri dagoen edozein "
+"sare erabili nahi baduzu, utzi hutsik eremu hau."
 
 #. Type: string
 #. Description
@@ -200,7 +200,7 @@ msgid ""
 "if the network is protected with WPA/WPA2 PSK (Pre-Shared Key)."
 msgstr ""
 "Wep/Irekia hautatu sarea irekia edo WEP bidez babestutakoa bada. WPA/WPA2 "
-"hautatu sarea WPA/WPA2 PSK (aurre-partekatutako gakoz) babestutako sare bat "
+"hautatu sarea WPA/WPA2 PSK (aurrepartekatutako gakoz) babestutako sare bat "
 "bada."
 
 #. Type: string
@@ -219,7 +219,7 @@ msgid ""
 "${iface}. There are two ways to do this:"
 msgstr ""
 "Hala badagokio, sartu WEP segurtasun gakoa haririk gabeko ${iface} "
-"gailuaren. Bi modu daude hori egiteko:"
+"gailuarentzako. Bi modu daude hori egiteko:"
 
 #. Type: string
 #. Description
@@ -240,8 +240,8 @@ msgid ""
 "If your WEP key is in the format of a passphrase, prefix it with "
 "'s:' (without quotes)."
 msgstr ""
-"WEP gakoa pasaesaldiaren formatuan badago, jarri aurrean 's:' (komatxorik "
-"gabe)."
+"WEP gakoa pasaesaldiaren formatuan badago, jarri 's:' aurrizkiarekin "
+"(komatxorik gabe)."
 
 #. Type: string
 #. Description
@@ -250,14 +250,14 @@ msgstr ""
 msgid ""
 "Of course, if there is no WEP key for your wireless network, leave this "
 "field blank."
-msgstr "Haririk gabeko sarerako WEP gakorik ez badago utzi eremu hau hutsik."
+msgstr "Haririk gabeko sareak ez badu WEP gakorik utzi eremu hau hutsik."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../netcfg-common.templates:10001
 msgid "Invalid WEP key"
-msgstr "WEP gako baliogabea"
+msgstr "Baliogabeko WEP gakoa"
 
 #. Type: error
 #. Description
@@ -267,8 +267,9 @@ msgid ""
 "The WEP key '${wepkey}' is invalid. Please refer to the instructions on the "
 "next screen carefully on how to enter your WEP key correctly, and try again."
 msgstr ""
-"'${wepkey}' WEP gakoa baliogabea da. Ikusi hurrengo pantailako argibideak "
-"arretaz WEP gakoa behar bezala nola sartu behar den jakiteko."
+"'${wepkey}' WEP gakoa baliogabea da. Irakurri hurrengo pantailako argibideak "
+"arretaz WEP gakoa behar bezala nola sartu behar den jakiteko, eta saiatu "
+"berriro."
 
 #. Type: error
 #. Description
@@ -303,8 +304,8 @@ msgid ""
 "Enter the passphrase for WPA/WPA2 PSK authentication. This should be the "
 "passphrase defined for the wireless network you are trying to use."
 msgstr ""
-"Sar ezazu WPA/WPA2 PSK autentifikazio pasaesaldia. Erabiltzen saiatzen ari "
-"zaren zaren haririk gabeko sarean ezarritako pasaesaldia izan behar da."
+"Sartu WPA/WPA2 PSK autentifikazioaren pasaesaldia. Erabiltzen saiatzen ari "
+"zaren haririk gabeko sarean ezarritako pasaesaldia izan behar da."
 
 #. Type: error
 #. Description
@@ -321,7 +322,7 @@ msgid ""
 "The ESSID \"${essid}\" is invalid. ESSIDs may only be up to ${max_essid_len} "
 "characters, but may contain all kinds of characters."
 msgstr ""
-"ESSID \"${essid}\" baliogabea da. ESSIDek gehienez ${max_essid_len} "
+"\"${essid}\" ESSID baliogabea da. ESSIDek gehienez ${max_essid_len} "
 "karaktere izan ditzakete, baina karaktere mota guztiak izan ditzakete."
 
 #. Type: text
@@ -329,7 +330,7 @@ msgstr ""
 #. :sl2:
 #: ../netcfg-common.templates:14001
 msgid "Attempting to exchange keys with the access point..."
-msgstr "Sareratze puntuarekin gakoak trukatzen saiatzen..."
+msgstr "Sarbide-puntuarekin gakoak trukatzen saiatzen..."
 
 #. Type: text
 #. Description
@@ -346,14 +347,14 @@ msgstr "Baliteke denbora pixka bat behar izatea."
 #. :sl2:
 #: ../netcfg-common.templates:16001
 msgid "WPA/WPA2 connection succeeded"
-msgstr "WPA/WPA2 konexioa osaturik"
+msgstr "WPA/WPA2 konexioa burututa"
 
 #. Type: note
 #. Description
 #. :sl2:
 #: ../netcfg-common.templates:17001
 msgid "Failure of key exchange and association"
-msgstr "Huts gako trukaketa eta bateratzean"
+msgstr "Huts egin du gakoa trukatzean eta bateratzean"
 
 #. Type: note
 #. Description
@@ -363,8 +364,8 @@ msgid ""
 "The exchange of keys and association with the access point failed. Please "
 "check the WPA/WPA2 parameters you provided."
 msgstr ""
-"Huts egin du saretze-puntuarekin gako trukaketa eta bateratzean. Mesedez "
-"ezarri egiaztatu WPA/WPA2 parametroak."
+"Huts egin du sarbide-puntuarekin gakoa trukatzean eta bateratzean. Egiaztatu "
+"eman dituzun WPA/WPA2 parametroak."
 
 #. Type: string
 #. Description
@@ -418,9 +419,10 @@ msgid ""
 "${maxhostnamelen} characters long, and may not begin or end with a minus "
 "sign."
 msgstr ""
-"Baliozko ostalari-izenak honako karaktereak izan ditzake: 0-9 zenbakiak, a-z "
-"letra minuskulak eta minus ikurra.  Gehienez ${maxhostnamelen} karaktere "
-"arteko luzera izan dezake eta ez du minus ikurrarekin hasi edo bukatu behar."
+"Baliozko ostalari-izenak honako karaktereak izan ditzake: 0-9 zenbakiak, "
+"letra minuskulak eta maiuskulak (a-z eta A-Z), eta minus ikurra. Gehienez "
+"${maxhostnamelen} karaktere arteko luzera izan dezake eta ez du minus "
+"ikurrarekin hasi edo bukatu behar."
 
 #. Type: error
 #. Description
@@ -476,7 +478,7 @@ msgstr ""
 #. :sl2:
 #: ../netcfg-common.templates:23001
 msgid "Kill switch enabled on ${iface}"
-msgstr "'Kill switch' ${iface}(e)n aktibatuta"
+msgstr "'Kill switch' gaituta ${iface} interfazean"
 
 #. Type: note
 #. Description
@@ -490,7 +492,7 @@ msgid ""
 "continuing."
 msgstr ""
 "Badirudi ${iface} desgaitu egin dela \"kill switch\" fisiko baten bidez. "
-"Interfaze hau erabiltzeko asmoa baduzu,  gaitu ezazu jarraitu aurretik."
+"Interfaze hau erabiltzeko asmoa baduzu, gaitu ezazu jarraitu aurretik."
 
 #. Type: select
 #. Choices
@@ -514,7 +516,7 @@ msgstr "Azpiegitura sarea (kudeatua)"
 #. You MUST NOT use commas inside choices
 #: ../netcfg-common.templates:24001
 msgid "Ad-hoc network (Peer to peer)"
-msgstr "Ad-hoc sarea (pareko artekoa)"
+msgstr "Ad-hoc sarea (parekoen artekoa)"
 
 #. Type: select
 #. Description
@@ -555,7 +557,7 @@ msgstr "Haririk gabeko sarbide-puntuak bilatzen..."
 #. :sl2:
 #: ../netcfg-common.templates:29001
 msgid "Detecting link on ${interface}; please wait..."
-msgstr "${interface}-ko lotura antzematen; itxoin mesedez..."
+msgstr "${interface}-ren lotura detektatzen; itxoin mesedez..."
 
 #. Type: text
 #. Description
@@ -604,7 +606,7 @@ msgstr "USB sarea"
 #. :sl2:
 #: ../netcfg-common.templates:37001
 msgid "Serial-line IP"
-msgstr "Serieko lineako IP"
+msgstr "Serieko lineako IPa"
 
 #. Type: text
 #. Description
@@ -684,7 +686,7 @@ msgstr "Konfiguratu sarea"
 #. :sl3:
 #: ../netcfg-common.templates:50001
 msgid "Waiting time (in seconds) for link detection:"
-msgstr "Lotura antzemateko itxoiteko denbora (segundotan):"
+msgstr "Itxarote-denbora (segundotan) lotura detektatzeko:"
 
 #. Type: string
 #. Description
@@ -693,14 +695,14 @@ msgstr "Lotura antzemateko itxoiteko denbora (segundotan):"
 msgid ""
 "Please enter the maximum time you would like to wait for network link "
 "detection."
-msgstr "Idatzi sare konexioaren zai gehienez itxoingo den denbora muga."
+msgstr "Idatzi gehienez itxarongo duen denbora sarearen lotura detektatzeko."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../netcfg-common.templates:51001
 msgid "Invalid network link detection waiting time"
-msgstr "Konexio antzemate itxoite denbora baliogabea"
+msgstr "Itxarote-denbora baliogabea sarearen lotura detektatzeko"
 
 #. Type: error
 #. Description
@@ -710,8 +712,8 @@ msgid ""
 "The value you have provided is not valid. The maximum waiting time (in "
 "seconds) for network link detection must be a positive integer."
 msgstr ""
-"Ezarri duzun balioa ez da zuzena. Sare konexioa antzemateko gehienezko "
-"denbora muga (segundotan) zenbaki oso positibo bat izan behar da."
+"Ezarri duzun balioa ez da zuzena. Sarearen konexioa detektatzean gehienez "
+"itxarongo duen denbora (segundotan) zenbaki osoko positibo bat izan behar da."
 
 #. Type: select
 #. Choices
@@ -789,13 +791,15 @@ msgid ""
 "No DHCP client was found. Please make sure, that a DHCP installer component "
 "is installed."
 msgstr ""
+"Ez da DHCP bezerorik aurkitu. Ziurtatu instalatzailearen DHCP osagaia "
+"instalatuta dagoela"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../netcfg-dhcp.templates:5001
 msgid "The DHCP configuration process has been aborted."
-msgstr "DHCP konfiguratzeko prozesua abortatua izan da."
+msgstr "DHCP konfiguratzeko prozesua abortatu egin da."
 
 #. Type: select
 #. Choices
@@ -891,7 +895,6 @@ msgstr "Bide lehenetsirik gabe jarraitu nahi duzu?"
 #. Description
 #. :sl2:
 #: ../netcfg-dhcp.templates:8001
-#, fuzzy
 msgid ""
 "The network autoconfiguration was successful. However, no default route was "
 "set: the system does not know how to communicate with hosts on the Internet. "
@@ -900,10 +903,10 @@ msgid ""
 "packages available on the local network."
 msgstr ""
 "Sarea ondo konfiguratu da automatikoki. Bestalde, bide lehenetsirik ez da "
-"ezarri: sistemak ez daki nola komunikatu behar duen ostalariekin Interneten. "
-"Horrela, ezinezkoa da instalazioarekin jarraitzea, instalazioko lehen CD-"
-"ROMa, 'Netinst' CD-ROMa, edo sare lokalean erabilgarri dauden paketeak eduki "
-"ezean."
+"ezarri: sistemak ez daki nola komunikatu behar duen Interneteko "
+"ostalariekin. Horrela, ezinezkoa da instalazioarekin jarraitzea, instalazio-"
+"euskarrien multzoko aurreneko irudia, 'Netinst' irudia, edo sare lokalean "
+"erabilgarri dauden paketeak eduki ezean."
 
 #. Type: boolean
 #. Description
@@ -933,7 +936,7 @@ msgstr "Berriro konfiguratu haririk gabeko sarea"
 #. :sl2:
 #: ../netcfg-dhcp.templates:12001 ../netcfg-dhcp.templates:14001
 msgid "Attempting IPv6 autoconfiguration..."
-msgstr "IPv6 konfigurazio aitomatikoa saiatzen..."
+msgstr "IPv6 automatikoki konfiguratzen saiatzen..."
 
 #. Type: text
 #. Description
@@ -941,7 +944,7 @@ msgstr "IPv6 konfigurazio aitomatikoa saiatzen..."
 #. :sl2:
 #: ../netcfg-dhcp.templates:13001
 msgid "Waiting for link-local address..."
-msgstr "Lotura-lokal helbidea itxoiten..."
+msgstr "Lotura-lokalaren helbidea itxoiten..."
 
 #. Type: text
 #. Description
@@ -1013,6 +1016,8 @@ msgid ""
 "The value you provided is not a usable IPv4 or IPv6 address. Please consult "
 "your network administrator and try again."
 msgstr ""
+"Emandako balioa ez da IPv4 edo IPv6 helbide erabilgarri bat. Jar zaitez "
+"sareko administratzailearekin harremanetan eta saiatu berriro."
 
 #. Type: string
 #. Description
@@ -1121,8 +1126,8 @@ msgid ""
 "IPv6 addresses cannot be configured on point-to-point links.  Please use an "
 "IPv4 address, or go back and select a different network interface."
 msgstr ""
-"Ezinda IPv6 helbiderik konfigruatu puntuz-puntuko loturetan. Mesedez IPv4 "
-"helbide bat erabili edo atzera joan eta beste sare interfaze bat hautatu."
+"Ezin da IPv6 helbiderik konfiguratu puntuz-puntuko loturetan. Erabili IPv4 "
+"helbide bat, edo atzera joan eta hautatu sareko beste interfaze bat."
 
 #. Type: boolean
 #. Description
