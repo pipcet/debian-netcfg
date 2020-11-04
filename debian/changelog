@@ -1,3 +1,23 @@
+netcfg (1.168) unstable; urgency=medium
+
+  * Team upload
+
+  [ Updated translations ]
+  * Bulgarian (bg.po) by Damyan Ivanov
+  * Greek (el.po) by Vangelis Skarmoutsos
+  * Basque (eu.po) by Iñaki Larrañaga Murgoitio
+  * Persian (fa.po) by Seyed Hany Hosseini
+  * Italian (it.po) by Milo Casagrande
+  * Lithuanian (lt.po) by Kornelijus Tvarijanavičius
+  * Punjabi (Gurmukhi) (pa.po) by Aman ALam
+  * Traditional Chinese (zh_TW.po) by Walter Cheuk
+
+  [ New translations ]
+  * Kabyle (kab.po) by Slimane Selyan Amiri
+  * Occitan (oc.po) by Quentin PAGÈS
+
+ -- Holger Wansing <hwansing@mailbox.org>  Wed, 04 Nov 2020 19:41:51 +0100
+
 netcfg (1.167) unstable; urgency=medium
 
   * Team upload
