@@ -1,3 +1,10 @@
+netcfg (1.169) UNRELEASED; urgency=medium
+
+  [ Philipp Kern ]
+  * Removed myself from uploaders.
+
+ -- Philipp Kern <pkern@debian.org>  Thu, 12 Nov 2020 19:11:30 +0100
+
 netcfg (1.168) unstable; urgency=medium
 
   * Team upload
