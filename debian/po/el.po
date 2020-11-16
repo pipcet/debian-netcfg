@@ -12,6 +12,7 @@
 # Translations from iso-codes:
 #     Translations taken from ICU SVN on 2007-09-09
 #   Panayotis Pakos <aeikineton@yahoo.com>
+#
 # George Papamichelakis <george@step.gr>, 2004.
 # Emmanuel Galatoulas <galas@tee.gr>, 2004.
 # Konstantinos Margaritis <markos@debian.org>, 2004, 2006.
@@ -20,7 +21,7 @@
 # quad-nrg.net <yodesy@quad-nrg.net>, 2006, 2008.
 # QUAD-nrg.net <yodesy@quad-nrg.net>, 2006.
 # galaxico@quad-nrg.net <galaxico@quad-nrg.net>, 2009, 2011.
-# Emmanuel Galatoulas <galaxico@quad-nrg.net>, 2009, 2010, 2013, 2014, 2018.
+# Emmanuel Galatoulas <galaxico@quad-nrg.net>, 2009, 2010, 2013, 2014, 2018, 2020.
 #   Tobias Quathamer <toddy@debian.org>, 2007.
 #   Free Software Foundation, Inc., 2004.
 #   Alastair McKinstry <mckinstry@computer.org>, 2001.
@@ -30,15 +31,14 @@
 #   Athanasios Lefteris <alefteris@gmail.com>, 2008, 2012.
 #   root <galatoulas@cti.gr>, 2020.
 #   Vangelis Skarmoutsos <skarmoutsosv@gmail.com>, 2020.
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: el\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
 "POT-Creation-Date: 2020-01-13 23:11+0100\n"
-"PO-Revision-Date: 2020-11-02 18:26+0000\n"
-"Last-Translator: Vangelis Skarmoutsos <skarmoutsosv@gmail.com>\n"
-"Language-Team: Greek\n"
+"PO-Revision-Date: 2020-11-16 17:46+0200\n"
+"Last-Translator: EG <galatoulas@cti.gr>\n"
+"Language-Team: Greek <debian-l10n-greek@lists.debian.org>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -500,7 +500,7 @@ msgstr ""
 #. :sl2:
 #: ../netcfg-common.templates:23001
 msgid "Kill switch enabled on ${iface}"
-msgstr "Βίαιος τερματισμός switch που είναι ενεργοποιημένο στο  ${iface}"
+msgstr "Ο βίαιος τερματισμός είναι ενεργοποιημένος στο ${iface}"
 
 #. Type: note
 #. Description
@@ -933,7 +933,7 @@ msgid ""
 "have the first image from a set of installation media, a 'Netinst' image, or "
 "packages available on the local network."
 msgstr ""
-"Η αυτόματη ρύθμιση του δικτύου ήταν επιτυχής. Παρόλα αυτά δεν έχει οριστεί "
+"Η αυτόματη ρύθμιση του δικτύου ήταν επιτυχής. Παρ' όλα αυτά δεν έχει οριστεί "
 "προκαθορισμένη δρομολόγηση: το σύστημα δεν γνωρίζει πώς να επικοινωνήσει με "
 "άλλους υπολογιστές στο Διαδίκτυο. Αυτό θα κάνει αδύνατη τη συνέχιση της "
 "διαδικασίας εγκατάστασης εκτός αν διαθέτετε την πρώτη εικόνα από τα μέσα "
@@ -1050,7 +1050,7 @@ msgid ""
 "The value you provided is not a usable IPv4 or IPv6 address. Please consult "
 "your network administrator and try again."
 msgstr ""
-"Η τιμή που δώσατε δεν είνια μια διεύθυνση IPv4 ή IPv6 που μπορεί να "
+"Η τιμή που δώσατε δεν είναι μια διεύθυνση IPv4 ή IPv6 που μπορεί να "
 "χρησιμοποιηθεί. Παρακαλούμε συμβουλευτείτε τον διαχειριστή δικτύου σας και "
 "ξαναπροσπαθήστε."
 

@@ -20,13 +20,14 @@
 # Mikhail Zabaluev <mhz@altlinux.org>, 2006.
 # Nikolai Prokoschenko <nikolai@prokoschenko.de>, 2004.
 # Pavel Maryanov <acid@jack.kiev.ua>, 2009,2010.
-# Yuri Kozlov <yuray@komyakino.ru>, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2018.
+# Yuri Kozlov <yuray@komyakino.ru>, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2018, 2020.
+# Lev Lamberov <dogsleg@debian.org>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
 "POT-Creation-Date: 2020-01-13 23:11+0100\n"
-"PO-Revision-Date: 2018-12-09 08:12+0300\n"
+"PO-Revision-Date: 2020-11-16 07:09+0300\n"
 "Last-Translator: Yuri Kozlov <yuray@komyakino.ru>\n"
 "Language-Team: Russian <debian-l10n-russian@lists.debian.org>\n"
 "Language: ru\n"
@@ -799,6 +800,8 @@ msgid ""
 "No DHCP client was found. Please make sure, that a DHCP installer component "
 "is installed."
 msgstr ""
+"Клиент DHCP не найден. Убедитесь, что установлен компонент DHCP программы "
+"установки."
 
 #. Type: error
 #. Description
@@ -901,7 +904,6 @@ msgstr "Продолжить без пути по умолчанию?"
 #. Description
 #. :sl2:
 #: ../netcfg-dhcp.templates:8001
-#, fuzzy
 msgid ""
 "The network autoconfiguration was successful. However, no default route was "
 "set: the system does not know how to communicate with hosts on the Internet. "
@@ -910,10 +912,10 @@ msgid ""
 "packages available on the local network."
 msgstr ""
 "Автонастройка сети прошла успешно. Однако, маршрут по умолчанию (default "
-"route) не установлен: система не знает, как связаться с машинами в Интернет. "
-"Это может сделать продолжение установки невозможным, если у вас нет первого "
-"официального компакт-диска, диска 'Netinst', или пакетов, доступных по "
-"локальной сети."
+"route) не задан: система не знает, как связаться с машинами в Интернет. Это "
+"может сделать продолжение установки невозможным, если у вас нет первого "
+"образа из комплекта установочных носителей, образа 'Netinst' или пакетов, "
+"доступных по локальной сети."
 
 #. Type: boolean
 #. Description
@@ -1024,6 +1026,8 @@ msgid ""
 "The value you provided is not a usable IPv4 or IPv6 address. Please consult "
 "your network administrator and try again."
 msgstr ""
+"Указанное значение не является подходящим адресом IPv4 или IPv6. Спросите у "
+"администратора и попробуйте ещё раз."
 
 #. Type: string
 #. Description
