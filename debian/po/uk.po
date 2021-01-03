@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: uk\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
 "POT-Creation-Date: 2020-01-13 23:11+0100\n"
-"PO-Revision-Date: 2019-03-20 22:31+0100\n"
+"PO-Revision-Date: 2021-01-02 22:03+0100\n"
 "Last-Translator: Anton Gladky <gladk@debian.org>\n"
 "Language-Team: Ukrainian <translation-team-uk@lists.sourceforge.net>\n"
 "Language: uk\n"
@@ -351,7 +351,7 @@ msgstr "WPA/WPA2 зв'язок успішно встановлено"
 #. :sl2:
 #: ../netcfg-common.templates:17001
 msgid "Failure of key exchange and association"
-msgstr "Не вдалося здійснити обмін ключами та встановлення зв'язку "
+msgstr "Не вдалося здійснити обмін ключами та встановлення зв'язку"
 
 #. Type: note
 #. Description
