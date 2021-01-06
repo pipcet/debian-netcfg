@@ -17,13 +17,14 @@
 # marce villarino <mvillarino@users.sourceforge.net>, 2009.
 # Marce Villarino <mvillarino@gmail.com>, 2009.
 # Jorge Barreiro <xurxo@findomundo.es>, 2010, 2011, 2012, 2013, 2014, 2015, 2017.
-# mantinan <github@manty.net>, 2018.
+# mantinan <github@manty.net>, 2018, 2021.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: gl\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
 "POT-Creation-Date: 2020-01-13 23:11+0100\n"
-"PO-Revision-Date: 2018-09-27 20:25+0000\n"
+"PO-Revision-Date: 2021-01-06 18:53+0000\n"
 "Last-Translator: mantinan <github@manty.net>\n"
 "Language-Team: Galician <proxecto@trasno.net>\n"
 "Language: gl\n"
@@ -791,6 +792,8 @@ msgid ""
 "No DHCP client was found. Please make sure, that a DHCP installer component "
 "is installed."
 msgstr ""
+"Non se atopou ningún cliente DHCP. Por favor asegúrese de que esté instalado "
+"un compoñente DHCP do instalador."
 
 #. Type: error
 #. Description
@@ -893,7 +896,6 @@ msgstr "Desexa continuar sen unha rota predeterminada?"
 #. Description
 #. :sl2:
 #: ../netcfg-dhcp.templates:8001
-#, fuzzy
 msgid ""
 "The network autoconfiguration was successful. However, no default route was "
 "set: the system does not know how to communicate with hosts on the Internet. "
@@ -904,8 +906,8 @@ msgstr ""
 "A configuración automática da rede rematou con éxito. Porén, non se "
 "estabeleceu unha rota predeterminada, xa que o sistema non sabe como se "
 "comunicar con Internet. Isto ha facer imposíbel continuar a instalación a "
-"menos que teña o primeiro CD-ROM de instalación, un CD-ROM «Netinst» ou os "
-"paquetes dispoñíbeis na rede local."
+"menos que teña a primeira imaxe dun conxunto de medios de instalación, unha "
+"imaxe «Netinst» ou os paquetes dispoñíbeis na rede local."
 
 #. Type: boolean
 #. Description
@@ -1015,6 +1017,8 @@ msgid ""
 "The value you provided is not a usable IPv4 or IPv6 address. Please consult "
 "your network administrator and try again."
 msgstr ""
+"O valor proporcionado non é unha dirección IPv4 ou IPv6 usable. Por favor, "
+"consulte co seu administrador de rede e tente de novo."
 
 #. Type: string
 #. Description
