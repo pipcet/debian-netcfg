@@ -10,6 +10,7 @@
 # Translators:
 # shashi kiran <shashi859@gmail.com>, 2010, 2011.
 # Prabodh CP <prabodhcp@gmail.com>, 2011.
+# Yogesh <yogesh@karnatakaeducation.org.in>, 2020.
 #
 # Credits: Thanks to contributions from Free Software Movement Karnataka (FSMK), 2011.
 #
@@ -21,8 +22,8 @@ msgstr ""
 "Project-Id-Version: kn\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
 "POT-Creation-Date: 2020-01-13 23:11+0100\n"
-"PO-Revision-Date: 2019-08-28 18:10+0000\n"
-"Last-Translator: leela <53352@protonmail.com>\n"
+"PO-Revision-Date: 2020-07-21 17:24+0000\n"
+"Last-Translator: Yogesh <yogesh@karnatakaeducation.org.in>\n"
 "Language-Team: Kannada <debian-l10n-kannada@lists.debian.org>\n"
 "Language: kn\n"
 "MIME-Version: 1.0\n"
@@ -140,7 +141,7 @@ msgid ""
 "of the wireless network you would like ${iface} to use. If you would like to "
 "use any available network, leave this field blank."
 msgstr ""
-"${iface} ಎಂಬುದು ನಿಸ್ತಂತು ಜಾಲಬಂಧ ಅಂತರ್-ಕ್ರಿಯೆ. ನೀವು $(iface} ಬಳಕೆ ಮಾಡಲು ಇಚ್ಛಿಸುವ "
+"${iface} ಎಂಬುದು ನಿಸ್ತಂತು ಜಾಲಬಂಧ ಅಂತರ್-ಕ್ರಿಯೆ. ನೀವು ${iface} ಬಳಕೆ ಮಾಡಲು ಇಚ್ಛಿಸುವ "
 "ನಿಸ್ತಂತು ಜಾಲಬಂಧದ (the ESSID) ನ್ನು ಹೆಸರಿಸಿ. ಯಾವುದಾದರೂ ಲಭ್ಯವಿರುವ ಜಾಲಬಂಧವನ್ನು ಬಳಸಲು "
 "ಇಚ್ಛಿಸುವಿರಾದರೆ ಈ ಜಾಗವನ್ನು ಖಾಲಿ ಬಿಡಿ."
 
@@ -160,7 +161,7 @@ msgid ""
 "of the wireless network you would like ${iface} to use. To connect to any "
 "available network, leave this field blank."
 msgstr ""
-"${iface} ಎಂಬುದು ನಿಸ್ತಂತು ಜಾಲಬಂಧ ಅಂತರ್-ಕ್ರಿಯೆ. ನೀವು $(iface} ಬಳಕೆ ಮಾಡಲು ಇಚ್ಛಿಸುವ "
+"${iface} ಎಂಬುದು ನಿಸ್ತಂತು ಜಾಲಬಂಧ ಅಂತರ್-ಕ್ರಿಯೆ. ನೀವು ${iface} ಬಳಕೆ ಮಾಡಲು ಇಚ್ಛಿಸುವ "
 "ನಿಸ್ತಂತು ಜಾಲಬಂಧದ ಹೆಸರನ್ನು  (the ESSID) ದಾಖಲಿಸಿ. ಯಾವುದಾದರೂ ಲಭ್ಯವಿರುವ ಜಾಲಬಂಧವನ್ನು "
 "ಬಳಸಲು ಇಚ್ಛಿಸುವಿರಾದರೆ ಈ ಜಾಗವನ್ನು ಖಾಲಿ ಬಿಡಿ."
 

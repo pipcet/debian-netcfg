@@ -555,7 +555,7 @@ msgstr "Duke kërkuar për pika hyrjeje me valë ..."
 #. :sl2:
 #: ../netcfg-common.templates:29001
 msgid "Detecting link on ${interface}; please wait..."
-msgstr "Duke gjetur link në $(ndërfaqje), të lutem prit..."
+msgstr "Duke gjetur link në ${interface}, të lutem prit..."
 
 #. Type: text
 #. Description
