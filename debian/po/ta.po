@@ -24,7 +24,7 @@ msgstr ""
 "Project-Id-Version: ta\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
 "POT-Creation-Date: 2020-01-13 23:11+0100\n"
-"PO-Revision-Date: 2021-01-22 11:58+0000\n"
+"PO-Revision-Date: 2021-01-27 12:32+0000\n"
 "Last-Translator: Vasudevan Tirumurti <agnihot3@gmail.com>\n"
 "Language-Team: Tamil <<gnome-tamil-translation@googlegroups.com>>\n"
 "Language: ta\n"
@@ -228,7 +228,7 @@ msgid ""
 "or 'nnnnnnnn', where n is a number, just enter it as it is into this field."
 msgstr ""
 "தங்கள் WEP -கான சாவி 'nnnn-nnnn-nn', 'nn:nn:nn:nn:nn:nn:nn:nn', அல்லது "
-"'nnnnnnnn', (n ஒரு எண்) வடிவில் இருப்பின் அதை அப்படியே இந்த புலத்தில் உள்ளீடு செய்யவும். "
+"'nnnnnnnn', (n ஒரு எண்) வடிவில் இருப்பின் அதை அப்படியே இந்த புலத்தில் உள்ளீடு செய்யவும்."
 
 #. Type: string
 #. Description
@@ -238,8 +238,8 @@ msgid ""
 "If your WEP key is in the format of a passphrase, prefix it with "
 "'s:' (without quotes)."
 msgstr ""
-"தங்களது WEP சாவி ஒரு கடவுச்சொல்லாக இருப்பின் 's:' என்பதை முன்னே சேர்த்துக் கொள்ளவும். (' "
-"' இல்லாமல்)"
+"தங்களது WEP சாவி ஒரு கடவுச்சொல்லாக இருப்பின் 's:' என்பதை (' ' இல்லாமல்) முன்னே "
+"சேர்த்துக் கொள்ளவும்."
 
 #. Type: string
 #. Description
@@ -344,14 +344,14 @@ msgstr "இதை முடிக்க சற்று நேரமாகலா
 #. :sl2:
 #: ../netcfg-common.templates:16001
 msgid "WPA/WPA2 connection succeeded"
-msgstr "WPA/WPA2 இணைப்பு வெற்றியடைந்தது."
+msgstr "WPA/WPA2 இணைப்பு வெற்றியடைந்தது"
 
 #. Type: note
 #. Description
 #. :sl2:
 #: ../netcfg-common.templates:17001
 msgid "Failure of key exchange and association"
-msgstr "விசை மாற்றலும் தொடர்பு படுத்தலும் தோல்வியடைந்தது."
+msgstr "விசை பரிமாற்றலும் தொடர்பு படுத்தலும் தோல்வியடைந்தன"
 
 #. Type: note
 #. Description
@@ -443,7 +443,7 @@ msgstr ""
 #. :sl2:
 #: ../netcfg-common.templates:22001
 msgid "No network interfaces detected"
-msgstr "எந்த வலையமைப்பு இடைமுகமும் கண்டறியப்படவில்லை."
+msgstr "எந்த வலையமைப்பு இடைமுகமும் கண்டறியப்படவில்லை"
 
 #. Type: error
 #. Description
@@ -795,7 +795,7 @@ msgstr ""
 #. :sl2:
 #: ../netcfg-dhcp.templates:5001
 msgid "The DHCP configuration process has been aborted."
-msgstr "(டிஹெச்சிபி) DHCP வடிவமைப்பு செயல் கைவிடப்பட்டது"
+msgstr "(டிஹெச்சிபி) DHCP வடிவமைப்பு செயல் கைவிடப்பட்டது."
 
 #. Type: select
 #. Choices
