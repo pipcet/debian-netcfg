@@ -6,6 +6,7 @@
 # translation of debian-installer_packages_po_sublevel1_da.po to
 # Danish messages for debian-installer.
 # This file is distributed under the same license as debian-installer.
+# Michael Millet <mikevlet@protonmail.com>, 2021.
 # Joe Hansen <joedalton2@yahoo.dk>, 2011, 2012, 2013, 2014, 2015, 2016, 2017.
 # Ask Hjorth Larsen <asklarsen@gmail.com>, 2010.
 # Mads Bille Lundby <lundbymads@gmail.com, 2009.
@@ -39,8 +40,8 @@ msgstr ""
 "Project-Id-Version: debian-installer_packages_po_sublevel1_da\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
 "POT-Creation-Date: 2020-01-13 23:11+0100\n"
-"PO-Revision-Date: 2018-12-28 22:08+0000\n"
-"Last-Translator: Joe Hansen <joedalton2@yahoo.dk>\n"
+"PO-Revision-Date: 2021-01-30 22:11+0000\n"
+"Last-Translator: Michael Millet <mikevlet@protonmail.com>\n"
 "Language-Team: <dansk@dansk-gruppen.dk>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
@@ -114,10 +115,11 @@ msgid ""
 "first to be queried. If you don't want to use any name server, just leave "
 "this field blank."
 msgstr ""
-"Navneservere bruges til at slå værtsnavne på internettet op med. Angiv IP-"
-"adresserne på op til tre navneservere adskilt med mellemrum. Brug ikke "
-"kommaer. Den første server i listen vil blive forespurgt først. Hvis du ikke "
-"ønsker at bruge navneservere, kan du  blot lade dette felt stå tomt."
+"Navneserverne bruges til at slå værtsnavne på netværket op. Indtast venligst "
+"IP-adresserne (ikke værtsnavne) på op til 3 navneservere, adskilt af "
+"mellemrum. Brug ikke kommaer. Den første navneserver på listen vil blive "
+"forespurgt først. Hvis du ikke ønsker at bruge nogen navneserver, så "
+"efterlad bare dette felt tomt."
 
 #. Type: select
 #. Description
