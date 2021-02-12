@@ -8,6 +8,7 @@
 # This file is distributed under the same license as debian-installer.
 # Jordi Mallach <jordi@debian.org>, 2002-2008, 2010, 2012, 2015, 2017-2018.
 # Guillem Jover <guillem@debian.org>, 2005, 2007.
+# d <dmanye@gmail.com>, 2021.
 #
 # Translations from iso-codes:
 # Alastair McKinstry <mckinstry@computer.org>, 2001.
@@ -21,13 +22,14 @@ msgstr ""
 "Project-Id-Version: debian-installer buster\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
 "POT-Creation-Date: 2020-01-13 23:11+0100\n"
-"PO-Revision-Date: 2018-12-17 22:34+0100\n"
-"Last-Translator: Jordi Mallach <jordi@debian.org>\n"
+"PO-Revision-Date: 2021-02-12 18:39+0000\n"
+"Last-Translator: d <dmanye@gmail.com>\n"
 "Language-Team: Catalan <debian-l10n-catalan@lists.debian.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #. Type: boolean
 #. Description
@@ -797,6 +799,8 @@ msgid ""
 "No DHCP client was found. Please make sure, that a DHCP installer component "
 "is installed."
 msgstr ""
+"No s'ha trobat cap client DHCP. Assegureu-vos que un component DHCP de "
+"l'instal·lador està instal·lat."
 
 #. Type: error
 #. Description
@@ -900,7 +904,6 @@ msgstr "Voleu continuar sense una ruta predeterminada?"
 #. Description
 #. :sl2:
 #: ../netcfg-dhcp.templates:8001
-#, fuzzy
 msgid ""
 "The network autoconfiguration was successful. However, no default route was "
 "set: the system does not know how to communicate with hosts on the Internet. "
@@ -911,8 +914,9 @@ msgstr ""
 "La configuració automàtica de la xarxa ha tingut èxit. Tot i així, no s'ha "
 "establert cap ruta predeterminada: el sistema no sap com comunicar-se amb "
 "els ordinadors a Internet. Això farà que siga impossible continuar amb la "
-"instal·lació si no teniu el primer CD-ROM oficial, un CD-ROM «Netinst», o "
-"els paquets disponibles a la xarxa local."
+"instal·lació si no teniu la primera imatge d'un conjunt de mitjans "
+"d'instal·lació, una imatge «Netinst», o els paquets disponibles a la xarxa "
+"local."
 
 #. Type: boolean
 #. Description
@@ -1024,6 +1028,8 @@ msgid ""
 "The value you provided is not a usable IPv4 or IPv6 address. Please consult "
 "your network administrator and try again."
 msgstr ""
+"El valor que heu donar no és una adreça IPv4 o IPv6 usable. Consulteu al "
+"vostre administrador de xarxa i torneu a intentar-ho."
 
 #. Type: string
 #. Description
