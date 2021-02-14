@@ -1,3 +1,22 @@
+netcfg (1.170) unstable; urgency=medium
+
+  * Team upload
+
+  [ Updated translations ]
+  * Catalan (ca.po) by d
+  * Danish (da.po) by Michael Millet
+  * Galician (gl.po) by mantinan
+  * Hindi (hi.po) by KushagraKarira
+  * Kannada (kn.po) by Yogesh
+  * Latvian (lv.po) by Tranzistors
+  * Romanian (ro.po) by Sergiu
+  * Albanian (sq.po) by Sotirios Vrachas
+  * Tamil (ta.po) by Vasudevan Tirumurti
+  * Thai (th.po) by Theppitak Karoonboonyanan
+  * Ukrainian (uk.po) by Anton Gladky
+
+ -- Holger Wansing <hwansing@mailbox.org>  Sun, 14 Feb 2021 19:53:49 +0100
+
 netcfg (1.169) unstable; urgency=medium
 
   * Team upload
