@@ -1,3 +1,13 @@
+netcfg (1.169+nmu1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Update testcases to work with current Check API,
+    patch from Dennis Filder <d.filder@web.de>. (Closes: #980607)
+  * Satisfy GCC pedantery for strncpy() calls,
+    patch from Dennis Filder <d.filder@web.de>.
+
+ -- Francisco Vilmar Cardoso Ruviaro <francisco.ruviaro@riseup.net>  Sun, 21 Feb 2021 21:44:53 +0000
+
 netcfg (1.169) unstable; urgency=medium
 
   * Team upload
