@@ -343,15 +343,18 @@ static int netcfg_dhcpv6(struct debconfclient *client, struct netcfg_interface *
 
 		if (!strncmp("nameserver[", l, 11) && ns_idx < NETCFG_NAMESERVERS_MAX) {
 			p = strstr(l, "] ") + 2;
-			strncpy(interface->nameservers[ns_idx], p, sizeof(interface->nameservers[ns_idx]));
+			strncpy(interface->nameservers[ns_idx], p, sizeof(interface->nameservers[ns_idx])-1);
+			interface->nameservers[ns_idx][sizeof(interface->nameservers[ns_idx])-1]='\0';
 			ns_idx++;
 		} else if (!strncmp("NTP server[", l, 11) && ntp_idx < NETCFG_NTPSERVERS_MAX) {
 			p = strstr(l, "] ") + 2;
-			strncpy(interface->ntp_servers[ntp_idx], p, sizeof(interface->ntp_servers[ntp_idx]));
+			strncpy(interface->ntp_servers[ntp_idx], p, sizeof(interface->ntp_servers[ntp_idx])-1);
+			interface->ntp_servers[ntp_idx][sizeof(interface->ntp_servers[ntp_idx])-1]='\0';
 			ntp_idx++;
 		} else if (!strncmp("Domain search list[0] ", l, 21)) {
 			p = strstr(l, "] ") + 2;
-			strncpy(domain, p, sizeof(domain));
+			strncpy(domain, p, sizeof(domain)-1);
+			domain[sizeof(domain)-1]='\0';
 			/* Strip trailing . */
 			if (domain[strlen(domain)-1] == '.') {
 				domain[strlen(domain)-1] = '\0';
