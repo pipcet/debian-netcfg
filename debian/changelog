@@ -1,4 +1,4 @@
-netcfg (1.171) UNRELEASED; urgency=medium
+netcfg (1.171) unstable; urgency=medium
 
   * Team upload
 
@@ -21,7 +21,7 @@ netcfg (1.171) UNRELEASED; urgency=medium
   * Thai (th.po) by Theppitak Karoonboonyanan
   * Ukrainian (uk.po) by Anton Gladky
 
- -- Holger Wansing <hwansing@mailbox.org>  Sun, 14 Feb 2021 19:53:49 +0100
+ -- Holger Wansing <hwansing@mailbox.org>  Mon, 22 Feb 2021 17:58:31 +0100
 
 netcfg (1.169) unstable; urgency=medium
 
