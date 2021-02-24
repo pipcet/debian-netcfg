@@ -315,7 +315,7 @@ msgid ""
 "The ESSID \"${essid}\" is invalid. ESSIDs may only be up to ${max_essid_len} "
 "characters, but may contain all kinds of characters."
 msgstr ""
-"ESSID neamhbhailí é \"${essid}\".  Ní cheadaítear ach ${max_essid_len "
+"ESSID neamhbhailí é \"${essid}\".  Ní cheadaítear ach ${max_essid_len} "
 "carachtar in ESSID, cé go gceadaítear aon sórt carachtar."
 
 #. Type: text

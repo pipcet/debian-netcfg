@@ -28,16 +28,17 @@
 #   Mai Hao Hui <mhh@126.com>, 2001 (translations from galeon)
 # YunQiang Su <wzssyqa@gmail.com>, 2010, 2011, 2012, 2013.
 # Yangfl <mmyangfl@gmail.com>, 2017.
-# Boyuan Yang <073plan@gmail.com>, 2018, 2019.
+# Boyuan Yang <073plan@gmail.com>, 2018, 2019, 2020.
 # 玉堂白鹤 <yjwork@qq.com>, 2020.
+# TTT DEAL <ikmn2jlt@linshiyouxiang.net>, 2021.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
 "POT-Creation-Date: 2020-01-13 23:11+0100\n"
-"PO-Revision-Date: 2020-01-18 06:21+0000\n"
-"Last-Translator: 玉堂白鹤 <yjwork@qq.com>\n"
+"PO-Revision-Date: 2021-02-07 11:10+0000\n"
+"Last-Translator: TTT DEAL <ikmn2jlt@linshiyouxiang.net>\n"
 "Language-Team: <debian-l10n-chinese@lists.debian.org>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -314,12 +315,13 @@ msgstr "无效的 ESSID"
 #. Description
 #. :sl2:
 #: ../netcfg-common.templates:13001
+#, fuzzy
 msgid ""
 "The ESSID \"${essid}\" is invalid. ESSIDs may only be up to ${max_essid_len} "
 "characters, but may contain all kinds of characters."
 msgstr ""
-"此 ESSID“${essid}”无效。ESSID 最大长度仅能为 32 个字符，但可以包含所有类型的"
-"字符。"
+"此 ESSID“${essid}”无效。ESSID 最大长度仅能为 ${max_essid_len} 个字符，但可以"
+"包含所有类型的字符。"
 
 #. Type: text
 #. Description

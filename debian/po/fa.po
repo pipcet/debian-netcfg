@@ -23,11 +23,11 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: fa\n"
+"Project-Id-Version: fa sublevel1\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
 "POT-Creation-Date: 2020-01-13 23:11+0100\n"
-"PO-Revision-Date: 2020-10-22 09:29+0000\n"
-"Last-Translator: Seyed Hany Hosseini <hany1894@gmail.com>\n"
+"PO-Revision-Date: 2020-10-24 17:09+0000\n"
+"Last-Translator: سهیل خانعلی‌پور <soheilkhanalipur@tutanota.com>\n"
 "Language-Team: Debian-l10n-persian <debian-l10n-persian@lists.debian.org>\n"
 "Language: fa\n"
 "MIME-Version: 1.0\n"
@@ -315,12 +315,13 @@ msgstr "ESSID نامعتبر"
 #. Description
 #. :sl2:
 #: ../netcfg-common.templates:13001
+#, fuzzy
 msgid ""
 "The ESSID \"${essid}\" is invalid. ESSIDs may only be up to ${max_essid_len} "
 "characters, but may contain all kinds of characters."
 msgstr ""
 "ESSID «${essid}» نامتعبر است. ESSIDها فقط ممکن است حداکثر ۳۲ کاراکتر طول "
-"داشته باشند،اما ممکن است حاوی انواع کاراکترها باشند."
+"داشته باشند،اما ممکن است حاوی انواع کاراکترها باشند ${max_essid_len}."
 
 #. Type: text
 #. Description
