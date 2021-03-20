@@ -1,3 +1,16 @@
+netcfg (1.172) unstable; urgency=medium
+
+  * Team upload
+
+  [ Updated translations ]
+  * Persian (fa.po)
+  * Irish (ga.po)
+  * Italian (it.po)
+  * Dutch (nl.po)
+  * Simplified Chinese (zh_CN.po) by TTT DEAL
+
+ -- Holger Wansing <hwansing@mailbox.org>  Sat, 20 Mar 2021 22:33:39 +0100
+
 netcfg (1.171) unstable; urgency=medium
 
   * Team upload
