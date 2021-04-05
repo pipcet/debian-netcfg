@@ -12,6 +12,9 @@
 # najib LAARIBI <supnano@gmail.com>, 2018.
 # ButterflyOfFire <ButterflyOfFire@protonmail.com>, 2018.
 # Osama <osama.ibrahim.89@gmail.com>, 2019.
+# zer0-x <ProFessorHassan3@gmail.com>, 2021.
+# Fahim Sabah <katheer.kaleel@gmail.com>, 2021.
+#
 #
 # Translations from iso-codes:
 #     Translations taken from ICU SVN on 2007-09-09
@@ -28,8 +31,8 @@ msgstr ""
 "Project-Id-Version: ar\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
 "POT-Creation-Date: 2020-01-13 23:11+0100\n"
-"PO-Revision-Date: 2019-06-10 10:55+0000\n"
-"Last-Translator: ButterflyOfFire <ButterflyOfFire@protonmail.com>\n"
+"PO-Revision-Date: 2021-04-01 14:26+0000\n"
+"Last-Translator: Fahim Sabah <katheer.kaleel@gmail.com>\n"
 "Language-Team: \n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
@@ -81,8 +84,8 @@ msgid ""
 "sure you use the same domain name on all your computers."
 msgstr ""
 "اسم النطاق هو الجزء من عنوان الإنترنت إلى اليمين من اسم المضيف. عادةً ما يكون "
-"منتهياً بـ.com أو .net أو .org. إن كنت تقوم بتهيئة شبكةٍ منزلية، يمكنك اختيار "
-"ما ترغب به، ولكن تأكد من استخدام نفس اسم النطاق على كل الأجهزة."
+"شيئاً منتهياً بـ .com أو .net أو .org. إن كنت تقوم بتهيئة شبكةٍ منزلية، يمكنك "
+"اختيار ما ترغب به، ولكن تأكد من استخدام نفس اسم النطاق على كل الأجهزة."
 
 #. Type: string
 #. Description
@@ -229,7 +232,7 @@ msgid ""
 "or 'nnnnnnnn', where n is a number, just enter it as it is into this field."
 msgstr ""
 "إذا كان مفتاح WEP الخاص بك ذو نسق 'nnnn-nnnn-nn' أو 'nn:nn:nn:nn:nn:nn:nn:"
-"nn' أو  'nnnnnnnn' حيث n هو رقم، فأدخله كما هو في هذا الحقل."
+"nn' أو 'nnnnnnnn' حيث n هو رقم، فأدخله كما هو في هذا الحقل."
 
 #. Type: string
 #. Description
@@ -786,7 +789,7 @@ msgstr "لم يعثر على أي عميل DHCP"
 msgid ""
 "No DHCP client was found. Please make sure, that a DHCP installer component "
 "is installed."
-msgstr ""
+msgstr "لم يُعثَر على عميل DHCP. لطفا تأكد من تفعيل مكوّن تثبيت DHCP."
 
 #. Type: error
 #. Description
@@ -887,7 +890,6 @@ msgstr "الاستمرار دون مسلكٍ افتراضي؟"
 #. Description
 #. :sl2:
 #: ../netcfg-dhcp.templates:8001
-#, fuzzy
 msgid ""
 "The network autoconfiguration was successful. However, no default route was "
 "set: the system does not know how to communicate with hosts on the Internet. "
@@ -897,8 +899,8 @@ msgid ""
 msgstr ""
 "تمت تهيئة الشبكة آليّاً بنجاح. رغم ذلك لم يعيّن أيّ مسلكٍ افتراضي: لا يعرف النظام "
 "كيف يتواصل مع المضيفين على الإنترنت. هذا سيجعل الاستمرار بالتثبيت أمراً "
-"مستحيلاً إلا إذا كان بحوزتك قرص التثبيت الأوّل أو قرص 'Netinst' (تثبيت شبكي) "
-"أو حزماً متوفّرة على الشبكة المحلّيّة."
+"مستحيلاً إلا إذا كان بحوزتك الصورة الأولى من مجموعة وسائط تثبيت أو صورة تثبيت "
+"شبكي 'Netinst' أو حزم متاحة على الشبكة المحلّيّة."
 
 #. Type: boolean
 #. Description
@@ -1006,6 +1008,8 @@ msgid ""
 "The value you provided is not a usable IPv4 or IPv6 address. Please consult "
 "your network administrator and try again."
 msgstr ""
+"القيمة التي أدخلتها ليست عنوان IPv4 أو IPv4 قابل للاستخدام. لطفا استشر مدير "
+"شبكتك وحاول مرة أخرى."
 
 #. Type: string
 #. Description
