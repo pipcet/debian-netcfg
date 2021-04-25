@@ -26,8 +26,8 @@ msgstr ""
 "Project-Id-Version: fa sublevel1\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
 "POT-Creation-Date: 2020-01-13 23:11+0100\n"
-"PO-Revision-Date: 2020-10-24 17:09+0000\n"
-"Last-Translator: سهیل خانعلی‌پور <soheilkhanalipur@tutanota.com>\n"
+"PO-Revision-Date: 2021-04-25 05:03+0000\n"
+"Last-Translator: Sina Carnelious <sinacarnelious@protonmail.com>\n"
 "Language-Team: Debian-l10n-persian <debian-l10n-persian@lists.debian.org>\n"
 "Language: fa\n"
 "MIME-Version: 1.0\n"
@@ -227,8 +227,8 @@ msgid ""
 "If your WEP key is in the format 'nnnn-nnnn-nn', 'nn:nn:nn:nn:nn:nn:nn:nn', "
 "or 'nnnnnnnn', where n is a number, just enter it as it is into this field."
 msgstr ""
-"اگر کلید امنیتی شما به شکل  'nnnn-nnnn-nn' یا 'nnnnnnnn' است،آِنرا همانگونه "
-"که هست در این جا وارد کنید.ا"
+"اگر کلید امنیتی شما به شکل «nn:nn:nn:nn:nn:nn:nn:nn» ، «nnnn-nnnn-nn» یا "
+"«nnnnnnnn» است؛ آن را همانگونه که هست در این جا وارد کنید."
 
 #. Type: string
 #. Description
@@ -787,6 +787,8 @@ msgid ""
 "No DHCP client was found. Please make sure, that a DHCP installer component "
 "is installed."
 msgstr ""
+"هیچ مشتری DHCP پیدا نشد. لطفاً مطمئن شوید که یک قطعه نصب کننده DHCP نصب شده "
+"است."
 
 #. Type: error
 #. Description
@@ -1010,6 +1012,8 @@ msgid ""
 "The value you provided is not a usable IPv4 or IPv6 address. Please consult "
 "your network administrator and try again."
 msgstr ""
+"مقداری که شما ارائه دادید یک آدرس IPv4 یا IPv6 قابل استفاده نیست. لطفاً با "
+"مدیر شبکه خود مشورت کنید و دوباره امتحان کنید."
 
 #. Type: string
 #. Description
