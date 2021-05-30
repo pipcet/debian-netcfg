@@ -1,3 +1,15 @@
+netcfg (1.173) unstable; urgency=medium
+
+  * Team upload
+
+  [ Updated translations ]
+  * Arabic (ar.po) by Fahim Sabah
+  * Persian (fa.po) by Sina Carnelious
+  * Croatian (hr.po) by Valentin Vidic
+  * Japanese (ja.po) by Nozomu KURASAWA
+
+ -- Holger Wansing <hwansing@mailbox.org>  Sun, 30 May 2021 23:05:05 +0200
+
 netcfg (1.172) unstable; urgency=medium
 
   * Team upload
