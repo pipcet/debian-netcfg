@@ -39,8 +39,8 @@ msgstr ""
 "Project-Id-Version: ro\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
 "POT-Creation-Date: 2020-01-13 23:11+0100\n"
-"PO-Revision-Date: 2020-12-12 08:29+0000\n"
-"Last-Translator: Sergiu <adinfinitvm@wail.ch>\n"
+"PO-Revision-Date: 2021-06-17 12:33+0000\n"
+"Last-Translator: Christian Eichert <c@zp1.net>\n"
 "Language-Team: Romanian <debian-l10n-romanian@lists.debian.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
@@ -918,7 +918,6 @@ msgstr "Se continuă fără o rută implicită?"
 #. Description
 #. :sl2:
 #: ../netcfg-dhcp.templates:8001
-#, fuzzy
 msgid ""
 "The network autoconfiguration was successful. However, no default route was "
 "set: the system does not know how to communicate with hosts on the Internet. "
@@ -926,11 +925,11 @@ msgid ""
 "have the first image from a set of installation media, a 'Netinst' image, or "
 "packages available on the local network."
 msgstr ""
-"Configurarea automată a rețelei a reușit. Totuși, nu s-a configurat o rută "
-"implicită: sistemul nu știe cum să comunice cu alte calculatoare din "
-"internet. Acest lucru duce la imposibilitatea de a continua instalarea în "
-"cazul în care nu aveți primul CD de instalare, un CD de tip Netinst sau "
-"pachete disponibile pe rețeaua locală."
+"Autoconfigurarea rețelei a avut succes. Cu toate acestea, nu a fost setată "
+"nicio rută implicită: sistemul nu știe cum să comunice cu host-urile de pe "
+"Internet. Acest lucru va face imposibilă continuarea instalării, cu excepția "
+"cazului în care aveți prima imagine dintr-un set de medii de instalare, o "
+"imagine \"Netinst\" sau pachete disponibile în rețeaua locală."
 
 #. Type: boolean
 #. Description
