@@ -1,3 +1,12 @@
+netcfg (1.174) unstable; urgency=medium
+
+  * Team upload
+
+  [ Updated translations ]
+  * Romanian (ro.po) by Christian Eichert
+
+ -- Holger Wansing <hwansing@mailbox.org>  Wed, 23 Jun 2021 21:23:51 +0200
+
 netcfg (1.173) unstable; urgency=medium
 
   * Team upload
