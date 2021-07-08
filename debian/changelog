@@ -1,3 +1,12 @@
+netcfg (1.175) unstable; urgency=medium
+
+  * Team upload
+
+  [ Updated translations ]
+  * Lithuanian (lt.po) by Gediminas Murauskas
+
+ -- Holger Wansing <hwansing@mailbox.org>  Thu, 08 Jul 2021 17:08:43 +0200
+
 netcfg (1.174) unstable; urgency=medium
 
   * Team upload
