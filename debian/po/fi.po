@@ -15,6 +15,7 @@
 # Timo Jyrinki <timo.jyrinki@iki.fi>, 2012.
 # Juhani Numminen <juhaninumminen0@gmail.com>, 2018, 2019.
 # Arto Keiski <arto.keiski@iki.fi>, 2018.
+# Kimmo Kujansuu <mrkujansuu@gmail.com>, 2021.
 #
 # Translations from iso-codes:
 # Copyright (C) 2007 Tobias Toedter <t.toedter@gmx.net>.
@@ -27,8 +28,8 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
 "POT-Creation-Date: 2020-01-13 23:11+0100\n"
-"PO-Revision-Date: 2019-02-01 20:18+0000\n"
-"Last-Translator: Juhani Numminen <juhaninumminen0@gmail.com>\n"
+"PO-Revision-Date: 2021-07-12 20:33+0000\n"
+"Last-Translator: Kimmo Kujansuu <mrkujansuu@gmail.com>\n"
 "Language-Team: Finnish <debian-l10n-finnish@lists.debian.org>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
@@ -56,11 +57,10 @@ msgid ""
 "the installer is unable to get a working configuration from the network, you "
 "will be given the opportunity to configure the network manually."
 msgstr ""
-"Verkkoasetukset voidaan tehdä joko syöttämällä kaikki tiedot käsin, tai "
-"löytämällä asetukset automaattisesti DHCP:llä (tai IPv6-sidonnaisilla "
-"asetusten tekotavoilla). Jos automaattiset asetukset valitaan, mutta asennin "
-"ei löydä toimivia asetuksia, on vielä mahdollisuus tehdä verkkoasetukset "
-"käsin."
+"Verkkoasetukset voidaan tehdä syöttämällä kaikki tiedot käsin tai ne voidaan "
+"löytää automaattisesti käyttämällä DHCP:tä (tai IPv6-sidonnaisia asetusten "
+"tekotapoja). Jos automaattiset asetukset valitaan, mutta asennin ei löydä "
+"toimivia asetuksia, on vielä mahdollista tehdä verkkoasetukset käsin."
 
 #. Type: string
 #. Description
@@ -793,6 +793,8 @@ msgid ""
 "No DHCP client was found. Please make sure, that a DHCP installer component "
 "is installed."
 msgstr ""
+"DHCP-asiakasta ei löytynyt. Varmista, että DHCP-ohjelman komponentit on "
+"asennettu."
 
 #. Type: error
 #. Description
@@ -894,7 +896,6 @@ msgstr "Jatketaanko ilman oletusreittiä?"
 #. Description
 #. :sl2:
 #: ../netcfg-dhcp.templates:8001
-#, fuzzy
 msgid ""
 "The network autoconfiguration was successful. However, no default route was "
 "set: the system does not know how to communicate with hosts on the Internet. "
@@ -905,7 +906,7 @@ msgstr ""
 "Verkon asetusten teko automaattisesti onnistui. Oletusreittiä ei kuitenkaan "
 "ollut asetettu; järjestelmä ei tiedä miten ollaan yhteydessä Internetin "
 "koneiden kanssa. Tämän takia asennuksen jatkaminen on mahdotonta, paitsi jos "
-"käytössä on ensimmäinen asennuslevy, ”Netinst”-CD tai asennuspaketit ovat "
+"käytössä on ensimmäinen asennuslevy, ”Netinst” tai asennuspaketit ovat "
 "saatavilla paikallisverkosta."
 
 #. Type: boolean
@@ -1014,6 +1015,8 @@ msgid ""
 "The value you provided is not a usable IPv4 or IPv6 address. Please consult "
 "your network administrator and try again."
 msgstr ""
+"Antamasi arvo ei ole käyttökelpoinen IPv4- tai IPv6-osoite. Ota yhteyttä "
+"verkonvalvojaan ja yritä uudelleen."
 
 #. Type: string
 #. Description
