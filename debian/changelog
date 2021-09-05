@@ -1,3 +1,10 @@
+netcfg (1.177) UNRELEASED; urgency=medium
+
+  [ Igor Scheller ]
+  * Added support for fe80 addresses as gateway.
+
+ -- Samuel Thibault <sthibault@debian.org>  Sun, 05 Sep 2021 17:00:07 +0200
+
 netcfg (1.176) unstable; urgency=medium
 
   * Team upload
