@@ -1682,8 +1682,11 @@ int netcfg_gateway_reachable(const struct netcfg_interface *interface)
     if (interface->address_family == AF_INET) {
         return (gw_addr.in4.s_addr && ((gw_addr.in4.s_addr & mask.in4.s_addr) == net.in4.s_addr));
     } else if (interface->address_family == AF_INET6) {
+        if ((ntohs(gw_addr.in6.s6_addr32[0]) & 0xffc0) == (0xfe80 & 0xffc0)) {
+            return 1;
+        }
+
         int i;
-        
         for (i = 0; i < 4; i++) {
             if ((gw_addr.in6.s6_addr32[i] & mask.in6.s6_addr32[i]) != net.in6.s6_addr32[i]) {
                 return 0;
