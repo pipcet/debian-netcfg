@@ -120,7 +120,7 @@ static int nc_wi_static_ipv4(const struct netcfg_interface *interface, FILE *fd)
 	fprintf(fd, "iface %s inet static\n", interface->name);
 	fprintf(fd, "\taddress %s/%i\n", interface->ipaddress,
 	        empty_str(interface->pointopoint) ? interface->masklen : 32);
-	if (!empty_str(interface->gateway))
+	if (!empty_str(interface->gateway) || !empty_str(interface->pointopoint))
 		fprintf(fd, "\tgateway %s\n",
 		        empty_str(interface->pointopoint) ? interface->gateway : interface->pointopoint);
 	if (!empty_str(interface->pointopoint))

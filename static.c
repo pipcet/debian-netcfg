@@ -368,7 +368,7 @@ static int netcfg_activate_static_ipv4(struct debconfclient *client,
 
     if (!empty_str(interface->pointopoint))
     {
-        snprintf(buf, sizeof(buf), "ip route add default dev %s", interface->name);
+        snprintf(buf, sizeof(buf), "ip route add default via %s dev %s", interface->pointopoint, interface->name);
         rv |= di_exec_shell_log(buf);
     }
     else if (!empty_str(interface->gateway)) {
@@ -558,11 +558,13 @@ int netcfg_get_static(struct debconfclient *client, struct netcfg_interface *ifa
             if (netcfg_get_ipaddress (client, iface)) {
                 state = BACKUP;
             } else {
+                debconf_get(client, "netcfg/get_pointopoint");
                 if (strncmp(iface->name, "plip", 4) == 0
                     || strncmp(iface->name, "slip", 4) == 0
                     || strncmp(iface->name, "ctc", 3) == 0
                     || strncmp(iface->name, "escon", 5) == 0
-                    || strncmp(iface->name, "iucv", 4) == 0)
+                    || strncmp(iface->name, "iucv", 4) == 0
+                    || !empty_str(client->value))
                     state = GET_POINTOPOINT;
                 else if (iface->masklen == 0) {
                     state = GET_NETMASK;
