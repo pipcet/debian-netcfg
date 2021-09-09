@@ -24,13 +24,15 @@
 # Tobias Quathamer <toddy@debian.org>, 2007.
 # Translations taken from ICU SVN on 2007-09-09
 # Ömer Fadıl USTA <omer_fad@hotmail.com>, 1999.
+# Fatih Altun <fatih.altun@pardus.org.tr>, 2021.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
 "POT-Creation-Date: 2020-01-13 23:11+0100\n"
-"PO-Revision-Date: 2018-10-06 18:45+0300\n"
-"Last-Translator: Mert Dirik <mertdirik@gmail.com>\n"
+"PO-Revision-Date: 2021-07-08 13:18+0300\n"
+"Last-Translator: Fatih Altun <fatih.altun@pardus.org.tr>\n"
 "Language-Team: Debian L10N Turkish\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
@@ -802,6 +804,8 @@ msgid ""
 "No DHCP client was found. Please make sure, that a DHCP installer component "
 "is installed."
 msgstr ""
+"DHCP istemcisi bulunamadı. Lütfen bir DHCP yükleyici bileşeninin kurulu "
+"olduğundan emin olun."
 
 #. Type: error
 #. Description
@@ -905,7 +909,6 @@ msgstr "Öntanımlı bir yönlendirici olmadan devam edilsin mi?"
 #. Description
 #. :sl2:
 #: ../netcfg-dhcp.templates:8001
-#, fuzzy
 msgid ""
 "The network autoconfiguration was successful. However, no default route was "
 "set: the system does not know how to communicate with hosts on the Internet. "
@@ -915,8 +918,8 @@ msgid ""
 msgstr ""
 "Otomatik ağ yapılandırması başarıyla sonuçlandı. Bununla beraber herhangi "
 "bir öntanımlı yönlendirici ayarlanmamış; yani sistem İnternet üzerindeki "
-"makinelerle nasıl haberleşeceğini bilmiyor. Bu durum, kurulum CD'lerinin "
-"birincisine veya ağ üzerinden kurulum yapan bir 'Netinst' CD'sine sahip "
+"makinelerle nasıl haberleşeceğini bilmiyor. Bu durum, kurulum medyalarının "
+"birincisine veya ağ üzerinden kurulum yapan bir 'Netinst' görüntüsüne sahip "
 "değilseniz veya gerekli bütün paketleri yerel ağda bulundurmuyorsanız "
 "kuruluma devam etmenizi imkansız hale getirecektir."
 
@@ -1029,6 +1032,8 @@ msgid ""
 "The value you provided is not a usable IPv4 or IPv6 address. Please consult "
 "your network administrator and try again."
 msgstr ""
+"Sağladığınız değer, kullanılabilir bir IPv4 veya IPv6 adresi değil. Lütfen "
+"ağ yöneticinize danışın ve tekrar deneyin."
 
 #. Type: string
 #. Description
