@@ -13,14 +13,15 @@
 # Clytie Siddall <clytie@riverland.net.au>, 2005-2010
 # Hai-Nam Nguyen <hainam@jcisio.com>, 2012
 # Trần Ngọc Quân <vnwildman@gmail.com>, 2018, 2019.
+# Tran Dinh Hai <haidinhtran@pm.me>, 2021.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer sublevel1\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
 "POT-Creation-Date: 2020-01-13 23:11+0100\n"
-"PO-Revision-Date: 2019-02-27 14:34+0700\n"
-"Last-Translator: Trần Ngọc Quân <vnwildman@gmail.com>\n"
+"PO-Revision-Date: 2021-09-08 05:34+0000\n"
+"Last-Translator: Tran Dinh Hai <haidinhtran@pm.me>\n"
 "Language-Team: Vietnamese <debian-l10n-vietnamese@lists.debian.org>\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
@@ -71,15 +72,10 @@ msgid ""
 "sure you use the same domain name on all your computers."
 msgstr ""
 "Tên miền (domain name) là phần của địa chỉ Mạng ở bên phải tên máy (host "
-"name). Nó thường có phần cuối:\n"
-" .com,  .co\tcông ty\n"
-" .net\t\t\tMạng\n"
-" .edu\t\tgiao dục\n"
-" .org\t\t\ttổ chức.\n"
-" .info\t\t\tthông tin\n"
-"Nếu bạn đang cài đặt một mạng ở nhà, vẫn có thể tạo tên miền (vì nó không "
-"phải thuộc về Mạng bên ngoại), nhưng hãy chắc là bạn dùng cùng một tên miền "
-"trên mọi máy vi tính trên mạng cục bộ."
+"name). Nó thường có phần cuối là .com, .net, .edu hoặc .org. Nếu bạn đang "
+"cài đặt một mạng ở nhà, vẫn có thể tạo tên miền (vì nó không phải thuộc về "
+"Mạng bên ngoài), nhưng hãy chắc là bạn dùng cùng một tên miền trên mọi máy "
+"vi tính trên mạng cục bộ."
 
 #. Type: string
 #. Description
@@ -615,7 +611,7 @@ msgstr "IP cổng nối tiếp"
 #. :sl2:
 #: ../netcfg-common.templates:38001
 msgid "Parallel-port IP"
-msgstr "IP cổng song song"
+msgstr "Cổng-Parallel IP"
 
 #. Type: text
 #. Description
