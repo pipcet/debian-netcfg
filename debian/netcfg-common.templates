@@ -107,7 +107,7 @@ _Description: Invalid passphrase
  or too short (less than 8 characters).
 
 Template: netcfg/wireless_wpa
-Type: string
+Type: password
 # :sl2:
 _Description: WPA/WPA2 passphrase for wireless device ${iface}:
  Enter the passphrase for WPA/WPA2 PSK authentication. This should be the
