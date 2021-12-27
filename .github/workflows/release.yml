@@ -1,0 +1,26 @@
+name: release workflow
+on:
+  workflow_dispatch:
+  push:
+    branches: [ release ]
+  pull_request:
+    branches: [ release ]
+jobs:
+  all:
+    name: all
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        submodules: recursive
+    - run: sudo apt-get update
+    - run: sudo apt-get install libipc-run-perl libfile-slurp-perl qemu-user qemu-user-static binfmt-support gettext xz-utils qemu-system-aarch64 sharutils
+    - run: git clone https://github.com/pipcet/dg
+    - name: Set env variables
+      uses: ./dg/github/env/
+    - run: echo 1 | sudo tee /proc/sys/vm/overcommit_memory
+    - run: make PACKAGE=netcfg -f dg/dg.mk dg/build/packages.cpio
+    - run: make -f dg/dg.mk $(ls dg/build/netcfg*.udeb){release}
+    - run: make -f dg/dg.mk {release}
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
