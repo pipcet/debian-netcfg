@@ -7,7 +7,7 @@
 # Danish messages for debian-installer.
 # This file is distributed under the same license as debian-installer.
 # Michael Millet <mikevlet@protonmail.com>, 2021.
-# Joe Hansen <joedalton2@yahoo.dk>, 2011, 2012, 2013, 2014, 2015, 2016, 2017.
+# Joe Hansen <joedalton2@yahoo.dk>, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2021.
 # Ask Hjorth Larsen <asklarsen@gmail.com>, 2010.
 # Mads Bille Lundby <lundbymads@gmail.com, 2009.
 # Henrik Christian Grove <debian@3001.dk>, 2008.
@@ -40,8 +40,8 @@ msgstr ""
 "Project-Id-Version: debian-installer_packages_po_sublevel1_da\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
 "POT-Creation-Date: 2020-01-13 23:11+0100\n"
-"PO-Revision-Date: 2021-01-30 22:11+0000\n"
-"Last-Translator: Michael Millet <mikevlet@protonmail.com>\n"
+"PO-Revision-Date: 2021-12-28 22:11+0000\n"
+"Last-Translator: Joe Hansen <joedalton2@yahoo.dk>\n"
 "Language-Team: <dansk@dansk-gruppen.dk>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
@@ -816,6 +816,8 @@ msgid ""
 "No DHCP client was found. Please make sure, that a DHCP installer component "
 "is installed."
 msgstr ""
+"Ingen DHCP-klient blev fundet. Sikr dig venligst, at en DHCP-"
+"installationskomponent er installeret."
 
 #. Type: error
 #. Description
@@ -918,7 +920,6 @@ msgstr "Fortsæt uden en standardrute?"
 #. Description
 #. :sl2:
 #: ../netcfg-dhcp.templates:8001
-#, fuzzy
 msgid ""
 "The network autoconfiguration was successful. However, no default route was "
 "set: the system does not know how to communicate with hosts on the Internet. "
@@ -927,10 +928,11 @@ msgid ""
 "packages available on the local network."
 msgstr ""
 "Den automatiske netværksopsætning lykkedes. Der blev dog ikke angivet nogen "
-"standardrute (\"default route\"), så dit system ved ikke, hvordan det skal "
-"kommunikere med andre maskiner på internettet. Dette vil gøre det umuligt at "
-"fortsætte installationen, medmindre du har den første installations-cd, en "
-"\"Netinst\"-cd eller har de nødvendige pakker liggende på det lokale netværk."
+"standardrute: Systemet ved ikke, hvordan det skal kommunikere med værter på "
+"internettet. Dette vil gøre det umuligt at fortsætte installationen, "
+"medmindre du har det første aftryk fra et sæt af installationsmedier, et "
+"»Netinst«-aftryk eller har de nødvendige pakker liggende på det lokale "
+"netværk."
 
 #. Type: boolean
 #. Description
@@ -940,8 +942,8 @@ msgid ""
 "If you are unsure, you should not continue without a default route: contact "
 "your local network administrator about this problem."
 msgstr ""
-"Hvis du er usikker, bør du ikke fortsætte uden en standardrute (\"default "
-"route\"). Kontakt din lokale netværksadministrator om problemet."
+"Hvis du er usikker, bør du ikke fortsætte uden en standardrute (»default "
+"route«). Kontakt din lokale netværksadministrator om problemet."
 
 #. Type: text
 #. Description
@@ -1040,6 +1042,8 @@ msgid ""
 "The value you provided is not a usable IPv4 or IPv6 address. Please consult "
 "your network administrator and try again."
 msgstr ""
+"Værdien du angav er ikke en brugbar IPv4- eller IPv6-adresse. Kontakt "
+"venligst din netværksadministrator og prøv igen."
 
 #. Type: string
 #. Description
