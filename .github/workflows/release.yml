@@ -20,6 +20,7 @@ jobs:
       uses: ./dg/github/env/
     - run: echo 1 | sudo tee /proc/sys/vm/overcommit_memory
     - run: make PACKAGE=netcfg -f dg/dg.mk dg/build/packages.tar
+    - run: make PACKAGE=netcfg -f dg/dg.mk {deversion-udeb}
     - run: make PACKAGE=netcfg -f dg/dg.mk {release-udeb}
     - run: make PACKAGE=netcfg -f dg/dg.mk {release}
       env:
