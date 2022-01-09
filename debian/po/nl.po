@@ -21,14 +21,14 @@
 # Freek de Kruijf <f.de.kruijf@hetnet.nl>, 2006, 2007, 2008, 2009, 2010, 2011.
 # Taco Witte <tcwitte@cs.uu.nl>, 2004.
 # Reinout van Schouwen <reinouts@gnome.org>, 2007.
-# Frans Spiesschaert <Frans.Spiesschaert@yucom.be>, 2014-2020.
+# Frans Spiesschaert <Frans.Spiesschaert@yucom.be>, 2014-2022.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer/sublevel1\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
 "POT-Creation-Date: 2020-01-13 23:11+0100\n"
-"PO-Revision-Date: 2021-02-25 21:55+0100\n"
+"PO-Revision-Date: 2022-01-08 21:43+0100\n"
 "Last-Translator: Frans Spiesschaert <Frans.Spiesschaert@yucom.be>\n"
 "Language-Team: Debian Dutch l10n Team <debian-l10n-dutch@lists.debian.org>\n"
 "Language: nl\n"
@@ -899,7 +899,7 @@ msgstr ""
 #. :sl2:
 #: ../netcfg-dhcp.templates:8001
 msgid "Continue without a default route?"
-msgstr "Doorgaan met geen standaard route?"
+msgstr "Verdergaan zonder een standaard route?"
 
 #. Type: boolean
 #. Description
@@ -914,7 +914,7 @@ msgid ""
 msgstr ""
 "Automatische netwerkconfiguratie is gelukt. Er is echter geen standaard "
 "route ingesteld: het systeem weet bijgevolg niet hoe te communiceren met "
-"computers op het Internet. Verder gaan met de installatie is niet mogelijk, "
+"computers op het Internet. Verdergaan met de installatie is niet mogelijk, "
 "tenzij u beschikt over het eerste image van een collectie installatiemedia, "
 "een 'Netinst'-image, of pakketten welke beschikbaar zijn op het lokale "
 "netwerk."
