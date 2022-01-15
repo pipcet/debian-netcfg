@@ -1,19 +1,15 @@
-netcfg (1.178) UNRELEASED; urgency=medium
+netcfg (1.177) unstable; urgency=medium
+
+  * Team upload
 
   [ Igor Scheller ]
-  * Add support for preseeded pointopoint
+  * Add support for preseeded pointopoint.
+  * Added support for fe80 addresses as gateway.
 
   [ Samuel Thibault ]
   * Make gbp produce the right tag format
 
- -- Igor Scheller <debian@igorscheller.de>  Tue, 02 Jun 2020 16:42:00 +0000
-
-netcfg (1.177) UNRELEASED; urgency=medium
-
-  [ Igor Scheller ]
-  * Added support for fe80 addresses as gateway.
-
- -- Samuel Thibault <sthibault@debian.org>  Sun, 05 Sep 2021 17:00:07 +0200
+ -- Holger Wansing <hwansing@mailbox.org>  Sat, 15 Jan 2022 21:43:50 +0100
 
 netcfg (1.176) unstable; urgency=medium
 
