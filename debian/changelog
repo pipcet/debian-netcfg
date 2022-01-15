@@ -1,3 +1,9 @@
+netcfg (1.178) UNRELEASED; urgency=medium
+
+  * Add missing translation updates entries for changelog v1.177
+
+ -- Holger Wansing <hwansing@mailbox.org>  Sat, 15 Jan 2022 22:10:15 +0100
+
 netcfg (1.177) unstable; urgency=medium
 
   * Team upload
@@ -8,6 +14,13 @@ netcfg (1.177) unstable; urgency=medium
 
   [ Samuel Thibault ]
   * Make gbp produce the right tag format
+
+  [ Updated translations ]
+  * Danish (da.po) by Joe Hansen
+  * Persian (fa.po) by Sina Aghighi
+  * Dutch (nl.po) by Frans Spiesschaert
+  * Ukrainian (uk.po) by Taras Panchenko
+  * Vietnamese (vi.po) by Tran Dinh Hai
 
  -- Holger Wansing <hwansing@mailbox.org>  Sat, 15 Jan 2022 21:43:50 +0100
 
