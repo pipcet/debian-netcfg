@@ -1,6 +1,8 @@
 netcfg (1.178) UNRELEASED; urgency=medium
 
   * Add missing translation updates entries for changelog v1.177
+  * netcfg-common.c: Fix endianness support in netcfg_gateway_reachable.
+    (Closes: #1007929).
 
  -- Holger Wansing <hwansing@mailbox.org>  Sat, 15 Jan 2022 22:10:15 +0100
 
