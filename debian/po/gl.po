@@ -18,14 +18,15 @@
 # Marce Villarino <mvillarino@gmail.com>, 2009.
 # Jorge Barreiro <xurxo@findomundo.es>, 2010, 2011, 2012, 2013, 2014, 2015, 2017.
 # mantinan <github@manty.net>, 2018, 2021.
+# Jorge Teijeiro <jorge.teijeiro.ramos@gmail.com>, 2022.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gl\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
 "POT-Creation-Date: 2020-01-13 23:11+0100\n"
-"PO-Revision-Date: 2021-01-06 18:53+0000\n"
-"Last-Translator: mantinan <github@manty.net>\n"
+"PO-Revision-Date: 2022-04-18 13:37+0000\n"
+"Last-Translator: Jorge Teijeiro <jorge.teijeiro.ramos@gmail.com>\n"
 "Language-Team: Galician <proxecto@trasno.net>\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
@@ -199,7 +200,7 @@ msgid ""
 "if the network is protected with WPA/WPA2 PSK (Pre-Shared Key)."
 msgstr ""
 "Escolla WEP/Rede aberta se a rede está aberta ou ten seguridade WEP. Escolla "
-"WPA/WPA2 se a rede está protexida con WPA/WPA PSK (Clave compartida de "
+"WPA/WPA2 se a rede está protexida con WPA/WPA2 PSK (Clave compartida de "
 "antemán)."
 
 #. Type: string
@@ -323,7 +324,7 @@ msgid ""
 "The ESSID \"${essid}\" is invalid. ESSIDs may only be up to ${max_essid_len} "
 "characters, but may contain all kinds of characters."
 msgstr ""
-"O ESSID «${essid}» non é válido. Os ESSID só poden ter até  ${max_essid_len} "
+"O ESSID «${essid}» non é válido. Os ESSID só poden ter até ${max_essid_len} "
 "caracteres, pero poden ter todo tipo de caracteres."
 
 #. Type: text
@@ -1109,8 +1110,8 @@ msgstr "Non se pode chegar ao enderezo de pasarela introducido."
 msgid ""
 "You may have made an error entering your IP address, netmask and/or gateway."
 msgstr ""
-"Puido ter cometido un erro ao escribir o seu enderezo IP, máscara de rede "
-"ou  pasarela."
+"Puido ter cometido un erro ao escribir o seu enderezo IP, máscara de rede ou "
+"pasarela."
 
 #. Type: error
 #. Description

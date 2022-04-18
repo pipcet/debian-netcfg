@@ -31,13 +31,14 @@
 # Boyuan Yang <073plan@gmail.com>, 2018, 2019, 2020.
 # 玉堂白鹤 <yjwork@qq.com>, 2020.
 # TTT DEAL <ikmn2jlt@linshiyouxiang.net>, 2021.
+# Wenbin Lv <wenbin816@gmail.com>, 2022.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
 "POT-Creation-Date: 2020-01-13 23:11+0100\n"
-"PO-Revision-Date: 2022-04-13 14:29+0000\n"
+"PO-Revision-Date: 2022-04-17 17:12+0000\n"
 "Last-Translator: Wenbin Lv <wenbin816@gmail.com>\n"
 "Language-Team: <debian-l10n-chinese@lists.debian.org>\n"
 "Language: zh_CN\n"
@@ -202,8 +203,8 @@ msgid ""
 "Choose WEP/Open if the network is open or secured with WEP. Choose WPA/WPA2 "
 "if the network is protected with WPA/WPA2 PSK (Pre-Shared Key)."
 msgstr ""
-"如果网络是开放的或者使用 WEP 加密，请选择 WEP/Open。如果是由 WPA/WPA2 PSK (预"
-"共享密钥) 保护，选择 WPA/WPA2。"
+"如果网络是开放的或者使用 WEP 加密，请选择 WEP/开放。如果是由 WPA/WPA2 PSK (预"
+"共享密钥) 保护，请选择 WPA/WPA2。"
 
 #. Type: string
 #. Description
@@ -231,8 +232,8 @@ msgid ""
 "If your WEP key is in the format 'nnnn-nnnn-nn', 'nn:nn:nn:nn:nn:nn:nn:nn', "
 "or 'nnnnnnnn', where n is a number, just enter it as it is into this field."
 msgstr ""
-"如果您的 WEP 密钥的格式是“nnnn-nnnn-nn”、“nn:nn:nn:nn:nn:nn:nn:"
-"nn”或“nnnnnnnn”(其中的 n 是数字)，请将它直接填写到输入框中。"
+"如果您的 WEP 密钥的格式是 \"nnnn-nnnn-nn\"、\"nn:nn:nn:nn:nn:nn:nn:nn\" 或 "
+"\"nnnnnnnn\" (其中的 n 是数字)，请将它直接填写到输入框中。"
 
 #. Type: string
 #. Description
@@ -242,7 +243,7 @@ msgid ""
 "If your WEP key is in the format of a passphrase, prefix it with "
 "'s:' (without quotes)."
 msgstr ""
-"如果您的 WEP 密钥的格式是一个密码字符串，请在前面加上“s:”(不包括引号)。"
+"如果您的 WEP 密钥的格式是一个密码字符串，请在前面加上 \"s:\" (不包括引号)。"
 
 #. Type: string
 #. Description
@@ -268,8 +269,8 @@ msgid ""
 "The WEP key '${wepkey}' is invalid. Please refer to the instructions on the "
 "next screen carefully on how to enter your WEP key correctly, and try again."
 msgstr ""
-"此 WEP 密钥“${wepkey}”是无效的。请仔细阅读下一屏的指导信息，以了解如何正确地"
-"输入您的 WEP 密钥，并重试。"
+"此 WEP 密钥 \"${wepkey}\" 是无效的。请仔细阅读下一屏的指导信息，以了解如何正"
+"确地输入您的 WEP 密钥，并重试。"
 
 #. Type: error
 #. Description
@@ -302,7 +303,7 @@ msgid ""
 "Enter the passphrase for WPA/WPA2 PSK authentication. This should be the "
 "passphrase defined for the wireless network you are trying to use."
 msgstr ""
-"输入用于 WPA/WPA2 PSK 认证的密码。这应该是尝试连接到的无线网络中设置的密码。"
+"输入用于 WPA/WPA2 PSK 认证的密码。这应该是您尝试连接的无线网络中设置的密码。"
 
 #. Type: error
 #. Description
@@ -319,7 +320,7 @@ msgid ""
 "The ESSID \"${essid}\" is invalid. ESSIDs may only be up to ${max_essid_len} "
 "characters, but may contain all kinds of characters."
 msgstr ""
-"此 ESSID“${essid}”无效。ESSID 最大长度仅能为 ${max_essid_len} 个字符，但可以"
+"此 ESSID \"${essid}\" 无效。ESSID 最大长度为 ${max_essid_len} 个字符，但可以"
 "包含所有类型的字符。"
 
 #. Type: text
@@ -360,7 +361,7 @@ msgstr "密钥交换与协商失败"
 msgid ""
 "The exchange of keys and association with the access point failed. Please "
 "check the WPA/WPA2 parameters you provided."
-msgstr "和接入点交换密钥与协商失败。请检查 WPA/WPA2 参数。"
+msgstr "和接入点交换密钥与协商失败。请检查您提供的 WPA/WPA2 参数。"
 
 #. Type: string
 #. Description
@@ -401,7 +402,7 @@ msgstr "无效的主机名"
 #. :sl2:
 #: ../netcfg-common.templates:20001
 msgid "The name \"${hostname}\" is invalid."
-msgstr "名称“${hostname}”无效。"
+msgstr "名称 \"${hostname}\" 无效。"
 
 #. Type: error
 #. Description
@@ -414,7 +415,7 @@ msgid ""
 "sign."
 msgstr ""
 "正确的主机名应当只包含数字 0-9、大小写字母 (A-Z 和 a-z) 和减号，最长不能超过 "
-"${maxhostnamelen}，且不能以减号开始或结束。"
+"${maxhostnamelen} 个字符，且不能以减号开始或结束。"
 
 #. Type: error
 #. Description
@@ -430,7 +431,7 @@ msgstr "错误"
 msgid ""
 "An error occurred and the network configuration process has been aborted. "
 "You may retry it from the installation main menu."
-msgstr "发生错误，网络配置过程已被中止。您可以从安装程序主菜单中重试。"
+msgstr "发生错误，网络配置过程已中止。您可以从安装程序主菜单中重试。"
 
 #. Type: error
 #. Description
@@ -456,8 +457,8 @@ msgid ""
 "You may need to load a specific module for your network card, if you have "
 "one. For this, go back to the network hardware detection step."
 msgstr ""
-"如果您的网卡使用其特有的模块，您可能还需要加载它。要完成此任务，请返回到网络"
-"硬件探测步骤。"
+"如果您的网卡使用特定的模块，您可能还需要加载它。要完成此任务，请返回到网络硬"
+"件探测步骤。"
 
 #. Type: note
 #. Description
@@ -479,8 +480,8 @@ msgid ""
 "\". If you intend to use this interface, please switch it on before "
 "continuing."
 msgstr ""
-"${iface} 似乎被物理的“禁用开关”所禁用。如果您想要使用此接口，请在继续安装前开"
-"启之。"
+"${iface} 似乎被物理的 \"禁用开关\" 所禁用。如果您想要使用此接口，请在继续安装"
+"前开启它。"
 
 #. Type: select
 #. Choices
@@ -492,7 +493,7 @@ msgstr ""
 #. You MUST NOT use commas inside choices
 #: ../netcfg-common.templates:24001
 msgid "Infrastructure (Managed) network"
-msgstr "共用 (Managed) 网络"
+msgstr "Infrastructure (Managed) 网络"
 
 #. Type: select
 #. Choices
@@ -522,9 +523,9 @@ msgid ""
 "point of some sort, your network is Managed. If another computer is your "
 "'access point', then your network may be Ad-hoc."
 msgstr ""
-"无线网络可以是客户端 (managed) 或对等式 (ad-hoc) 两种类型。如果您使用了某种实"
+"无线网络可以是受管理 (managed) 或自组织 (ad-hoc) 两种类型。如果您使用了某种实"
 "体装置作为接入点 (access point)，您的网络就是 Managed。如果是以另一台计算机作"
-"为您的“接入点”，那么您的网络就应该是 Ad-hoc。"
+"为您的 \"接入点\"，那么您的网络就应该是 Ad-hoc。"
 
 #. Type: text
 #. Description
@@ -674,7 +675,7 @@ msgstr "配置网络"
 #. :sl3:
 #: ../netcfg-common.templates:50001
 msgid "Waiting time (in seconds) for link detection:"
-msgstr "连接探测等待的时间 (秒)："
+msgstr "连接探测时的等待时间 (秒)："
 
 #. Type: string
 #. Description
@@ -683,7 +684,7 @@ msgstr "连接探测等待的时间 (秒)："
 msgid ""
 "Please enter the maximum time you would like to wait for network link "
 "detection."
-msgstr "请输入等待网络连接的最大时间 (秒)。"
+msgstr "请输入网络连接探测时的最大等待时间 (秒)。"
 
 #. Type: error
 #. Description
@@ -699,7 +700,7 @@ msgstr "网络连接探测等待时间无效"
 msgid ""
 "The value you have provided is not valid. The maximum waiting time (in "
 "seconds) for network link detection must be a positive integer."
-msgstr "您提供的值无效。网络连接探测的最大等待时间 (秒) 必须为正整数。"
+msgstr "您提供的值无效。网络连接探测时的最大等待时间 (秒) 必须为正整数。"
 
 #. Type: select
 #. Choices
@@ -776,7 +777,7 @@ msgstr "没有找到 DHCP 客户端程序"
 msgid ""
 "No DHCP client was found. Please make sure, that a DHCP installer component "
 "is installed."
-msgstr "未找到 DHCP 客户端。请再次确认安装器的 DHCP 组件是否存在。"
+msgstr "未找到 DHCP 客户端。请再次确认安装程序的 DHCP 组件是否存在。"
 
 #. Type: error
 #. Description
@@ -884,7 +885,7 @@ msgid ""
 "packages available on the local network."
 msgstr ""
 "网络自动配置成功。但是由于未设置默认路由，系统将无法连接互联网上的主机。除非"
-"您拥有一组安装介质中的第一个镜像、“Netinst” 镜像或在本地局域网上存有所需的软"
+"您拥有一组安装介质中的第一个镜像、\"Netinst\" 镜像或在本地网络上存有所需的软"
 "件包，否则将无法继续进行安装。"
 
 #. Type: boolean
@@ -895,8 +896,8 @@ msgid ""
 "If you are unsure, you should not continue without a default route: contact "
 "your local network administrator about this problem."
 msgstr ""
-"如果您不确定原因，请不要在未设定默认路由的情况下继续安装：请向网络管理员咨询"
-"相关问题。"
+"如果您有疑问，请不要在未设定默认路由的情况下继续安装：请向网络管理员咨询相关"
+"问题。"
 
 #. Type: text
 #. Description
@@ -982,7 +983,7 @@ msgstr "如果您不知道应该输入什么内容，请咨询网络管理员。
 #. :sl2:
 #: ../netcfg-static.templates:2001
 msgid "Malformed IP address"
-msgstr "格式错误的 IP 地址"
+msgstr "IP 地址格式有误"
 
 #. Type: error
 #. Description
@@ -1062,7 +1063,7 @@ msgstr ""
 #. :sl2:
 #: ../netcfg-static.templates:6001
 msgid "Unreachable gateway"
-msgstr "不可到达的网关"
+msgstr "网关不可达"
 
 #. Type: error
 #. Description
@@ -1096,7 +1097,8 @@ msgid ""
 "IPv6 addresses cannot be configured on point-to-point links.  Please use an "
 "IPv4 address, or go back and select a different network interface."
 msgstr ""
-"点对点链接上无法配置 IPv6 地址。请使用 IPv4 地址或返回并选择另外的网络接口。"
+"无法在点对点链接上配置 IPv6 地址。请使用 IPv4 地址，或者返回并选择另一个网络"
+"接口。"
 
 #. Type: boolean
 #. Description

@@ -11,6 +11,7 @@
 # Eirik U. Birkeland <eirbir@gmail.com>, 2010.
 # Allan Nordhøy <epost@anotheragency.no>, 2017.
 # Alexander Jansen <bornxlo@gmail.com>, 2018.
+# aujawindar <eivind.odegard@sogn.no>, 2022.
 #
 # Translations from iso-codes:
 #   Alastair McKinstry <mckinstry@computer.org>, 2001.
@@ -26,8 +27,8 @@ msgstr ""
 "Project-Id-Version: nn\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
 "POT-Creation-Date: 2020-01-13 23:11+0100\n"
-"PO-Revision-Date: 2019-08-28 18:10+0000\n"
-"Last-Translator: leela <53352@protonmail.com>\n"
+"PO-Revision-Date: 2022-04-17 17:12+0000\n"
+"Last-Translator: aujawindar <eivind.odegard@sogn.no>\n"
 "Language-Team: Norwegian Nynorsk <i18n-nn@lister.ping.uio.no>\n"
 "Language: nn\n"
 "MIME-Version: 1.0\n"
@@ -40,16 +41,14 @@ msgstr ""
 #. IPv6
 #. :sl1:
 #: ../netcfg-common.templates:2001
-#, fuzzy
 msgid "Auto-configure networking?"
-msgstr "Vil du setja opp nettverket automatisk med DHCP?"
+msgstr "Vil du setja opp nettverket automatisk?"
 
 #. Type: boolean
 #. Description
 #. IPv6
 #. :sl1:
 #: ../netcfg-common.templates:2001
-#, fuzzy
 msgid ""
 "Networking can be configured either by entering all the information "
 "manually, or by using DHCP (or a variety of IPv6-specific methods) to detect "
@@ -57,10 +56,11 @@ msgid ""
 "the installer is unable to get a working configuration from the network, you "
 "will be given the opportunity to configure the network manually."
 msgstr ""
-"Nettverk kan ein anten setja opp ved hjelp av DHCP, eller ved å skriva inn "
-"all informasjon manuelt. Viss du vel DHCP og installasjonen ikkje klarer å "
-"henta inn eit fungerande oppsett frå ein DHCP-tenar på nettverket ditt, vil "
-"du få høve til å setja opp nettverket manuelt etterpå."
+"Nettverk kan ein anten setja opp ved å skriva inn all informasjon manuelt, "
+"eller ved hjelp av DHCP (eller ei rad IPv6-metodar) for å finna "
+"nettverksinstillingar automatisk. Viss du vel automatisk og installasjonen "
+"ikkje klarer å henta inn eit fungerande oppsett frå nettverket ditt, vil du "
+"få høve til å setja opp nettverket manuelt etterpå."
 
 #. Type: string
 #. Description
@@ -161,7 +161,6 @@ msgstr "Forsøket på å finna eit tilgjengeleg trådlaust nettverk var mislukka
 #. Description
 #. :sl1:
 #: ../netcfg-common.templates:7001
-#, fuzzy
 msgid ""
 "${iface} is a wireless network interface. Please enter the name (the ESSID) "
 "of the wireless network you would like ${iface} to use. To connect to any "
@@ -189,9 +188,8 @@ msgstr "WPA/WPA2-PSK"
 #. Description
 #. :sl2:
 #: ../netcfg-common.templates:8002
-#, fuzzy
 msgid "Wireless network type for ${iface}:"
-msgstr "Trådlaus ESSID for ${iface}:"
+msgstr "Type trådlaust nettverk for ${iface}:"
 
 #. Type: select
 #. Description
@@ -278,9 +276,8 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../netcfg-common.templates:11001
-#, fuzzy
 msgid "Invalid passphrase"
-msgstr "Ugyldig brukarnamn"
+msgstr "Ugyldig passord"
 
 #. Type: error
 #. Description
@@ -297,9 +294,8 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../netcfg-common.templates:12001
-#, fuzzy
 msgid "WPA/WPA2 passphrase for wireless device ${iface}:"
-msgstr "WEP-nøkkel for trådlaus eining ${iface}:"
+msgstr "WPA/WPA2-passord for den trådlause eininga ${iface}:"
 
 #. Type: string
 #. Description
@@ -309,8 +305,8 @@ msgid ""
 "Enter the passphrase for WPA/WPA2 PSK authentication. This should be the "
 "passphrase defined for the wireless network you are trying to use."
 msgstr ""
-"Skriv inn passfrasen for å verifisere med WPA/WPA2 PSK. Dette burde vera "
-"passfrasen som er sett for det trådlause nettverket du prøver å bruke."
+"Skriv inn passordet for WPA/WPA2 PSK- autentifisering. Dette må vera "
+"passordet som er sett for det trådlause nettverket du prøver å bruka."
 
 #. Type: error
 #. Description
@@ -323,13 +319,12 @@ msgstr "Ugyldig ESSID"
 #. Description
 #. :sl2:
 #: ../netcfg-common.templates:13001
-#, fuzzy
 msgid ""
 "The ESSID \"${essid}\" is invalid. ESSIDs may only be up to ${max_essid_len} "
 "characters, but may contain all kinds of characters."
 msgstr ""
-"ESSIDen «${essid}» er ugyldig. ESSIDar kan vere opp til 32 teikn, og mange "
-"inneheld alle typar teikn."
+"ESSIDen «${essid}» er ugyldig. ESSID-ar kan vera opp til ${max_essid_len} "
+"teikn og kan innehalda alle typar teikn."
 
 #. Type: text
 #. Description
@@ -353,7 +348,7 @@ msgstr "Dette kan ta litt tid."
 #. :sl2:
 #: ../netcfg-common.templates:16001
 msgid "WPA/WPA2 connection succeeded"
-msgstr "Vellukka WPA/WPA2-forbinding"
+msgstr "Vellukka tilkopling til WPA/WPA2"
 
 #. Type: note
 #. Description
@@ -407,7 +402,7 @@ msgstr ""
 #. :sl2:
 #: ../netcfg-common.templates:20001
 msgid "Invalid hostname"
-msgstr "Ugyldig vertsnamn."
+msgstr "Ugyldig vertsnamn"
 
 #. Type: error
 #. Description
@@ -420,16 +415,16 @@ msgstr "Vertsnamnet «${hostname}» er ugyldig."
 #. Description
 #. :sl2:
 #: ../netcfg-common.templates:20001
-#, fuzzy
 msgid ""
 "A valid hostname may contain only the numbers 0-9, upper and lowercase "
 "letters (A-Z and a-z), and the minus sign. It must be at most "
 "${maxhostnamelen} characters long, and may not begin or end with a minus "
 "sign."
 msgstr ""
-"Eit gyldig vertsnamn kan berre innehalda siffera 0-9, dei små bokstavane a-z "
-"og minusteiknet. Det må vere mellom 2 og 63 teikn langt, og kan ikkje starte "
-"eller slutte med eit minusteikn."
+"Eit gyldig vertsnamn kan berre innehalda siffera 0-9, dei små og store "
+"bokstavane a-z, A-Z og minusteiknet. Det kan ikkje vera lengre enn "
+"${maxhostnamelen} teikn langt ,og kan ikkje byrja eller slutta med eit "
+"minusteikn."
 
 #. Type: error
 #. Description
@@ -670,7 +665,7 @@ msgstr "Sambandsmiddel mellom brukarar"
 #. :sl2:
 #: ../netcfg-common.templates:46001
 msgid "Unknown interface"
-msgstr "Ukjent grensesnitt."
+msgstr "Ukjent grensesnitt"
 
 #. Type: text
 #. Description
@@ -734,17 +729,15 @@ msgstr "${essid_list} Oppgi ESSID manuelt"
 #. Description
 #. :sl1:
 #: ../netcfg-common.templates:52002
-#, fuzzy
 msgid "Wireless network:"
-msgstr "Type trådlaust nettverk:"
+msgstr "Trådlaust nettverk:"
 
 #. Type: select
 #. Description
 #. :sl1:
 #: ../netcfg-common.templates:52002
-#, fuzzy
 msgid "Select the wireless network to use during the installation process."
-msgstr "Vel neste steg i installasjonen:"
+msgstr "Vel det trådlause nettverket du vil bruka seinare i installasjonen."
 
 #. Type: string
 #. Description
@@ -800,6 +793,8 @@ msgid ""
 "No DHCP client was found. Please make sure, that a DHCP installer component "
 "is installed."
 msgstr ""
+"Fann ingen DHCP-klient. Sjå til at ein DHCP-installasjonskomponent er "
+"installert."
 
 #. Type: error
 #. Description
@@ -903,7 +898,6 @@ msgstr "Gå vidare utan standard rute ut?"
 #. Description
 #. :sl2:
 #: ../netcfg-dhcp.templates:8001
-#, fuzzy
 msgid ""
 "The network autoconfiguration was successful. However, no default route was "
 "set: the system does not know how to communicate with hosts on the Internet. "
@@ -914,8 +908,9 @@ msgstr ""
 "Nettverket blei sett opp automatisk. Men det er ikkje sett nokon standard "
 "rute ut, så systemet ditt veit ikkje korleis det skal kommunisere med andre "
 "maskiner på internett. Dette vil gjere det umogeleg å halde fram med "
-"installasjonen dersom du ikkje har den første installasjons-CDen, ein "
-"«Netinst» CD eller pakkar tilgjengeleg på det lokale nettet."
+"installasjonen dersom du ikkje har det fyrste filavtrykket frå "
+"installasjonsmediet, eit 'Netinst'-avtrykk eller pakkar tilgjengeleg på det "
+"lokale nettet."
 
 #. Type: boolean
 #. Description
@@ -944,9 +939,8 @@ msgstr "Set opp det trådlause nettverket på nytt"
 #. IPv6
 #. :sl2:
 #: ../netcfg-dhcp.templates:12001 ../netcfg-dhcp.templates:14001
-#, fuzzy
 msgid "Attempting IPv6 autoconfiguration..."
-msgstr "Lagar vmelilo-oppsettet ..."
+msgstr "Prøver på IPv6-autokonfigurering …"
 
 #. Type: text
 #. Description
@@ -960,9 +954,8 @@ msgstr "Ventar på link-local-adresse…"
 #. Description
 #. :sl2:
 #: ../netcfg-dhcp.templates:16001
-#, fuzzy
 msgid "Configuring the network with DHCPv6"
-msgstr "Set opp nettverket med DHCP"
+msgstr "Set opp nettverket med DHCPv6"
 
 #. Type: string
 #. Description
@@ -989,6 +982,8 @@ msgid ""
 " * four numbers separated by periods (IPv4);\n"
 " * blocks of hexadecimal characters separated by colons (IPv6)."
 msgstr ""
+" * fire tal med punktum mellom (IPv4);\n"
+" * blokker med heksadesimale teikn med kolon mellom (IPv6)."
 
 #. Type: string
 #. Description
@@ -996,18 +991,17 @@ msgstr ""
 #. :sl1:
 #: ../netcfg-static.templates:1001
 msgid "You can also optionally append a CIDR netmask (such as \"/24\")."
-msgstr ""
+msgstr "Du kan eventuelt føya til ei CIDR-nettmaske (slik som \"/24\")."
 
 #. Type: string
 #. Description
 #. IPv6
 #. :sl1:
 #: ../netcfg-static.templates:1001
-#, fuzzy
 msgid "If you don't know what to use here, consult your network administrator."
 msgstr ""
-"Viss du ikkje veit kva du skal skrive inn, sjå etter i dokumentasjonen eller "
-"så la det stå tomt."
+"Viss du ikkje veit kva du skal skrive inn, bør du høyre med "
+"nettverksansvarleg."
 
 #. Type: error
 #. Description
@@ -1026,6 +1020,8 @@ msgid ""
 "The value you provided is not a usable IPv4 or IPv6 address. Please consult "
 "your network administrator and try again."
 msgstr ""
+"Det du skreiv inn, er ikkje ei brukbar IPv4- eller IPv6-adresse. Høyr med "
+"nettverksstyraren din og prøv ein gong til."
 
 #. Type: string
 #. Description
