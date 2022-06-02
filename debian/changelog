@@ -1,10 +1,21 @@
-netcfg (1.178) UNRELEASED; urgency=medium
+netcfg (1.178) unstable; urgency=medium
 
+  * Team upload
+
+  [ Updated translations ]
+  * Esperanto (eo.po) by Felipe Castro
+  * Galician (gl.po) by Jorge Teijeiro
+  * Norwegian Nynorsk (nn.po) by aujawindar
+  * Simplified Chinese (zh_CN.po) by Wenbin Lv
+
+  [ Holger Wansing ]
   * Add missing translation updates entries for changelog v1.177
+
+  [ Samuel Thibault ]
   * netcfg-common.c: Fix endianness support in netcfg_gateway_reachable.
     (Closes: #1007929).
 
- -- Holger Wansing <hwansing@mailbox.org>  Sat, 15 Jan 2022 22:10:15 +0100
+ -- Holger Wansing <hwansing@mailbox.org>  Thu, 02 Jun 2022 22:40:14 +0200
 
 netcfg (1.177) unstable; urgency=medium
 
