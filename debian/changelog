@@ -1,4 +1,4 @@
-netcfg (1.178) UNRELEASED; urgency=medium
+netcfg (1.179) unstable; urgency=medium
 
   * Team upload
 
@@ -15,7 +15,7 @@ netcfg (1.178) UNRELEASED; urgency=medium
   * netcfg-common.c: Fix endianness support in netcfg_gateway_reachable.
     (Closes: #1007929).
 
- -- Holger Wansing <hwansing@mailbox.org>  Thu, 02 Jun 2022 22:40:14 +0200
+ -- Holger Wansing <hwansing@mailbox.org>  Fri, 03 Jun 2022 20:32:39 +0200
 
 netcfg (1.177) unstable; urgency=medium
 
