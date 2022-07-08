@@ -1,3 +1,9 @@
+netcfg (1.180) UNRELEASED; urgency=medium
+
+  * Adapt lintian-overrides to recent 'pointed hints' changings.
+
+ -- Holger Wansing <hwansing@mailbox.org>  Fri, 08 Jul 2022 23:22:16 +0200
+
 netcfg (1.179) unstable; urgency=medium
 
   * Team upload

@@ -1,2 +1,2 @@
-netcfg source: untranslatable-debconf-templates netcfg-common.templates: 273
-netcfg source: untranslatable-debconf-templates netcfg-common.templates: 313
+netcfg source: untranslatable-debconf-templates *debian/netcfg-common.templates:277*
+netcfg source: untranslatable-debconf-templates *debian/netcfg-common.templates:317*
