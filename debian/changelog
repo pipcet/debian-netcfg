@@ -1,16 +1,47 @@
-netcfg (1.178) UNRELEASED; urgency=medium
+netcfg (1.180) UNRELEASED; urgency=medium
+
+  * Adapt lintian-overrides to recent 'pointed hints' changings.
+
+ -- Holger Wansing <hwansing@mailbox.org>  Fri, 08 Jul 2022 23:22:16 +0200
+
+netcfg (1.179) unstable; urgency=medium
+
+  * Team upload
+
+  [ Updated translations ]
+  * Esperanto (eo.po) by Felipe Castro
+  * Galician (gl.po) by Jorge Teijeiro
+  * Norwegian Nynorsk (nn.po) by aujawindar
+  * Simplified Chinese (zh_CN.po) by Wenbin Lv
+
+  [ Holger Wansing ]
+  * Add missing translation updates entries for changelog v1.177
+
+  [ Samuel Thibault ]
+  * netcfg-common.c: Fix endianness support in netcfg_gateway_reachable.
+    (Closes: #1007929).
+
+ -- Holger Wansing <hwansing@mailbox.org>  Fri, 03 Jun 2022 20:32:39 +0200
+
+netcfg (1.177) unstable; urgency=medium
+
+  * Team upload
 
   [ Igor Scheller ]
-  * Add support for preseeded pointopoint
-
- -- Igor Scheller <debian@igorscheller.de>  Tue, 02 Jun 2020 16:42:00 +0000
-
-netcfg (1.177) UNRELEASED; urgency=medium
-
-  [ Igor Scheller ]
+  * Add support for preseeded pointopoint.
   * Added support for fe80 addresses as gateway.
 
- -- Samuel Thibault <sthibault@debian.org>  Sun, 05 Sep 2021 17:00:07 +0200
+  [ Samuel Thibault ]
+  * Make gbp produce the right tag format
+
+  [ Updated translations ]
+  * Danish (da.po) by Joe Hansen
+  * Persian (fa.po) by Sina Aghighi
+  * Dutch (nl.po) by Frans Spiesschaert
+  * Ukrainian (uk.po) by Taras Panchenko
+  * Vietnamese (vi.po) by Tran Dinh Hai
+
+ -- Holger Wansing <hwansing@mailbox.org>  Sat, 15 Jan 2022 21:43:50 +0100
 
 netcfg (1.176) unstable; urgency=medium
 

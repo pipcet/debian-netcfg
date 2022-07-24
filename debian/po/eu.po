@@ -21,20 +21,21 @@
 # Piarres Beobide <pi@beobide.net>, 2008.
 # Xabier Bilbao <xabidu@gmail.com>, 2008.
 # Iñaki Larrañaga Murgoitio <dooteo@zundan.com>, 2020.
+# Gontzal Manuel Pujana Onaindia <thadahdenyse@gmail.com>, 2022.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: di-sublevel1_eu\n"
 "Report-Msgid-Bugs-To: netcfg@packages.debian.org\n"
 "POT-Creation-Date: 2020-01-13 23:11+0100\n"
-"PO-Revision-Date: 2020-11-03 18:23+0100\n"
-"Last-Translator: Iñaki Larrañaga Murgoitio <dooteo@zundan.com>\n"
+"PO-Revision-Date: 2022-06-09 19:45+0000\n"
+"Last-Translator: Gontzal Manuel Pujana Onaindia <thadahdenyse@gmail.com>\n"
 "Language-Team: Basque <librezale@librezale.eus>\n"
 "Language: eu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #. Type: boolean
 #. Description
@@ -792,7 +793,7 @@ msgid ""
 "is installed."
 msgstr ""
 "Ez da DHCP bezerorik aurkitu. Ziurtatu instalatzailearen DHCP osagaia "
-"instalatuta dagoela"
+"instalatuta dagoela."
 
 #. Type: error
 #. Description
